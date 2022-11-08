@@ -1,23 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+import './App.css'
+
+import Header from './components/Header';
+import Footer from "./components/Footer";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header></Header>
+      <h1 className='font-link'>Vain Mainstream</h1>
+      <h2 className='font-link'>"Life Expectancy Tour"</h2>
+      <h3 className='font-link'> New Album Coming Soon: "Your Likeness"</h3>
+      <Footer></Footer>
     </div>
   );
 }
