@@ -1,6 +1,10 @@
 import React from "react";
 
-import './App.css'
+// import './App.css'
+import '../src/components/Header/style.css'
+import '../src/components/Main/style.css'
+import '../src/components/Footer/style.css'
+
 
 import Header from './components/Header';
 import Footer from "./components/Footer";

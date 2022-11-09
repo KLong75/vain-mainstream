@@ -1,0 +1,29 @@
+/* Header */
+.header-guitar {
+    height: 4em;
+    /* animation: App-logo-spin infinite 8s linear; */
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .header-guitar {
+      animation: header-guitar-spin infinite alternate .75s linear;
+      /* animation: header-guitar-spin infinite 10s reverse; */
+    }
+  }
+  
+  @keyframes header-guitar-spin {
+    from {
+      transform: rotate(-30deg);
+    }
+    to {
+      transform: rotate(-10deg);
+    }
+  }
+  
+  .headline {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  }
