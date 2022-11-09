@@ -16,6 +16,18 @@ code {
     monospace;
 }
 
+/* Header */
+.header-guitar {
+  height: 8em;
+  animation: App-logo-spin infinite 8s linear;
+}
+
+.headline {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+
 h1 {
   font-size: 100px;
 }

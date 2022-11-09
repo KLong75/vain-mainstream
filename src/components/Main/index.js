@@ -6,7 +6,7 @@ const Main = () => {
   return (
     <main>
       <h1>Vain Mainstream</h1>
-      <img src={blackGuitar} alt='black electric guitar'/>
+      {/* <img src={blackGuitar} alt='black electric guitar'/> */}
       <h2>Life Expectancy Tour</h2>
       <h3>New Album Coming Soon: "Your Likeness"</h3>
     </main>
