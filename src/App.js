@@ -4,15 +4,13 @@ import './App.css'
 
 import Header from './components/Header';
 import Footer from "./components/Footer";
-
+import Main from "./components/Main";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <h1 className='font-link'>Vain Mainstream</h1>
-      <h2 className='font-link'>"Life Expectancy Tour"</h2>
-      <h3 className='font-link'> New Album Coming Soon: "Your Likeness"</h3>
+      <Main></Main>
       <Footer></Footer>
     </div>
   );
