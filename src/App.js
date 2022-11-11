@@ -4,7 +4,7 @@ import React from "react";
 import '../src/components/Header/style.css';
 import '../src/components/Nav/style.css';
 import '../src/components/Main/style.css';
-import './components/MusicPlayer/style.css';
+import '../src/components/MusicPlayer/style.css';
 import '../src/components/Footer/style.css';
 
 

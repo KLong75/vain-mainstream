@@ -14,8 +14,8 @@ const Header = () => {
       <img src={flyingV} className='header-guitar' alt='flying v electric guitar'/>
       <h3 className='headline'>Vain Mainstream</h3>
       <img src={blackGuitar} className='header-guitar' alt='black electric guitar'/>
-      <Nav></Nav>
       </Stack>
+      <Nav></Nav>
     </header>
   );
 };
