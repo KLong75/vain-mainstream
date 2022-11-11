@@ -1,5 +1,7 @@
 import React from 'react';
 
+import Nav from '../Nav';
+
 import { Stack } from '@mui/material';
 
 import flyingV from '../../assets/images/blue_flying_v.png';
@@ -9,9 +11,10 @@ const Header = () => {
   return (
     <header>
       <Stack direction='row' justifyContent='center'>
-      <img src={flyingV} className='header-guitar' alt='flying v guitar'/>
+      <img src={flyingV} className='header-guitar' alt='flying v electric guitar'/>
       <h3 className='headline'>Vain Mainstream</h3>
       <img src={blackGuitar} className='header-guitar' alt='black electric guitar'/>
+      <Nav></Nav>
       </Stack>
     </header>
   );

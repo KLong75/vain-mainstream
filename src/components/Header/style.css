@@ -6,7 +6,7 @@
   
   @media (prefers-reduced-motion: no-preference) {
     .header-guitar {
-      animation: header-guitar-spin infinite alternate .75s linear;
+      animation: header-guitar-spin infinite alternate .70s linear;
       /* animation: header-guitar-spin infinite 10s reverse; */
     }
   }
