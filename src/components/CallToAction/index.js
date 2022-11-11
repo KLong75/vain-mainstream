@@ -2,7 +2,11 @@ import React from 'react';
 
 const CallToAction = () => {
   return (
-    <div>Join The Mainstream on Patreon</div>
+    <div id='call-to-action-div'>
+      <h2>Join The Mainstream on Patreon</h2>
+      <p>Support the tour and the album on Patreon!</p>
+    
+    </div>
   );
 };
 
