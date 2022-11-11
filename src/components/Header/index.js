@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <Stack direction='row' justifyContent='center'>
       <img src={flyingV} className='header-guitar' alt='flying v electric guitar'/>
-      <h3 className='headline'>Vain Mainstream</h3>
+      <h1 className='headline'>Vain Mainstream</h1>
       <img src={blackGuitar} className='header-guitar' alt='black electric guitar'/>
       </Stack>
       <Nav></Nav>

@@ -3,6 +3,9 @@ import React from "react";
 // import all css files
 import '../src/components/Header/style.css';
 import '../src/components/Nav/style.css';
+import '../src/components/Tour/style.css';
+import '../src/components/Album/style.css';
+import '../src/components/CallToAction/style.css';
 import '../src/components/Main/style.css';
 import '../src/components/MusicPlayer/style.css';
 import '../src/components/Footer/style.css';
