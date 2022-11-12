@@ -17,7 +17,7 @@ import Album from "./components/Album";
 import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
 // import Main from "./components/Main";
-import MusicPlayer from "./components/MusicPlayer";
+// import MusicPlayer from "./components/MusicPlayer";
 
 function App() {
   return (
