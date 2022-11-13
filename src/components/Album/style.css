@@ -1,7 +1,12 @@
+#album-div {
+  height: 90vh;
+}
+
 #album-div h2 {
   text-align: center;
 }
   
 #album-div p {
   text-align: center;
+  color: blue;
 }

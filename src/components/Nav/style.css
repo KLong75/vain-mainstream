@@ -1,8 +1,16 @@
-.nav-link {
-  list-style: none;
-  font-size: 24px;
-}
-
 nav {
   margin-top: 40px;
 }
+
+nav li {
+  cursor: pointer;
+}
+
+#nav-list-item {
+  list-style: none;
+  font-size: 24px;
+  text-decoration: none;
+  color: blue;
+}
+
+

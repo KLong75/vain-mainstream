@@ -1,0 +1,22 @@
+#mainstream-div {
+  height: 90vh;
+}
+
+#mainstream-div h4 {
+  text-align: center;
+  
+}
+
+#boombox-img {
+  height: 8em;
+  position: absolute;
+  bottom: 8vh;
+  /* justify-content: center; */
+}
+
+#music-player {
+  position: absolute;
+  bottom: 0;
+}
+
+

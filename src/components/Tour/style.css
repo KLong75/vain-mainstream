@@ -1,7 +1,16 @@
+#tour-div {
+  height: 90vh;
+}
+
 #tour-div h2 {
+  text-align: center;
+}
+
+#tour-div h3 {
   text-align: center;
 }
 
 #tour-div p {
     text-align: center;
+    color: blue;
   }
