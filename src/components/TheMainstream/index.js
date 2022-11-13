@@ -12,23 +12,31 @@ import bST from '../../assets/audio/bst_no_vox.mp3';
 
 const tracks = [cultOfP, dancingQ, bST]
 
+const selectRandom = (array) => {
+  let randomIndex = Math.floor(Math.random() * array.length); 
+  let randomElement = array[randomIndex];
+  return randomElement;
+}
+
+const randomTrack = selectRandom(tracks);
+console.log(randomTrack);
 
 const Mainstream = () => {
   return (
     <div id='mainstream-div'>
       
-        <h4>Vain Mainstream Radio</h4>
+        <h2>Mainstream Radio</h2>
+
         <Grid container justifyContent='center'>
           <img src={boombox} alt='pixelated boombox' id='boombox-img'></img>
         </Grid>
 
-
-
         <Grid container justifyContent='center'>
-         <audio id='music-player' controls preload loop >
-           <source src={cultOfP}></source>
+         <audio id='music-player' controls loop >
+           <source src={randomTrack}></source>
          </audio>
         </Grid>
+
     </div>
   );
 };

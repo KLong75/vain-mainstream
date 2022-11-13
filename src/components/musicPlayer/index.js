@@ -4,6 +4,7 @@ import React from 'react';
 
 import cultOfP from '../../assets/audio/cult_of_personality.mp3';
 import boombox from '../../assets/images/pixel_boombox.png';
+
 const MusicPlayer = () => {
   return (
     <>
