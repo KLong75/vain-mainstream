@@ -1,22 +1,31 @@
 #mainstream-div {
   height: 90vh;
+ 
 }
 
-#mainstream-div h4 {
+#mainstream-div h2 {
   text-align: center;
   
 }
 
+
 #boombox-img {
   height: 8em;
-  position: absolute;
-  bottom: 8vh;
-  /* justify-content: center; */
+  margin-top: 4em;
+  /* position: absolute; */
+  /* bottom: 8vh; */
+ 
 }
 
 #music-player {
   position: absolute;
-  bottom: 0;
+  /* bottom: 0; */
+}
+
+#speakers-img{
+  height: 12em;
+  /* position: absolute; */
+  /* bottom: 8vh; */
 }
 
 

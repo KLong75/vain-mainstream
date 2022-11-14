@@ -4,13 +4,16 @@ import React from 'react';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 // import MusicPlayer from '../MusicPlayer';
-
+// import images
 import boombox from '../../assets/images/pixel_boombox_cropped.png';
+import speakers from '../../assets/images/two_speakers.png';
+
+// import audio
 import cultOfP from '../../assets/audio/cult_of_personality.mp3';
 import dancingQ from '../../assets/audio/DQ_no_vox.mp3';
-import bST from '../../assets/audio/bst_no_vox.mp3';
+import basketCase from '../../assets/audio/bst_no_vox.mp3';
 
-const tracks = [cultOfP, dancingQ, bST]
+const tracks = [cultOfP, dancingQ, basketCase]
 
 const selectRandom = (array) => {
   let randomIndex = Math.floor(Math.random() * array.length); 
@@ -27,14 +30,26 @@ const Mainstream = () => {
       
         <h2>Mainstream Radio</h2>
 
-        <Grid container justifyContent='center'>
-          <img src={boombox} alt='pixelated boombox' id='boombox-img'></img>
+        <Grid container spacing={2} >
+          <Grid xs={3}>
+          <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
+          </Grid>
+
+          <Grid xs={6}>
+          <img src={boombox} alt='pixelated boombox' id='boombox-img' />
+          </Grid>
+
+          <Grid xs={3}>
+          <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
+          </Grid>
         </Grid>
 
         <Grid container justifyContent='center'>
+        
          <audio id='music-player' controls loop >
            <source src={randomTrack}></source>
          </audio>
+         
         </Grid>
 
     </div>
