@@ -1,13 +1,23 @@
 .pixel-record {
-    height: 10em;
+    height: 8em;
 }
 
 .album-tracks-audio-player {
-  width: 16em;
+  width: 14em;
+  height: 2em;
 }
 
 #album-tracks-section {
     margin-top: 2em;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+#track-title {
+  font-size: 2em;
+  padding-top: 0.25em;
+}
+
+.MuiGrid2-root.MuiGrid2-direction-xs-row.css-27y2fm-MuiGrid2-root {
+    padding: 0;
 }

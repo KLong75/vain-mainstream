@@ -26,31 +26,36 @@ const AlbumTracks = () => {
   return (
     <section id='album-tracks-section'>
       <Box sx={{ flexGrow: 1 }}> 
-      <Grid container spacing={4} >
-      {tracks.map((track) => (
-            
-            
-                <Grid xs={4} key={track.title}>
-                  <Paper elevation={3}>
-                  <Grid>
+        <Grid container spacing={4} >
+          {tracks.map((track) => (  
+            <Grid xs={4} key={track.title} className='track-grid'>
+              <Paper elevation={24}>
+                <Grid className='track-title-grid'>
                   <h3 id='track-title'>{track.title}</h3>
-                  </Grid>
-                  <Grid>
-                  <img src={pixelRecord} alt='pixelated vinyl record' className='pixel-record'></img>
-                  </Grid>
-                  <Grid>
-                  <audio controls className='album-tracks-audio-player'>
-                    <source src={require(`../../assets/audio/${track.src}`)}></source>
-                  </audio>
-                  </Grid>
-                  <Grid>
-                  <FileDownloadIcon />
-                  </Grid>
-                  </Paper>
                 </Grid>
-             
-            
-      ))} 
+                <Grid>
+                  <img src={pixelRecord} alt='pixelated vinyl record' className='pixel-record'></img>
+                </Grid>
+                <Grid>
+                  <audio controls className='album-tracks-audio-player'>
+                    <source src={require(`../../assets/audio/${track.src}`)} download></source>
+                  </audio>
+                </Grid>
+                <Grid>
+                  <a 
+                    href={require(`../../assets/audio/${track.src}`)} 
+                    download={(`Vain Mainstream - ${track.title}`)}
+                  >
+                    <FileDownloadIcon />
+                  </a>
+                </Grid>
+                <Grid>
+                  <span>Download {track.title}</span>
+                </Grid>
+                
+              </Paper>
+            </Grid>
+          ))} 
        </Grid>
       </Box> 
     </section>

@@ -1,5 +1,5 @@
 nav {
-  margin-top: 40px;
+  margin-top: 0px;
 }
 
 nav li {
@@ -15,5 +15,5 @@ nav li {
 }
 
 .navActive {
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px blue;
 }
