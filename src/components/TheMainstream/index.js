@@ -8,7 +8,7 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 // import images
 import boombox from '../../assets/images/pixel_boombox_cropped.png';
 import speakers from '../../assets/images/two_speakers.png';
-import worldOnFire from '../../assets/images/pixel_world_on_fire.png';
+import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 
 // import audio
 import cultOfP from '../../assets/audio/cult_of_personality.mp3';
@@ -37,7 +37,7 @@ const Mainstream = () => {
             <img src={worldOnFire} alt='pixelated burning earth'  id='world-on-fire' />
           </Grid>
 
-          <Grid container spacing={2} >
+          <Grid container spacing={1} >
             <Grid xs={3}>
               <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
             </Grid>
