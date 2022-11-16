@@ -1,3 +1,13 @@
 .pixel-record {
     height: 10em;
 }
+
+.album-tracks-audio-player {
+  width: 16em;
+}
+
+#album-tracks-section {
+    margin-top: 2em;
+    margin-left: 4em;
+    margin-right: 4em;
+}
