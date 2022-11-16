@@ -8,15 +8,18 @@
 }
 
 body {
-  margin: 20px;
+  margin: 0;
   height: 100%;
   font-family: -apple-system, BlinkMacSystemFont, 'VT323', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  /* background-image: url('./assets/images/background_img.png');
-  background-size: contain; */
+  
+  /* background-image: url('./assets/images/tv_background.jpeg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;  */
 }
 
 code {

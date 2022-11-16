@@ -3,7 +3,8 @@ nav {
 }
 
 nav li {
-  cursor: pointer;
+  /* cursor: pointer; */
+  cursor: url('../../assets/cursor/sym57.cur'), auto;
 }
 
 #nav-list-item {

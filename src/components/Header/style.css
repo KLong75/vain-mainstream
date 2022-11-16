@@ -1,5 +1,12 @@
 /* Header */
-
+/* header {
+  background-image: url('../../assets/images/pink_grid_sun_bckgrnd_lrg.png'); 
+  background-size: cover;
+  background-repeat:repeat-y;
+  /* background-position: center; */
+  /* background-position-x: 48%; */
+  /* background-position-y: 200%; 
+} */
 .header-guitar {
     height: 4em;
     /* animation: App-logo-spin infinite 8s linear; */

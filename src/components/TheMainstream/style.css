@@ -1,6 +1,12 @@
 #mainstream-div {
-  height: 90vh;
- 
+  height: 100vh;
+  /* background-image: url('../../assets/images/tv_background.jpeg'); 
+  background-size: cover; 
+  background-repeat: no-repeat;
+  background-position: center;  */
+  
+  /* background-position-x: 48%; */
+  /* background-position-y: 200%; */
 }
 
 #mainstream-div h2 {
@@ -8,10 +14,13 @@
   
 }
 
+#world-on-fire {
+  height: 24em;
+}
 
 #boombox-img {
-  height: 8em;
-  margin-top: 4em;
+  height: 6em;
+  margin-top: 6em;
   /* position: absolute; */
   /* bottom: 8vh; */
  
@@ -19,6 +28,7 @@
 
 #music-player {
   position: absolute;
+  /* cursor: url('../../assets/cursor/sym57.cur'), auto; */
   /* bottom: 0; */
 }
 

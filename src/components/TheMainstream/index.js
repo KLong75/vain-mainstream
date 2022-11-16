@@ -1,12 +1,14 @@
 import React from 'react';
 
 // import { Stack } from '@mui/system';
+import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 // import MusicPlayer from '../MusicPlayer';
 // import images
 import boombox from '../../assets/images/pixel_boombox_cropped.png';
 import speakers from '../../assets/images/two_speakers.png';
+import worldOnFire from '../../assets/images/pixel_world_on_fire.png';
 
 // import audio
 import cultOfP from '../../assets/audio/cult_of_personality.mp3';
@@ -29,29 +31,33 @@ const Mainstream = () => {
     <div id='mainstream-div'>
       
         <h2>Mainstream Radio</h2>
+        <Box sx={{ flexGrow: 1 }} >
 
-        <Grid container spacing={2} >
-          <Grid xs={3}>
-          <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
+          <Grid container justifyContent='center'>
+            <img src={worldOnFire} alt='pixelated burning earth'  id='world-on-fire' />
           </Grid>
 
-          <Grid xs={6}>
-          <img src={boombox} alt='pixelated boombox' id='boombox-img' />
+          <Grid container spacing={2} >
+            <Grid xs={3}>
+              <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
+            </Grid>
+
+            <Grid xs={6}>
+              <img src={boombox} alt='pixelated boombox' id='boombox-img' />
+            </Grid>
+
+            <Grid xs={3}>
+            <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
+            </Grid>
           </Grid>
 
-          <Grid xs={3}>
-          <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
+          <Grid container justifyContent='center' >
+            <audio id='music-player' controls loop >
+              <source src={randomTrack}></source>
+            </audio>
           </Grid>
-        </Grid>
 
-        <Grid container justifyContent='center'>
-        
-         <audio id='music-player' controls loop >
-           <source src={randomTrack}></source>
-         </audio>
-         
-        </Grid>
-
+        </Box>
     </div>
   );
 };
