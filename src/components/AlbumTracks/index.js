@@ -29,7 +29,7 @@ const AlbumTracks = () => {
         <Grid container spacing={4} >
           {tracks.map((track) => (  
             <Grid xs={4} key={track.title} className='track-grid'>
-              <Paper elevation={24}>
+              <Paper elevation={24} >
                 <Grid className='track-title-grid'>
                   <h3 id='track-title'>{track.title}</h3>
                 </Grid>
@@ -45,6 +45,7 @@ const AlbumTracks = () => {
                   <a 
                     href={require(`../../assets/audio/${track.src}`)} 
                     download={(`Vain Mainstream - ${track.title}`)}
+                    className='track-download'
                   >
                     <FileDownloadIcon />
                   </a>

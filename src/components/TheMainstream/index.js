@@ -3,6 +3,7 @@ import React from 'react';
 // import { Stack } from '@mui/system';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
+import Marquee from "react-fast-marquee";
 
 // import MusicPlayer from '../MusicPlayer';
 // import images
@@ -11,11 +12,27 @@ import speakers from '../../assets/images/two_speakers.png';
 import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 
 // import audio
-import cultOfP from '../../assets/audio/cult_of_personality.mp3';
-import dancingQ from '../../assets/audio/DQ_no_vox.mp3';
-import basketCase from '../../assets/audio/bst_no_vox.mp3';
+// import cultOfP from '../../assets/audio/cult_of_personality.mp3';
+// import dancingQ from '../../assets/audio/DQ_no_vox.mp3';
+// import basketCase from '../../assets/audio/bst_no_vox.mp3';
 
-const tracks = [cultOfP, dancingQ, basketCase]
+
+// const playList = [cultOfP, dancingQ, basketCase]
+
+const playList = [
+  {
+    title: 'Cult of Personality',
+    src: 'cult_of_personality.mp3'
+  },
+  {
+      title: 'Dancing Queen',
+      src: 'DQ_no_vox.mp3'
+  },
+  {
+      title: 'Basket Case',
+      src: 'bst_no_vox.mp3'
+  },
+]
 
 const selectRandom = (array) => {
   let randomIndex = Math.floor(Math.random() * array.length); 
@@ -23,14 +40,18 @@ const selectRandom = (array) => {
   return randomElement;
 }
 
-const randomTrack = selectRandom(tracks);
+const randomTrack = selectRandom(playList);
 console.log(randomTrack);
+console.log(randomTrack.src)
 
 const Mainstream = () => {
   return (
     <div id='mainstream-div'>
       
-        <h2>Mainstream Radio</h2>
+        {/* <h2>Mainstream Radio</h2> */}
+        <Marquee speed={40}>
+          <h2>Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream</h2>
+        </Marquee>
         <Box sx={{ flexGrow: 1 }} >
 
           <Grid container justifyContent='center'>
@@ -53,7 +74,7 @@ const Mainstream = () => {
 
           <Grid container justifyContent='center' >
             <audio id='music-player' controls loop >
-              <source src={randomTrack}></source>
+              <source src={require(`../../assets/audio/${randomTrack.src}`)} ></source>
             </audio>
           </Grid>
 

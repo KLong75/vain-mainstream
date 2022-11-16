@@ -2,7 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <footer>©2022</footer>
+    <footer>©2022 Vain Mainstream</footer>
   );
 };
 
