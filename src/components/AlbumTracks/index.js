@@ -124,7 +124,7 @@ const AlbumTracks = () => {
             <Grid md ={3} sm={4} xs={12} key={track.title} className='track-grid'>
               <Paper elevation={24} className='track-paper'>
                 <Grid spacing={2} className='track-title-grid'>
-                  <h3 id='track-title'>{track.title}</h3>
+                  <h3 id='track-title'>"{track.title}"</h3>
                 </Grid>
                 <Grid>
                   <img src={pixelRecord} alt='pixelated vinyl record' className='pixel-record'></img>
@@ -147,7 +147,7 @@ const AlbumTracks = () => {
                   </a>
                 </Grid>
                 <Grid>
-                  <span className='download-title-msg'>Download {track.title}</span>
+                  <span className='download-title-msg'>Download "{track.title}"</span>
                 </Grid>
                 
               </Paper>
