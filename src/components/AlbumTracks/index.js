@@ -1,5 +1,7 @@
 // import from react
 import React, { useState } from 'react';
+// import CSS
+import './AlbumTracks.css';
 //  import from MUI
 import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=VT323&display=swap&effect=fire-animation');
+
 #root {
   height: 100vh;
   
@@ -18,9 +20,10 @@ body {
   margin-top: 2em;
   /* margin-bottom: 2em; */
   min-height: 100vh;
-  font-family: -apple-system, BlinkMacSystemFont, 'VT323', 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'VT323', monospace;
+  /* font-family: -apple-system, BlinkMacSystemFont, 'VT323', 'Segoe UI', 'Roboto', 'Oxygen', 
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 
+    sans-serif;  */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   overflow-x: hidden;
@@ -29,18 +32,22 @@ body {
   background-repeat: no-repeat;
   background-position: center;  */
 }
+
 html {
   height: 100%;
-  
 }
+
 /* code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
-#main {
+
+.main {
   /* height: 100%; */
   min-height: calc(100vh - 80px); 
+  text-align: center;
 }
+
 h1 {
   font-size: 50px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

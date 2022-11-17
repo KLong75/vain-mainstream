@@ -1,7 +1,12 @@
+// import from react
 import React from 'react';
+// import CSS
+import './Header.css';
+// import components
 import Nav from '../Nav';
+// import from MUI
 import { Stack } from '@mui/material';
-
+// import images
 import flyingV from '../../assets/images/blue_flying_v.png';
 import blackGuitar from '../../assets/images/black_rock_guitar.png';
 

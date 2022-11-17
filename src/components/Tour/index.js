@@ -1,4 +1,7 @@
+// import from React
 import React from 'react';
+// import CSS
+import './Tour.css';
 
 const Tour = () => {
   return (

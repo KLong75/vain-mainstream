@@ -1,4 +1,8 @@
+// import from React
 import React from 'react';
+// import CSS
+import './Album.css';
+// import components
 import AlbumTracks from '../AlbumTracks';
 
 

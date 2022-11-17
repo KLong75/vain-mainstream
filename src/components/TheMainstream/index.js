@@ -1,5 +1,7 @@
+// import from React
 import React from 'react';
-
+// import CSS
+import './TheMainstream.css';
 // import from mui
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';

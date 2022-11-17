@@ -1,7 +1,10 @@
+// import from React
 import React from 'react';
-
+// import CSS
+import './Nav.css';
+// import from MUI
 import { Stack } from '@mui/system';
-// import { Link } from '@mui/material';
+
 
 const Nav = (props) => {
   return (
@@ -15,6 +18,12 @@ const Nav = (props) => {
             Mainstream Radio
           </li>
           <li 
+            id='nav-list-item'
+            onClick={() => { props.setCurrentPage('Album')}} 
+            className={props.currentPage==='Album' ? 'navActive' : ''}>
+            The Album
+          </li>
+          <li 
             id='nav-list-item' 
             onClick={() => { props.setCurrentPage('Tour')}} 
             className={props.currentPage==='Tour' ? 'navActive' : ''}>
@@ -24,14 +33,9 @@ const Nav = (props) => {
             id='nav-list-item'
             onClick={() => { props.setCurrentPage('CallToAction')}} 
             className={props.currentPage==='CallToAction' ? 'navActive' : ''}>
-            Join the Mainstream on Patreon
+            Join the Mainstream
           </li>
-          <li 
-            id='nav-list-item'
-            onClick={() => { props.setCurrentPage('Album')}} 
-            className={props.currentPage==='Album' ? 'navActive' : ''}>
-            The Album
-          </li>
+          
         </Stack>
       </ul>
     </nav>
