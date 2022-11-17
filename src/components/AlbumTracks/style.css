@@ -14,8 +14,10 @@
 }
 
 #track-title {
-  font-size: 2em;
+  font-size: 1.75em;
   padding-top: 0.25em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 
 .MuiGrid2-root.MuiGrid2-direction-xs-row.css-27y2fm-MuiGrid2-root {
@@ -26,4 +28,23 @@
     /* cursor: pointer; */
     cursor: url('../../assets/cursor/sym57.cur'), auto;
     color: blue;
-  }
+    margin-top: 1em;
+}
+
+.track-paper {
+  height: 20em;
+}
+
+.download-title-msg {
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+.react-h5-audio-player {
+  margin-top: 2px;
+  margin-bottom: 4px;
+}
+
+.rhap_container svg  {
+  cursor: url('../../assets/cursor/sym57.cur'), auto;
+}

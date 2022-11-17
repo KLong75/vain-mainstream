@@ -1,11 +1,14 @@
 import React from 'react';
 
-// import { Stack } from '@mui/system';
+// import from mui
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import Marquee from "react-fast-marquee";
 
-// import MusicPlayer from '../MusicPlayer';
+// import react-h5 audio player
+import AudioPlayer from 'react-h5-audio-player';
+import 'react-h5-audio-player/lib/styles.css';
+
 // import images
 import boombox from '../../assets/images/pixel_boombox_cropped.png';
 import speakers from '../../assets/images/two_speakers.png';
@@ -49,33 +52,40 @@ const Mainstream = () => {
     <div id='mainstream-div'>
       
         {/* <h2>Mainstream Radio</h2> */}
-        <Marquee speed={40}>
-          <h2>Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream</h2>
+        <Marquee speed={40} gradientWidth={200} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+          <h2 className='marquee-text'>Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream </h2>
         </Marquee>
-        <Box sx={{ flexGrow: 1 }} >
+        <Box sx={{ flexGrow: 1 }}>
 
           <Grid container justifyContent='center'>
             <img src={worldOnFire} alt='pixelated burning earth'  id='world-on-fire' />
           </Grid>
 
-          <Grid container spacing={1} >
-            <Grid xs={3}>
+          <Grid container spacing={1} disableEqualOverflow>
+            <Grid xs={3} >
               <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
             </Grid>
 
-            <Grid xs={6}>
+            <Grid xs={6} >
               <img src={boombox} alt='pixelated boombox' id='boombox-img' />
             </Grid>
 
-            <Grid xs={3}>
+            <Grid xs={3} >
             <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
             </Grid>
           </Grid>
 
-          <Grid container justifyContent='center' >
-            <audio id='music-player' controls loop >
+          <Grid container justifyContent='center'>
+            {/* <audio id='music-player' controls loop >
               <source src={require(`../../assets/audio/${randomTrack.src}`)} ></source>
-            </audio>
+            </audio> */}
+
+            <AudioPlayer 
+              loop 
+              className='react-h5-audio-player' 
+              src={require(`../../assets/audio/${randomTrack.src}`)} 
+            />
+
           </Grid>
 
         </Box>

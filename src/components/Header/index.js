@@ -10,7 +10,7 @@ const Header = (props) => {
     <header>
       <Stack direction='row' justifyContent='center'>
       <img src={flyingV} className='header-guitar' alt='flying v electric guitar'/>
-      <h1 className='headline'>Vain Mainstream</h1>
+      <h1 className='headline font-effect-fire-animation'>Vain Mainstream</h1>
       <img src={blackGuitar} className='header-guitar' alt='black electric guitar'/>
       </Stack>
       <Nav
