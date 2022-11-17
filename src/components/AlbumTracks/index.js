@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 // import CSS
 import './AlbumTracks.css';
 //  import from MUI
+import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
@@ -11,7 +12,7 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-import pixelRecord from '../../assets/images/pixel_record.png';
+import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
 
 const AlbumTracks = () => {
   const [tracks] = useState([
@@ -116,43 +117,61 @@ const AlbumTracks = () => {
       title: 'The Rockafeller Skank',
       src: 'cult_of_personality.mp3'
     }
-  ])
+])
+
+const Item = styled(Paper)(({ theme }) => ({
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // ...theme.typography.body2,
+  padding: theme.spacing(1),
+  textAlign: 'center',
+  // color: theme.palette.text.secondary,
+}));
 
   return (
     <section id='album-tracks-section'>
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >
           {tracks.map((track) => (  
-            <Grid md ={3} sm={4} xs={12} key={track.title} className='track-grid'>
-              <Paper elevation={24} className='track-paper'>
-                <Grid spacing={2} className='track-title-grid'>
+            <Grid xs={12} sm={6} md={4}key={track.title} className='track-grid'>
+              {/* <Paper elevation={24} className='track-paper'> */}
+              <Item className='track-paper' elevation={12}>
+
+                <Grid item className='track-title-grid' justifyContent='center'>
                   <h3 id='track-title'>"{track.title}"</h3>
                 </Grid>
-                <Grid>
+                <Grid item>
                   <img src={pixelRecord} alt='pixelated vinyl record' className='pixel-record'></img>
                 </Grid>
-                <Grid>
+                <Grid item>
                   {/* <audio controls className='album-tracks-audio-player'>
                     <source src={require(`../../assets/audio/${track.src}`)}></source>
                   </audio> */}
                   
-                  <AudioPlayer className='react-h5-audio-player' src={require(`../../assets/audio/${track.src}`)} />
+                  <AudioPlayer 
+                    className='react-h5-audio-player' 
+                    src={require(`../../assets/audio/${track.src}`)} 
+                    // header={(`${track.title}`)}
+                    header='Vain Mainstream'
+                    footer='"Your Likeness"'
+                  />
 
                 </Grid>
-                <Grid>
+                <Grid item>
                   <a 
                     href={require(`../../assets/audio/${track.src}`)} 
                     download={(`Vain Mainstream - ${track.title}`)}
-                    className='track-download'
+                    className=''
                   >
-                    <FileDownloadIcon />
+                    <FileDownloadIcon className='track-download'/>
                   </a>
                 </Grid>
-                <Grid>
-                  <span className='download-title-msg'>Download "{track.title}"</span>
+                <Grid item>
+                  <span className='download-title-msg'>Download "{track.title}"
+                  
+                  </span>
                 </Grid>
-                
-              </Paper>
+                </Item>
+              {/* </Paper> */}
             </Grid>
           ))} 
        </Grid>
