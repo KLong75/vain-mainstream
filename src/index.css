@@ -44,8 +44,8 @@ html {
 
 .main {
   /* height: 100%; */
-  min-height: calc(100vh - 80px); 
-  text-align: center;
+  /* min-height: calc(100vh - 80px);  */
+  
 }
 
 /* h1 {

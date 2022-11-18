@@ -75,11 +75,15 @@ const Mainstream = () => {
       
         {/* <h2>Mainstream Radio</h2> */}
          
-        <Marquee speed={40} gradientWidth={200} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
-          <h2 className='marquee-text'>Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream </h2>
+        <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+          <h2 
+            className='marquee-text'> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
+          </h2>
         </Marquee>
 
         <Box sx={{ flexGrow: 1 }}>
+
           <Item className='mainstream-paper' elevation={12}>
 
 
@@ -195,10 +199,10 @@ const Mainstream = () => {
 
             <Grid item>
               <AudioPlayer
-                item
+                id='mainstream-audio-player'
                 autoPlay='false'
                 // loop 
-                className='react-h5-audio-player' 
+                className='mainstream-react-h5-audio-player' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
               />
             </Grid>

@@ -8,8 +8,8 @@
   /* background-position-y: 200%; 
 } */
 .header-mohawk-skull {
-    height: 4em;
-    margin-top: .5em;
+    height: 2em;
+    margin-top: 0em;
     /* animation: App-logo-spin infinite 8s linear; */
   }
 
@@ -38,7 +38,7 @@
     margin-top: .5em;
   }
   .header-headline  {
-    font-size: 50px;
+    font-size: 34px;
     /* margin-top: .5em;
     margin-bottom: 0;
     margin-left: 20px;

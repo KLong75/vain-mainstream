@@ -9,8 +9,8 @@ import { Stack } from '@mui/material';
 import { Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
 // import images
-import flyingV from '../../assets/images/blue_flying_v.png';
-import blackGuitar from '../../assets/images/black_rock_guitar.png';
+// import flyingV from '../../assets/images/blue_flying_v.png';
+// import blackGuitar from '../../assets/images/black_rock_guitar.png';
 import mohawkSkull from '../../assets/images/mohawk_skull.png';
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -29,7 +29,7 @@ const Header = (props) => {
       <Item elevation={12} className='header-paper'>
 
 
-      <Stack direction='row' justifyContent='center' spacing={6}>
+      <Stack direction='row' justifyContent='center' spacing={2}>
       <img src={mohawkSkull} className='header-mohawk-skull' alt='flying v electric guitar'/>
       <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
       <img src={mohawkSkull} className='header-mohawk-skull' alt='black electric guitar'/>

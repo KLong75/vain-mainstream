@@ -10,7 +10,7 @@ const Nav = (props) => {
   return (
     <nav>
       <ul>
-        <Stack direction='row' spacing={18} justifyContent='center' className='nav-stack'>
+        <Stack direction='row' spacing={3} justifyContent='center' className='nav-stack'>
           <li 
             id='nav-list-item' 
             onClick={() => { props.setCurrentPage('Mainstream')}} 
