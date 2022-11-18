@@ -29,8 +29,20 @@
 }
 
 #world-on-fire {
-  height: 22em;
-  margin-top: .5em;
+  height: 18em;
+  margin-top: .25em;
+}
+
+#mohawk-skull {
+  height: 4em;
+  margin-top: 0em;
+  margin-bottom: .1em;
+}
+
+#skeleton-drummer-body {
+  height: 6em;
+  margin-top: 0em;
+  margin-bottom: -8em;
 }
 
 #boombox-img {
@@ -43,7 +55,8 @@
 }
 
 .drums {
-  height: 12em;
+  height: 10em;
+  padding-bottom: .2em;
 }
 
 #music-player {
@@ -55,7 +68,7 @@
 }
 
 #speakers-img{
-  height: 12em;
+  height: 10em;
   /* position: absolute; */
   /* bottom: 8vh; */
 }

@@ -18,7 +18,9 @@ import 'react-h5-audio-player/lib/styles.css';
 // import boombox from '../../assets/images/pixel_boombox_cropped.png';
 import speakers from '../../assets/images/two_speakers.png';
 import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
-import drums from '../../assets/images/pixel_drums_big.png'
+import drums from '../../assets/images/pixel_drums_big.png';
+import mohawkSkull from '../../assets/images/mohawk_skull.png';
+import skeletonNoSkull from '../../assets/images/pixel_skeleton_no_head.png';
 // import audio
 // import cultOfP from '../../assets/audio/cult_of_personality.mp3';
 // import dancingQ from '../../assets/audio/DQ_no_vox.mp3';
@@ -79,12 +81,20 @@ const Mainstream = () => {
             <img item src={worldOnFire} alt='pixelated burning earth'  id='world-on-fire' />
           </Grid>
 
+          <Grid container justifyContent='center'>
+            <img item src={mohawkSkull} alt='pixelated skull with mohawk'  id='mohawk-skull' />
+          </Grid>
+
+          <Grid container justifyContent='center'>
+            <img item src={skeletonNoSkull} alt='skeleton body'  id='skeleton-drummer-body' />
+          </Grid>
+
           <Grid container spacing={1} disableEqualOverflow>
             <Grid item xs={3} >
               <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
             </Grid>
             <Grid item xs={6} >
-              <img src={drums} alt='pixelated boombox' id='' className='drums' />
+              <img src={drums} alt='pixelated drumset' id='' className='drums' />
             </Grid>
             <Grid item xs={3} >
             <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
