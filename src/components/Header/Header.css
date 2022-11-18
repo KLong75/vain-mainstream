@@ -11,6 +11,12 @@
     height: 4em;
     /* animation: App-logo-spin infinite 8s linear; */
   }
+
+  .header-paper {
+    margin-left: 2em;
+    margin-right: 2em;
+    margin-bottom: 2em;
+  }
   
   @media (prefers-reduced-motion: no-preference) {
     .header-guitar {
@@ -29,7 +35,7 @@
   }
   
   .headline {
-    margin-top: 0;
+    margin-top: .2em;
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;

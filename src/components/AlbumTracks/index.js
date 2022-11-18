@@ -147,7 +147,8 @@ const Item = styled(Paper)(({ theme }) => ({
                     <source src={require(`../../assets/audio/${track.src}`)}></source>
                   </audio> */}
                   
-                  <AudioPlayer 
+                  <AudioPlayer
+                    
                     className='react-h5-audio-player' 
                     src={require(`../../assets/audio/${track.src}`)} 
                     // header={(`${track.title}`)}

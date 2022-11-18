@@ -16,7 +16,10 @@
   margin-top: .5em;
   margin-bottom: .5em;
 } */
-
+.mainstream-paper {
+  margin: 2em;
+  margin-bottom: 0em;
+}
 .marquee-text {
   text-align: center;
   font-size: 1.5em;
@@ -26,8 +29,8 @@
 }
 
 #world-on-fire {
-  height: 24em;
-  margin-top: .25em;
+  height: 22em;
+  margin-top: .5em;
 }
 
 #boombox-img {
@@ -37,6 +40,10 @@
   /* position: absolute; */
   /* bottom: 8vh; */
  
+}
+
+.drums {
+  height: 12em;
 }
 
 #music-player {
