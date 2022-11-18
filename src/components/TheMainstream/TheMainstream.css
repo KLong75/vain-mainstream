@@ -28,15 +28,112 @@
   margin-bottom: .5em;
 }
 
+
+
+
 #world-on-fire {
   height: 18em;
   margin-top: .25em;
+  margin-bottom: .5em;
 }
 
 #mohawk-skull {
   height: 4em;
   margin-top: 0em;
-  margin-bottom: .1em;
+  margin-bottom: -2.1em;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  #mohawk-skull {
+    animation: mohawk-head-nod infinite alternate .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes mohawk-head-nod {
+  from {
+    transform: rotate(12deg);
+  }
+  to {
+    transform: rotate(-12deg);
+  }
+}
+
+.skeleton-guitarist{
+  height: 6em;
+  margin-bottom: -28.4em;
+  margin-left: .75em;
+  
+  
+}
+
+.mainstream-guitar{
+  height: 4em;
+  margin-bottom: -.2em;
+  margin-top: 3.75em;
+  
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .mainstream-guitar {
+    animation: mainstream-guitar-spin infinite alternate .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes mainstream-guitar-spin {
+  from {
+    transform: rotate(-30deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+}
+
+.guitarist-arm {
+  height: 4em;
+  margin-bottom: -7.5em;
+  margin-right: 3.4em;
+  position: relative;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .guitarist-arm {
+    animation: guitar-arm-strum infinite alternate .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes guitar-arm-strum {
+  from {
+    transform: rotate(10deg);
+  }
+  to {
+    transform: rotate(-10deg);
+  }
+}
+
+.guitarist-skull{
+  height: 3em;
+  margin-bottom: -23.75em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .guitarist-skull {
+    animation: guitarist-head-nod infinite alternate .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes guitarist-head-nod {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
 }
 
 #skeleton-drummer-body {
@@ -69,6 +166,7 @@
 
 #speakers-img{
   height: 10em;
+  margin-top: -.5em;
   /* position: absolute; */
   /* bottom: 8vh; */
 }

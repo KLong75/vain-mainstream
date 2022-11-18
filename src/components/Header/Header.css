@@ -7,8 +7,9 @@
   /* background-position-x: 48%; */
   /* background-position-y: 200%; 
 } */
-.header-guitar {
+.header-mohawk-skull {
     height: 4em;
+    margin-top: .5em;
     /* animation: App-logo-spin infinite 8s linear; */
   }
 
@@ -33,11 +34,14 @@
       transform: rotate(-10deg);
     }
   }
-  
-  .headline {
-    margin-top: .2em;
+  .font-effect-fire-animation {
+    margin-top: .5em;
+  }
+  .header-headline  {
+    font-size: 50px;
+    /* margin-top: .5em;
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   }
