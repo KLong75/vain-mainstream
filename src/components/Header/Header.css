@@ -14,9 +14,8 @@
   }
 
   .header-paper {
-    margin-left: 2em;
-    margin-right: 2em;
-    margin-bottom: 2em;
+    margin: 1em;
+    
   }
   
   @media (prefers-reduced-motion: no-preference) {

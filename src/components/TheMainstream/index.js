@@ -17,15 +17,18 @@ import 'react-h5-audio-player/lib/styles.css';
 // import images
 // import boombox from '../../assets/images/pixel_boombox_cropped.png';
 import speakers from '../../assets/images/two_speakers.png';
-import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
-// import drums from '../../assets/images/pixel_drums_big.png';
-import drumSkeleton from '../../assets/images/pixel_drums_headless_drummer2.png';
+// import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
+import drums from '../../assets/images/pixel_drums_big.png';
+import drummerBody from '../../assets/images/drummer_body.png';
+import drummerRightArm from '../../assets/images/drummer_right_arm_with_drumstick.png';
+import drummerLeftArm from '../../assets/images/drummer_left_arm_with_drumstick.png';
+// import drumSkeleton from '../../assets/images/pixel_drums_headless_drummer2.png';
 import mohawkSkull from '../../assets/images/mohawk_skull.png';
 // import skeletonNoSkull from '../../assets/images/pixel_skeleton_no_head.png';
 import guitaristBody from '../../assets/images/guitarist_no_arms_no_head.png';
 // import guitaristNoArm from '../../assets/images/pixel_guitarist_no_arm.png';
 import guitaristRightArm from '../../assets/images/guitarist_right_arm.png'
-import guitaristLeftArm from '../../assets/images/guitarist_left_arm_straight.png'
+import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
 import pixelSkull from '../../assets/images/pixel_skull.png';
 import flyingV from '../../assets/images/blue_flying_v.png';
 // import blackGuitar from '../../assets/images/black_rock_guitar.png';
@@ -88,7 +91,7 @@ const Mainstream = () => {
 
           <Item className='mainstream-paper' elevation={12}>
 
-            <Grid container spacing={1} disableEqualOverflow>
+            <Grid container spacing={1} disableEqualOverflow id='guitarist-head-grid'>
 
               <Grid item xs={3} >
                 <img src={pixelSkull} className='guitarist-skull' alt='pixelated skull'/>
@@ -102,48 +105,40 @@ const Mainstream = () => {
                 <img src={pixelSkull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
             </Grid>
-          
-            <Grid container spacing={1} disableEqualOverflow>
 
+            <Grid container spacing={1} disableEqualOverflow id='guitarist-body-grid'>
               <Grid item xs={3} >
-                  <img src={guitaristBody} alt='pixelated skeleton' className='skeleton-guitarist' />
+                <img src={guitaristBody} alt='pixelated skeleton' className='guitarist-body' />
               </Grid>
-
 
               <Grid item xs={6}>
-                <img item src={worldOnFire} alt='pixelated burning earth'  id='world-on-fire' />
               </Grid>
 
               <Grid item xs={3} >
-                <img src={guitaristBody} alt='pixelated skeleton' className='skeleton-guitarist' />
+                  <img src={guitaristBody} alt='pixelated skeleton' className='guitarist-body' />
               </Grid>
-
             </Grid>
 
-            <Grid container spacing={1} disableEqualOverflow>
-
+            <Grid container spacing={1} disableEqualOverflow id='guitar-right-arm-grid'>
               <Grid item xs={3} >
                 <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
 
               <Grid item xs={6}>
-                <div></div>
               </Grid>
 
                <Grid item xs={3} >
                <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-
             </Grid>
 
-            <Grid container spacing={1} disableEqualOverflow>
+            <Grid container spacing={1} disableEqualOverflow id='guitar-left-arm-grid'>
 
               <Grid item xs={3} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
 
               <Grid item xs={6}>
-                <div></div>
               </Grid>
 
               <Grid item xs={3} >
@@ -152,45 +147,103 @@ const Mainstream = () => {
 
             </Grid>
 
-            <Grid container spacing={1} disableEqualOverflow>
-
+            <Grid container spacing={1} disableEqualOverflow id='guitar-grid'>
               <Grid item xs={3} >
                 <img src={flyingV} className='mainstream-guitar' alt='flying v electric guitar'/>
               </Grid>
-
               <Grid item xs={6}>
-                <div></div>
               </Grid>
-
               <Grid item xs={3} >
                 <img src={flyingV} className='mainstream-guitar' alt='black electric guitar'/>
               </Grid>
-
             </Grid>
 
-            <Grid container justifyContent='center'>
-             <img item src={mohawkSkull} alt='pixelated skull with mohawk'  id='mohawk-skull' />
+            <Grid container spacing={1} disableEqualOverflow id='drummer-head-grid'>
+            <Grid item xs={3}>
+              </Grid>
+              <Grid item xs={6} >
+               <img item src={mohawkSkull} alt='pixelated skull with mohawk'  id='mohawk-skull' />
+              </Grid>
+              <Grid item xs={3}>
+              </Grid>
             </Grid>
 
+            {/* <Grid container spacing={1} disableEqualOverflow>
+            <Grid item xs={3}>
+              </Grid>
+            <Grid item xs={3}>
+                <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
+              </Grid>
+              <Grid item xs={3}>
+              <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
+              </Grid>
+              <Grid item xs={3}>
+              </Grid>
+            </Grid> */}
+
+            
             <Grid container spacing={1} disableEqualOverflow>
+            <Grid item xs={3}>
+              </Grid>
+              <Grid item xs={6}>
+                <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
+              </Grid>
+           
+              <Grid item xs={3}>
+              </Grid>
+            </Grid>
+
+
+            
+            <Grid container spacing={1} disableEqualOverflow>
+            <Grid item xs={3}>
+              </Grid>
+           
+              <Grid item xs={6}>
+              <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
+              </Grid>
+              <Grid item xs={3}>
+              </Grid>
+            </Grid>
+
+
+
+
+
+
+
+
+            <Grid container spacing={1} disableEqualOverflow id="drummer-body-grid">
+              <Grid item xs={3}>
+                {/* <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/> */}
+              </Grid>
+              <Grid item xs={6}>
+              <img src={drummerBody} alt='pixelated skeleton torso' className='drummer-body' />
+              </Grid>
+              <Grid item xs={3}>
+              {/* <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/> */}
+              </Grid>
+            </Grid>
+
+            <Grid container spacing={1} disableEqualOverflow id='speakers-drums-grid'>
               <Grid item xs={3} >
                 <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
               </Grid>
               <Grid item xs={6} >
-                <img src={drumSkeleton} alt='pixelated drumset' id='' className='drums' />
+                <img src={drums} alt='pixelated drumset' id='' className='drums' />
               </Grid>
               <Grid item xs={3} >
               <img src={speakers} alt='pixelated loudspeakers' id='speakers-img' />
               </Grid>
             </Grid>
 
-            <Grid item>
+            <Grid item id='mainstream-audio-player-grid'>
               <AudioPlayer
                 id='mainstream-audio-player'
                 autoPlay='false'
                 // loop 
                 className='mainstream-react-h5-audio-player' 
-                src={require(`../../assets/audio/${randomTrack.src}`)} 
+                // src={require(`../../assets/audio/${randomTrack.src}`)} 
               />
             </Grid>
           </Item>

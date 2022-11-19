@@ -1,9 +1,9 @@
 #mainstream-div {
   /* height: 100vh; */
-  /* background-image: url('../../assets/images/tv_background.jpeg'); 
-  background-size: cover; 
-  background-repeat: no-repeat;
-  background-position: center;  */
+  /* background-image: url('../../assets/images/pixel_world_on_fire_cropped.png');   */
+  /* background-size: cover;  */
+  /* background-repeat: no-repeat; */
+  /* background-position: center;   */
   
   /* background-position-x: 48%; */
   /* background-position-y: 200%; */
@@ -17,7 +17,15 @@
   margin-bottom: .5em;
 } */
 .mainstream-paper {
-  margin: 2em;
+  background-image: url('../../assets/images/pixel_world_on_fire_cropped.png');
+  background-size: 12em;
+  background-repeat: no-repeat;
+  
+  background-position: 50% 10%;
+  margin-top: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  /* margin: 2em; */
   margin-bottom: 0em;
   height: 33em;
   
@@ -30,22 +38,54 @@
   margin-bottom: .5em;
 }
 
-#world-on-fire {
+/* #world-on-fire {
   height: 12em;
-  margin-top: .25em;
-  margin-bottom: -2.4em;
+  margin-top: 0em;
+  margin-bottom: -6em;
+} */
+
+/* guitarist body grid */
+#guitarist-body-grid {
+  margin-bottom: 0em;
 }
 
 /* guitarists */
-/* guitarist bodies */
-.skeleton-guitarist{
-  height: 4em;
-  margin-bottom: -20.1em;
-  margin-left: -.25em;
+/* guitarist head */
+#guitarist-head-grid {
+  margin-bottom: 0em
+}
+.guitarist-skull{
+  height: 2em;
+  margin-bottom: -17.8em;
+  margin-left: 0.1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .skeleton-guitarist {
+  .guitarist-skull {
+    animation: guitarist-head-nod infinite alternate .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes guitarist-head-nod {
+  from {
+    transform: rotate(-10deg);
+  }
+  to {
+    transform: rotate(10deg);
+  }
+}
+
+/* guitarist bodies */
+.guitarist-body{
+  height: 4em;
+  margin-top: 0em;
+  margin-bottom: -20.75em;
+  margin-left: 0em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .guitarist-body {
     animation: skeleton-guitarist-body-rock infinite alternate-reverse .70s linear;
     /* animation: header-guitar-spin infinite 10s reverse; */
   }
@@ -53,43 +93,23 @@
 
 @keyframes skeleton-guitarist-body-rock {
   from {
-    transform: rotate(-3deg);
+    transform: rotate(-4deg);
   }
   to {
-    transform: rotate(3deg);
+    transform: rotate(4deg);
   }
 }
 
-/* guitars */
-.mainstream-guitar{
-  height: 2em;
-  margin-bottom: 0.25em;
-  margin-top: 5em;
-  margin-left: -.2em;
-  
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .mainstream-guitar {
-    animation: mainstream-guitar-spin infinite alternate .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
-  }
-}
-
-@keyframes mainstream-guitar-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(12deg);
-  }
-}
 
 /* guitarist right arm */
+
+#guitar-right-arm-grid {
+  margin-bottom: 0em;
+}
 .guitarist-right-arm {
   height: 1.8em;
-  margin-bottom: -7.95em;
-  margin-right: 2.4em;
+  margin-bottom: -17.65em;
+  margin-left: -1.8em;
   position: relative;
   z-index: 2;
 }
@@ -111,58 +131,70 @@
 }
 
 .guitarist-left-arm {
-  height: .4em;
-  margin-bottom: -5.9em;
-  margin-right: -2.8em;
+  height: 1.5em;
+  margin-bottom: -16.4em;
+  margin-left: 2.8em;
   position: relative;
   z-index: 2;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-left-arm {
-    animation: guitar-left-arm-strum infinite alternate .70s linear;
+    animation: guitar-left-arm-strum infinite  alternate .70s linear;
     /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
 @keyframes guitar-left-arm-strum {
   from {
-    transform: rotate(26deg);
+    transform: rotate(-2deg);
   }
   to {
-    transform: rotate(40deg);
+    transform: rotate(12deg);
   }
 }
 
+/* guitars */
 
-/* guitarist head */
-.guitarist-skull{
+#guitar-grid {
+  margin-top: 0em;
+}
+.mainstream-guitar{
   height: 2em;
-  margin-bottom: -17.25em;
-  margin-right: 0.1em;
+  margin-bottom: -15.75em;
+  margin-top: 0em;
+  margin-left: -.2em; 
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .guitarist-skull {
-    animation: guitarist-head-nod infinite alternate .70s linear;
+  .mainstream-guitar {
+    animation: mainstream-guitar-spin infinite alternate .70s linear;
     /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
-@keyframes guitarist-head-nod {
+@keyframes mainstream-guitar-spin {
   from {
-    transform: rotate(-10deg);
+    transform: rotate(-12deg);
   }
   to {
     transform: rotate(10deg);
   }
 }
 
+
 /* drummer */
+#drummer-head-grid {
+  margin-top: 0em;
+  margin-bottom: 0em;
+}
+
 #mohawk-skull {
   height: 2.5em;
   margin-top: 0em;
-  margin-bottom: -1em;
+  margin-bottom: -15.75em;
+  margin-left: -0.1em;
+  z-index: 2;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -181,39 +213,114 @@
   }
 }
 
-
-/* #skeleton-drummer-body {
-  height: 6em;
+#drummer-body-grid {
   margin-top: 0em;
-  margin-bottom: -8em;
-} */
-
-/* #boombox-img {
-  height: 6em;
-  margin-top: 6em;
   margin-bottom: 0em;
-} */
+}
+
+.drummer-body {
+  height: 3em;
+  margin-top: 0em;
+  margin-bottom: -15.25em;
+  margin-left: -0.2em;
+  z-index: 1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .drummer-body{
+    animation: drummer-body-rock infinite alternate-reverse .70s linear;
+  }
+}
+
+@keyframes drummer-body-rock {
+  from {
+    transform: rotate(6deg);
+  }
+  to {
+    transform: rotate(-6deg);
+  }
+}
+
+
+
+.drummer-right-arm {
+  height: 2.5em;
+  margin-top: 0em;
+  margin-bottom: -16em;
+  margin-left: 0em;
+  position: relative;
+  z-index: 3;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .drummer-right-arm{
+    animation: drummer-right-arm-rock infinite alternate-reverse .70s linear;
+  }
+}
+
+@keyframes drummer-right-arm-rock {
+  from {
+    transform: rotate(-180deg);
+  }
+  to {
+    transform: rotate(-60deg);
+  }
+}
+
+.drummer-left-arm {
+  height: 2.25em;
+  margin-bottom: -15.65em;
+  margin-left: 0em;
+  position: relative;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .drummer-left-arm{
+    animation: drummer-left-arm-rock infinite alternate .70s linear;
+  }
+}
+
+@keyframes drummer-left-arm-rock {
+  from {
+    transform: rotate(55deg);
+  }
+  to {
+    transform: rotate(35deg);
+  }
+}
+
+#speakers-drums-grid {
+  margin-top: 0em;
+}
 
 /* drums */
 .drums {
   height: 4em;
-  margin-bottom: -3.25em;
+  margin-bottom: -14.7em;
   padding-bottom: 0em;
+  position: relative;
+  z-index: 1;
+  
 }
 
 
 /* speakers */
 #speakers-img{
   height: 4em;
-  
-  margin-bottom: -3em;
+  margin-bottom: -14.7em;
   /* position: absolute; */
   /* bottom: 8vh; */
 }
 
+#mainstream-audio-player-grid {
+  margin-top: 0em;
+}
+
 .mainstream-react-h5-audio-player {
-  margin-top: 3.25em;
+  margin-top: 14.5em;
   outline: gray solid 1px;
+  position: relative;
 }
 
 
