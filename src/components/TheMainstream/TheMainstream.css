@@ -133,7 +133,7 @@
 .guitarist-left-arm {
   height: 1.5em;
   margin-bottom: -16.4em;
-  margin-left: 2.8em;
+  margin-left: 3em;
   position: relative;
   z-index: 2;
 }
@@ -147,7 +147,7 @@
 
 @keyframes guitar-left-arm-strum {
   from {
-    transform: rotate(-2deg);
+    transform: rotate(-10deg);
   }
   to {
     transform: rotate(12deg);
@@ -283,10 +283,10 @@
 
 @keyframes drummer-left-arm-rock {
   from {
-    transform: rotate(55deg);
+    transform: rotate(50deg);
   }
   to {
-    transform: rotate(35deg);
+    transform: rotate(30deg);
   }
 }
 
