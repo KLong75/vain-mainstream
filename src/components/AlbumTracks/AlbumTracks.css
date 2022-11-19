@@ -54,6 +54,14 @@
   outline: gray solid 1px;
 }
 
+.rhap_header {
+  color: blue;
+}
+
+.rhap_footer {
+  color: blue;
+}
+
 .rhap_container svg  {
   cursor: url('../../assets/cursor/sym57.cur'), auto;
 }

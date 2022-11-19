@@ -1,13 +1,18 @@
 // import from react
 import React from 'react';
+
 // import CSS
 import './Header.css';
+
 // import components
 import Nav from '../Nav';
+
 // import from MUI
-import { Stack } from '@mui/material';
+import Grid from '@mui/material/Unstable_Grid2/Grid2';
+// import { Stack } from '@mui/material'; 
 import { Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
+
 // import images
 // import flyingV from '../../assets/images/blue_flying_v.png';
 // import blackGuitar from '../../assets/images/black_rock_guitar.png';
@@ -28,12 +33,23 @@ const Header = (props) => {
     <header>
       <Item elevation={12} className='header-paper'>
 
+<Grid container >
 
-      <Stack direction='row' justifyContent='center' spacing={2}>
+      {/* <Stack direction='row' justifyContent='center' spacing={2}> */}
+    <Grid item xs={3}>
       <img src={mohawkSkull} className='header-mohawk-skull' alt='flying v electric guitar'/>
+    </Grid>
+    <Grid item xs={6}>
       <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
+    </Grid>
+    <Grid item xs={3}>
       <img src={mohawkSkull} className='header-mohawk-skull' alt='black electric guitar'/>
-      </Stack>
+    </Grid>
+      {/* </Stack> */}
+
+</Grid>
+
+
       <Nav
         setCurrentPage={props.setCurrentPage}
         currentPage={props.currentPage}

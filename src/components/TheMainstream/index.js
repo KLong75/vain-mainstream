@@ -22,11 +22,13 @@ import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 import drumSkeleton from '../../assets/images/pixel_drums_headless_drummer2.png';
 import mohawkSkull from '../../assets/images/mohawk_skull.png';
 // import skeletonNoSkull from '../../assets/images/pixel_skeleton_no_head.png';
-import guitaristNoArm from '../../assets/images/pixel_guitarist_no_arm.png';
-import guitaristArm from '../../assets/images/guitarist-arm.png'
+import guitaristBody from '../../assets/images/guitarist_no_arms_no_head.png';
+// import guitaristNoArm from '../../assets/images/pixel_guitarist_no_arm.png';
+import guitaristRightArm from '../../assets/images/guitarist_right_arm.png'
+import guitaristLeftArm from '../../assets/images/guitarist_left_arm_straight.png'
 import pixelSkull from '../../assets/images/pixel_skull.png';
 import flyingV from '../../assets/images/blue_flying_v.png';
-import blackGuitar from '../../assets/images/black_rock_guitar.png';
+// import blackGuitar from '../../assets/images/black_rock_guitar.png';
 
 // import audio
 // import cultOfP from '../../assets/audio/cult_of_personality.mp3';
@@ -86,41 +88,25 @@ const Mainstream = () => {
 
           <Item className='mainstream-paper' elevation={12}>
 
-
-
-
-
-
-          <Grid container spacing={1} disableEqualOverflow>
-
-<Grid item xs={3} >
-  <img src={pixelSkull} className='guitarist-skull' alt='flying v electric guitar'/>
-</Grid>
-
-<Grid item xs={6}>
-  <div></div>
-</Grid>
-
-<Grid item xs={3} >
-  <img src={pixelSkull} className='guitarist-skull' alt='black electric guitar'/>
-</Grid>
-
-</Grid>
-          
-
-
-
-
-
-
-
-
-
-
             <Grid container spacing={1} disableEqualOverflow>
 
               <Grid item xs={3} >
-                  <img src={guitaristNoArm} alt='pixelated skeleton' className='skeleton-guitarist' />
+                <img src={pixelSkull} className='guitarist-skull' alt='pixelated skull'/>
+              </Grid>
+
+              <Grid item xs={6}>
+              <div></div>
+              </Grid>
+
+              <Grid item xs={3} >
+                <img src={pixelSkull} className='guitarist-skull' alt='pixelated skull'/>
+              </Grid>
+            </Grid>
+          
+            <Grid container spacing={1} disableEqualOverflow>
+
+              <Grid item xs={3} >
+                  <img src={guitaristBody} alt='pixelated skeleton' className='skeleton-guitarist' />
               </Grid>
 
 
@@ -129,32 +115,42 @@ const Mainstream = () => {
               </Grid>
 
               <Grid item xs={3} >
-                <img src={guitaristNoArm} alt='pixelated skeleton' className='skeleton-guitarist' />
+                <img src={guitaristBody} alt='pixelated skeleton' className='skeleton-guitarist' />
               </Grid>
 
             </Grid>
 
+            <Grid container spacing={1} disableEqualOverflow>
 
+              <Grid item xs={3} >
+                <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
+              </Grid>
+
+              <Grid item xs={6}>
+                <div></div>
+              </Grid>
+
+               <Grid item xs={3} >
+               <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
+              </Grid>
+
+            </Grid>
 
             <Grid container spacing={1} disableEqualOverflow>
 
-<Grid item xs={3} >
-  <img src={guitaristArm} className='guitarist-arm' alt='skeleton arm playing guitar'/>
-</Grid>
+              <Grid item xs={3} >
+                <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
+              </Grid>
 
-<Grid item xs={6}>
-  <div></div>
-</Grid>
+              <Grid item xs={6}>
+                <div></div>
+              </Grid>
 
-<Grid item xs={3} >
-  <img src={guitaristArm} className='guitarist-arm' alt='skeleton arm playing guitar'/>
-</Grid>
+              <Grid item xs={3} >
+                <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
+              </Grid>
 
-</Grid>
-
-
-
-
+            </Grid>
 
             <Grid container spacing={1} disableEqualOverflow>
 
@@ -167,23 +163,14 @@ const Mainstream = () => {
               </Grid>
 
               <Grid item xs={3} >
-                <img src={blackGuitar} className='mainstream-guitar' alt='black electric guitar'/>
+                <img src={flyingV} className='mainstream-guitar' alt='black electric guitar'/>
               </Grid>
 
             </Grid>
 
-
-            
- 
-
-
-
-
-
             <Grid container justifyContent='center'>
              <img item src={mohawkSkull} alt='pixelated skull with mohawk'  id='mohawk-skull' />
             </Grid>
-
 
             <Grid container spacing={1} disableEqualOverflow>
               <Grid item xs={3} >

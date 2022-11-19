@@ -33,23 +33,39 @@
 #world-on-fire {
   height: 12em;
   margin-top: .25em;
-  margin-bottom: .5em;
+  margin-bottom: -2.4em;
 }
 
 /* guitarists */
 /* guitarist bodies */
 .skeleton-guitarist{
   height: 4em;
-  margin-bottom: -20.2em;
-  margin-left: 0.5em;
+  margin-bottom: -20.1em;
+  margin-left: -.25em;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .skeleton-guitarist {
+    animation: skeleton-guitarist-body-rock infinite alternate-reverse .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes skeleton-guitarist-body-rock {
+  from {
+    transform: rotate(-3deg);
+  }
+  to {
+    transform: rotate(3deg);
+  }
 }
 
 /* guitars */
 .mainstream-guitar{
   height: 2em;
-  margin-bottom: 0.5em;
-  margin-top: 2.8em;
-  margin-left: -0em;
+  margin-bottom: 0.25em;
+  margin-top: 5em;
+  margin-left: -.2em;
   
 }
 
@@ -62,42 +78,68 @@
 
 @keyframes mainstream-guitar-spin {
   from {
-    transform: rotate(-30deg);
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(-10deg);
+    transform: rotate(12deg);
   }
 }
 
-/* guitarist arm */
-.guitarist-arm {
-  height: 2em;
-  margin-bottom: -5.3em;
-  margin-right: 2em;
+/* guitarist right arm */
+.guitarist-right-arm {
+  height: 1.8em;
+  margin-bottom: -7.95em;
+  margin-right: 2.4em;
   position: relative;
   z-index: 2;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .guitarist-arm {
-    animation: guitar-arm-strum infinite alternate .70s linear;
+  .guitarist-right-arm {
+    animation: guitar-right-arm-strum infinite alternate .70s linear;
     /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
-@keyframes guitar-arm-strum {
+@keyframes guitar-right-arm-strum {
   from {
-    transform: rotate(10deg);
+    transform: rotate(24deg);
   }
   to {
-    transform: rotate(-10deg);
+    transform: rotate(-20deg);
   }
 }
+
+.guitarist-left-arm {
+  height: .4em;
+  margin-bottom: -5.9em;
+  margin-right: -2.8em;
+  position: relative;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .guitarist-left-arm {
+    animation: guitar-left-arm-strum infinite alternate .70s linear;
+    /* animation: header-guitar-spin infinite 10s reverse; */
+  }
+}
+
+@keyframes guitar-left-arm-strum {
+  from {
+    transform: rotate(26deg);
+  }
+  to {
+    transform: rotate(40deg);
+  }
+}
+
 
 /* guitarist head */
 .guitarist-skull{
   height: 2em;
   margin-bottom: -17.25em;
+  margin-right: 0.1em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -164,7 +206,7 @@
 #speakers-img{
   height: 4em;
   
-  margin-bottom: -3.25em;
+  margin-bottom: -3em;
   /* position: absolute; */
   /* bottom: 8vh; */
 }
