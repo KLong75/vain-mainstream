@@ -86,17 +86,15 @@ const Mainstream = () => {
       <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
         <span 
             className='mainstream-marquee-text'> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
           <span 
             className='mainstream-marquee-text'> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
                 Click to join The Mainstream on Patreon!
               </a>
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
 
         </Marquee>
