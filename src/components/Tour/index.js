@@ -1,5 +1,7 @@
 // import from React
 import React from 'react';
+// import video gallery
+import TourVideoGallery from '../TourVideoGallery';
 // import from mui
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 // import marquee
@@ -40,6 +42,16 @@ const Tour = () => {
           </span>
         </Marquee>
       <p>Coming soon to a town probably nowhere near you! lorem ipsum blah blah rock n roll fdfjaskffgfdgfsdgsfdgsdfgsdfgsfdgsdfgsdfgsdfgdg</p>
+
+      <TourVideoGallery />
+
+
+
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/5XVP03JmRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
+
+
     </div>
   );
 };

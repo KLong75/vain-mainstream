@@ -5,12 +5,13 @@
 #album-headline {
   font-size: 32px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-  
+  text-align: center;
 }
   
-#album-div h3 {
+#album-sub-headline {
   color: blue;
   margin-bottom: .25em;
+  text-align: center;
 }
 
 .album-marquee-text {

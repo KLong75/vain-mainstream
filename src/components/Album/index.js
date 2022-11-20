@@ -15,15 +15,15 @@ const Album = () => {
     <section id='album-div'>
 
 
-      <Grid container justifyContent='center' xs={12}>
-        <Grid item>
+      <Grid container justifyContent='center'>
+        <Grid item xs={12} justifyContent='center'>
         <h2 id='album-headline'>"Your Likeness"</h2>
         </Grid>
       </Grid>
 
-      <Grid container justifyContent='center' xs={12}>
-        <Grid item>
-        <h3>by Vain Mainstream</h3>
+      <Grid container>
+        <Grid item xs={12}>
+        <h3 id='album-sub-headline'>by Vain Mainstream</h3>
         </Grid>
       </Grid>
       

@@ -136,7 +136,7 @@ const Item = styled(Paper)(({ theme }) => ({
               {/* <Paper elevation={24} className='track-paper'> */}
               <Item className='track-paper' elevation={12}>
 
-                <Grid item className='track-title-grid' justifyContent='center'>
+                <Grid item className='track-title-grid' >
                   <h3 id='track-title'>"{track.title}"</h3>
                 </Grid>
                 <Grid item>
