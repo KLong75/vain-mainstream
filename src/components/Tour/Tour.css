@@ -1,6 +1,13 @@
 #tour-div {
-  height: 90vh;
+  /* height: 90vh; */
 }
+
+#tour-headline {
+  font-size: 32px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: .25em;
+}
+
 
 #tour-div h2 {
   text-align: center;
@@ -13,4 +20,17 @@
 #tour-div p {
     text-align: center;
     color: blue;
-  }
+}
+
+.tour-marquee-text {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  color: blue;
+}
+
+.marquee-patreon-link {
+  /* text-decoration: none; */
+  color: red;
+}

@@ -77,14 +77,29 @@ const Item = styled(Paper)(({ theme }) => ({
 const Mainstream = () => {
   return (
     <div id='mainstream-div'>
-      
-        {/* <h2>Mainstream Radio</h2> */}
+      <Grid container justifyContent='center'>
+        <Grid item>
+          <h2>Mainstream Radio</h2>
+        </Grid>
+      </Grid>
+        
          
         <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
-          <h2 
-            className='marquee-text'> 
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
-          </h2>
+          <span 
+            className='mainstream-marquee-text'> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+          <span 
+            className='mainstream-marquee-text'> 
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
+                Click to join The Mainstream on Patreon!
+              </a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          </span>
+
         </Marquee>
 
         <Box sx={{ flexGrow: 1 }}>
@@ -181,7 +196,6 @@ const Mainstream = () => {
               </Grid>
             </Grid> */}
 
-            
             <Grid container spacing={1} disableEqualOverflow>
             <Grid item xs={3}>
               </Grid>
@@ -193,10 +207,8 @@ const Mainstream = () => {
               </Grid>
             </Grid>
 
-
-            
             <Grid container spacing={1} disableEqualOverflow>
-            <Grid item xs={3}>
+              <Grid item xs={3}>
               </Grid>
            
               <Grid item xs={6}>
@@ -205,13 +217,6 @@ const Mainstream = () => {
               <Grid item xs={3}>
               </Grid>
             </Grid>
-
-
-
-
-
-
-
 
             <Grid container spacing={1} disableEqualOverflow id="drummer-body-grid">
               <Grid item xs={3}>
@@ -248,7 +253,6 @@ const Mainstream = () => {
             </Grid>
           </Item>
         </Box>
-        
     </div>
   );
 };

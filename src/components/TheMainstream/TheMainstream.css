@@ -16,9 +16,16 @@
   margin-top: .5em;
   margin-bottom: .5em;
 } */
+
+#mainstream-div h2 {
+  font-size: 32px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  margin-bottom: .25em;
+}
+
 .mainstream-paper {
   background-image: url('../../assets/images/pixel_world_on_fire_cropped.png');
-  background-size: 12em;
+  background-size: 13.75em;
   background-repeat: no-repeat;
   
   background-position: 50% 10%;
@@ -30,19 +37,19 @@
   height: 33em;
   
 }
-.marquee-text {
-  text-align: center;
+
+.mainstream-marquee-text {
   font-size: 1.25em;
-  text-align: center;
+  font-weight: bold;
   margin-top: .5em;
   margin-bottom: .5em;
+  color: blue;
 }
 
-/* #world-on-fire {
-  height: 12em;
-  margin-top: 0em;
-  margin-bottom: -6em;
-} */
+.marquee-patreon-link {
+  /* text-decoration: none; */
+  color: red;
+}
 
 /* guitarist body grid */
 #guitarist-body-grid {
@@ -159,6 +166,7 @@
 #guitar-grid {
   margin-top: 0em;
 }
+
 .mainstream-guitar{
   height: 2em;
   margin-bottom: -15.75em;
@@ -241,8 +249,6 @@
   }
 }
 
-
-
 .drummer-right-arm {
   height: 2.5em;
   margin-top: 0em;
@@ -301,7 +307,6 @@
   padding-bottom: 0em;
   position: relative;
   z-index: 1;
-  
 }
 
 
@@ -322,7 +327,6 @@
   outline: gray solid 1px;
   position: relative;
 }
-
 
 /* cursor */
 .rhap_container svg  {

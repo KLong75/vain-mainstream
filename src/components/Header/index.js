@@ -36,13 +36,13 @@ const Header = (props) => {
 <Grid container >
 
       {/* <Stack direction='row' justifyContent='center' spacing={2}> */}
-    <Grid item xs={3}>
+    <Grid item xs={2}>
       <img src={mohawkSkull} className='header-mohawk-skull' alt='flying v electric guitar'/>
     </Grid>
-    <Grid item xs={6}>
+    <Grid item xs={8}>
       <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
     </Grid>
-    <Grid item xs={3}>
+    <Grid item xs={2}>
       <img src={mohawkSkull} className='header-mohawk-skull' alt='black electric guitar'/>
     </Grid>
       {/* </Stack> */}

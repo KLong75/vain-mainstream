@@ -1,12 +1,27 @@
-#album-div {
-  /* height: 90vh; */
-}
+/* #album-div {
+  height: 90vh;
+} */
 
-#album-div h2 {
-  text-align: center;
+#album-headline {
+  font-size: 32px;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
 }
   
-#album-div p {
-  text-align: center;
+#album-div h3 {
   color: blue;
+  margin-bottom: .25em;
+}
+
+.album-marquee-text {
+  font-size: 1.25em;
+  font-weight: bold;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  color: blue;
+}
+
+.marquee-patreon-link {
+  /* text-decoration: none; */
+  color: red;
 }

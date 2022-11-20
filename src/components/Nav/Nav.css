@@ -12,11 +12,17 @@ nav li {
 
 #nav-list-item {
   list-style: none;
-  font-size: 14px;
+  font-size: 18px;
   text-decoration: none;
   color: blue;
+
 }
 
 .navActive {
   text-shadow: 0 0 10px blue;
+  font-weight: bold;
+}
+
+.nav-patreon-link {
+  text-decoration: none;
 }

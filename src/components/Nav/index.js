@@ -11,46 +11,46 @@ const Nav = (props) => {
   return (
     <nav>
       <ul>
-
-        {/* <Stack direction='row' spacing={3} justifyContent='center' className='nav-stack'> */}
-
         <Grid container> 
-
-        <Grid item xs={3}> 
-          <li 
-            id='nav-list-item' 
-            onClick={() => { props.setCurrentPage('Mainstream')}} 
-            className={props.currentPage==='Mainstream' ? 'navActive' : ''}>
-            Mainstream Radio
-          </li>
-        </Grid>
-        <Grid item xs={3}> 
-          <li 
-            id='nav-list-item'
-            onClick={() => { props.setCurrentPage('Album')}} 
-            className={props.currentPage==='Album' ? 'navActive' : ''}>
-            The Album
-          </li>
+          <Grid item xs={3}> 
+            <li 
+              id='nav-list-item' 
+              onClick={() => { props.setCurrentPage('Mainstream')}} 
+              className={props.currentPage==='Mainstream' ? 'navActive' : ''}>
+              Mainstream Radio
+            </li>
           </Grid>
           <Grid item xs={3}> 
-          <li 
-            id='nav-list-item' 
-            onClick={() => { props.setCurrentPage('Tour')}} 
-            className={props.currentPage==='Tour' ? 'navActive' : ''}>
-            The Tour
-          </li>
+            <li 
+              id='nav-list-item'
+              onClick={() => { props.setCurrentPage('Album')}} 
+              className={props.currentPage==='Album' ? 'navActive' : ''}>
+              The Album
+            </li>
+          </Grid>
+          <Grid item xs={3}> 
+            <li 
+              id='nav-list-item' 
+              onClick={() => { props.setCurrentPage('Tour')}} 
+              className={props.currentPage==='Tour' ? 'navActive' : ''}>
+              The Tour
+            </li>
           </Grid>
           <Grid item xs={3}>
-          <li 
-            id='nav-list-item'
-            onClick={() => { props.setCurrentPage('CallToAction')}} 
-            className={props.currentPage==='CallToAction' ? 'navActive' : ''}>
-            Join the Mainstream
-          </li>
+
+            {/* <li 
+              id='nav-list-item'
+              onClick={() => { props.setCurrentPage('CallToAction')}} 
+              className={props.currentPage==='CallToAction' ? 'navActive' : ''}>
+              Join the Mainstream
+            </li> */}
+
+            <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='nav-patreon-link'>
+              <li id='nav-list-item'>
+              Join the Mainstream
+              </li>
+            </a>
           </Grid>
-        {/* </Stack> */}
-
-
         </Grid> 
       </ul>
     </nav>
