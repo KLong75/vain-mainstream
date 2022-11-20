@@ -7,6 +7,9 @@ import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
+
+// import images
+// import tvFrame from '../../assets/images/tv_background.jpeg';
 // import audio player
 // import AudioPlayer from 'react-h5-audio-player';
 // import 'react-h5-audio-player/lib/styles.css';
@@ -17,206 +20,206 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 const TourVideoGallery = () => {
   const [videos] = useState([
     {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
+      city: 'city, state',
+      date: '12/31/2023',
+      landmark: 'cool or strange landmark associated with this place',
+      fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
       title: 'All I Really Want',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
+      city: 'city, state',
+      date: '12/31/2023',
+      landmark: 'cool or strange landmark associated with this place',
+      fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
       title: 'Violent Pornography',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     
     {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
+      city: 'city, state',
+      date: '12/31/2023',
+      landmark: 'cool or strange landmark associated with this place',
+      fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
       title: 'Girl, You Have No Faith In Medicine',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
-    { 
-      city: '',
-      date: '',
-      fact: '',
-      landmark: '',
-      title: 'Smooth',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Number 1',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: "Don't Tell Me",
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Feel No Ways',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Fake Plastic Trees',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Dancing Queen',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Change The World',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Wildest Dreams',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Dragon Attack',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'All I Wanna Do',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Sizzler Promotional Commercial 1991',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Parabola',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Basket Case',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Ray Of Light',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
+    // { 
+    //   city: 'city, state',
+    //   date: '12/31/2023',
+    //   landmark: 'cool or strange landmark associated with this place',
+    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
+    //   title: 'Smooth',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: 'city, state',
+    //   date: '12/31/2023',
+    //   landmark: 'cool or strange landmark associated with this place',
+    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
+    //   title: 'Number 1',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: 'city, state',
+    //   date: '12/31/2023',
+    //   landmark: 'cool or strange landmark associated with this place',
+    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
+    //   title: "Don't Tell Me",
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: 'city, state',
+    //   date: '12/31/2023',
+    //   landmark: 'cool or strange landmark associated with this place',
+    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
+    //   title: 'Feel No Ways',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Fake Plastic Trees',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Dancing Queen',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Change The World',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Wildest Dreams',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Dragon Attack',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'All I Wanna Do',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Sizzler Promotional Commercial 1991',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Parabola',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Basket Case',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Ray Of Light',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
     {
       city: 'Waco, TX',
-      date: '',
+      date: '9/11/2001',
       landmark: 'Branch Davidian Compound',
       fact: '',
       title: 'Loser',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'The Locomotion',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Cult of Personality',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Love in Plaster',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Stand Out',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',  
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Warrior',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'Just A Clown',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
-    {
-      city: '',
-      date: '',
-      landmark: '',
-      fact: '',
-      title: 'The Rockafeller Skank',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    }
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'The Locomotion',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Cult of Personality',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Love in Plaster',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Stand Out',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',  
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Warrior',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'Just A Clown',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
+    // {
+    //   city: '',
+    //   date: '',
+    //   landmark: '',
+    //   fact: '',
+    //   title: 'The Rockafeller Skank',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // }
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -232,20 +235,20 @@ const Item = styled(Paper)(({ theme }) => ({
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >
           {videos.map((video) => (  
-            <Grid xs={12} sm={6} lg={4}key={video.title} className='video-grid'>
+            <Grid xs={12} sm={6} lg={4}key={video.title} className='video-grid' >
               
-              <Item className='video-gallery-paper' elevation={12}>
+              <Item className='video-gallery-paper' elevation={12} >
 
                 <Grid item className='video-title-grid' >
                   <h3 id='video-title'>"{video.title}"</h3>
                 </Grid>
 
                 <Grid item>
-                  <span>{video.city}</span>
+                  <span>{video.date}</span>
                 </Grid>
 
                 <Grid item>
-                  <span>{video.date}</span>
+                  <span>{video.city}</span>
                 </Grid>
 
                 <Grid item>
@@ -256,17 +259,15 @@ const Item = styled(Paper)(({ theme }) => ({
                   <span>{video.fact}</span>
                 </Grid>
 
-                <Grid item>
-                  <iframe 
-                    // width="420" 
-                    // height="315" 
-                    // src="https://www.youtube.com/embed/5XVP03JmRaI" 
+                <Grid item id='iframe-grid'>
+                  <div className='video-container'>
+                  <iframe
+                    className='video-frame' 
                     src={video.src}
-
-                    title="YouTube video player" 
-                    frameborder="0" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen='true'>
+                    title="Vain Mainstream - Life Expectancy Tour" 
+                    >
                   </iframe>
+                  </div>
                 </Grid>
 
 
@@ -280,16 +281,11 @@ const Item = styled(Paper)(({ theme }) => ({
                 </Grid>
 
                 <Grid item>
-                  {/* <a 
-                    href={require(`../../assets/audio/${track.src}`)} 
-                    download={(`Vain Mainstream - ${track.title}`)}
-                    className=''
-                  >
-                    <FileDownloadIcon className='track-download'/>
-                  </a> */}
+                
                 </Grid>
+
                 <Grid item>
-                  <span className='video-title-caption'>
+                  <span className='video-caption'>
                     Vain Mainstream - Life Expectancy Tour
                   </span>
                 </Grid>

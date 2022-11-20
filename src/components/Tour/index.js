@@ -14,23 +14,32 @@ const Tour = () => {
     <div id='tour-div'>
 
 
+      
+
+
       <Grid container>
         <Grid item xs={12}>
-        <h2 id='tour-headline'>The Life Epectancy Tour</h2>
+        <h2 id='tour-headline'>The Life Expectancy Tour</h2>
         </Grid>
       </Grid>
 
       <Grid container  >
-        <Grid item xs={12} >
+        <Grid item xs={12}>
           <h3>2022 - 2023</h3>
         </Grid>
       </Grid>
 
-    
-      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+      <Grid container  >
+        <Grid item xs={12}>
+        <p>Coming soon to a town probably nowhere near you! lorem ipsum blah blah rock n roll fdfjaskffgfdgfsdgsfdgsdfgsdfgsfdgsdfgsdfgsdfgdg</p>
+        </Grid>
+      </Grid>
+
+      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='tour-marquee'>
           <span 
             className='tour-marquee-text'> 
               Download the smash hit new album "Your Likeness" by Vain Mainstream today!
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
           <span 
@@ -39,19 +48,12 @@ const Tour = () => {
                 Click to join The Mainstream on Patreon!
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-        </Marquee>
-      <p>Coming soon to a town probably nowhere near you! lorem ipsum blah blah rock n roll fdfjaskffgfdgfsdgsfdgsdfgsdfgsfdgsdfgsdfgsdfgdg</p>
-
+      </Marquee>
+    
+      
       <TourVideoGallery />
-
-
-
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/5XVP03JmRaI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-
-
     </div>
   );
 };

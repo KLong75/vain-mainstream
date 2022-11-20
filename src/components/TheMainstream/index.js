@@ -82,10 +82,9 @@ const Mainstream = () => {
           <h2>Mainstream Radio</h2>
         </Grid>
       </Grid>
-        
          
-        <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
-          <span 
+      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+        <span 
             className='mainstream-marquee-text'> 
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream

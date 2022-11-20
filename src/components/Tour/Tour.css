@@ -18,6 +18,10 @@
     color: blue;
 }
 
+.tour-marquee {
+  margin-top: .5em;
+}
+
 .tour-marquee-text {
   font-size: 1.25em;
   font-weight: bold;

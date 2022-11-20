@@ -14,6 +14,13 @@ import 'react-h5-audio-player/lib/styles.css';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
 
+
+
+
+
+
+
+
 const AlbumTracks = () => {
   const [tracks] = useState([
     {
