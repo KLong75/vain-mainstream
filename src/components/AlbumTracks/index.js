@@ -1,24 +1,23 @@
 // import from react
 import React, { useState } from 'react';
+
 // import CSS
 import './AlbumTracks.css';
+
 //  import from MUI
 import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
+
 // import audio player
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
+
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
-
-
-
-
-
-
+// import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
+import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 
 
 const AlbumTracks = () => {
@@ -147,7 +146,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   <h3 id='track-title'>"{track.title}"</h3>
                 </Grid>
                 <Grid item>
-                  <img src={pixelRecord} alt='pixelated vinyl record' className='pixel-record'></img>
+                  <img src={worldOnFire} alt='pixelated earth on fire' className='pixel-record album-tracks-logo'></img>
                 </Grid>
                 <Grid item>
                   {/* <audio controls className='album-tracks-audio-player'>

@@ -1,8 +1,11 @@
 
-
-.pixel-record {
-    height: 8em;
+.album-tracks-logo {
+  height: 8em;
 }
+
+/* .pixel-record {
+    height: 8em;
+} */
 
 /* .album-tracks-audio-player {
   width: 14em;

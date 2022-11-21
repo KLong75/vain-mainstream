@@ -35,7 +35,6 @@
   /* margin: 2em; */
   margin-bottom: 0em;
   height: 33em;
-  
 }
 
 .mainstream-marquee-text {
@@ -51,16 +50,8 @@
   color: red;
 }
 
-/* guitarist body grid */
-#guitarist-body-grid {
-  margin-bottom: 0em;
-}
-
 /* guitarists */
 /* guitarist head */
-#guitarist-head-grid {
-  margin-bottom: 0em
-}
 .guitarist-skull{
   height: 2em;
   margin-bottom: -17.8em;
@@ -94,7 +85,6 @@
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-body {
     animation: skeleton-guitarist-body-rock infinite alternate-reverse .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
@@ -109,10 +99,6 @@
 
 
 /* guitarist right arm */
-
-#guitar-right-arm-grid {
-  margin-bottom: 0em;
-}
 .guitarist-right-arm {
   height: 1.8em;
   margin-bottom: -17.65em;
@@ -331,4 +317,306 @@
 /* cursor */
 .rhap_container svg  {
   cursor: url('../../assets/cursor/sym57.cur'), auto;
+}
+
+
+/* begin mediq queries for responsve sizing */
+@media screen and (max-width: 1536px) {
+
+}
+
+@media screen and (max-width: 1200px) {
+  .mainstream-paper {
+    background-size: 12em;
+  }
+
+  /* guitarists */
+  /* guitarist head */
+  .guitarist-skull{
+    height: 2em;
+    margin-bottom: -17.8em;
+    margin-left: 0.1em;
+  }
+
+  /* guitarist bodies */
+  .guitarist-body{
+    height: 4em;
+    margin-top: 0em;
+    margin-bottom: -20.75em;
+    margin-left: 0em;
+  }
+
+  /* guitarist right arm */
+  .guitarist-right-arm {
+  height: 1.8em;
+  margin-bottom: -17.65em;
+  margin-left: -1.8em;
+  position: relative;
+  z-index: 2;
+  }
+
+  .guitarist-left-arm {
+    height: 1.5em;
+    margin-bottom: -16.4em;
+    margin-left: 3em;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* guitars */
+  .mainstream-guitar{
+    height: 2em;
+    margin-bottom: -15.75em;
+    margin-top: 0em;
+    margin-left: -.2em; 
+  }
+
+  /* drummer */
+  #mohawk-skull {
+    height: 2.5em;
+    margin-top: 0em;
+    margin-bottom: -15.75em;
+    margin-left: -0.1em;
+    z-index: 2;
+  }
+
+  .drummer-body {
+    height: 3em;
+    margin-top: 0em;
+    margin-bottom: -15.25em;
+    margin-left: -0.2em;
+    z-index: 1;
+  }
+
+  .drummer-right-arm {
+    height: 2.5em;
+    margin-top: 0em;
+    margin-bottom: -16em;
+    margin-left: 0em;
+    position: relative;
+    z-index: 3;
+  }
+
+  .drummer-left-arm {
+    height: 2.25em;
+    margin-bottom: -15.65em;
+    margin-left: 0em;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* drums */
+  .drums {
+    height: 4em;
+    margin-bottom: -14.7em;
+    padding-bottom: 0em;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* speakers */
+  #speakers-img{
+    height: 4em;
+    margin-bottom: -14.7em;
+  }
+}
+
+
+
+@media screen and (max-width: 900px) {
+  .mainstream-paper {
+    background-size: 12em;
+  }
+
+  /* guitarists */
+  /* guitarist head */
+  .guitarist-skull{
+    height: 2.25em;
+    margin-bottom: -14.85em;
+    margin-left: 0.1em;
+    
+  }
+
+  /* guitarist bodies */
+  .guitarist-body{
+    height: 5em;
+    margin-top: 0em;
+    margin-bottom: -18.75em;
+    margin-left: 0em;
+  }
+
+  /* guitarist right arm */
+  .guitarist-right-arm {
+  height: 2.2em;
+  margin-bottom: -15.1em;
+  margin-left: -1.8em;
+  position: relative;
+  z-index: 2;
+  }
+
+  .guitarist-left-arm {
+    height: 1.75em;
+    margin-bottom: -13.65em;
+    margin-left: 3.75em;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* guitars */
+  .mainstream-guitar{
+    height: 2.35em;
+    margin-bottom: -13.25em;
+    margin-top: 0em;
+    margin-left: -.2em; 
+  }
+
+  /* drummer */
+  #mohawk-skull {
+    height: 3em;
+    margin-top: 0em;
+    margin-bottom: -14.25em;
+    margin-left: -0.1em;
+    z-index: 2;
+  }
+
+  .drummer-body {
+    height: 4em;
+    margin-top: 0em;
+    margin-bottom: -14.75em;
+    margin-left: -0.2em;
+    z-index: 1;
+  }
+
+  .drummer-right-arm {
+    height: 3.25em;
+    margin-top: 0em;
+    margin-bottom: -15.5em;
+    margin-left: 0em;
+    position: relative;
+    z-index: 3;
+  }
+
+  .drummer-left-arm {
+    height: 2.75em;
+    margin-bottom: -14.5em;
+    margin-left: 0em;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* drums */
+  .drums {
+    height: 6em;
+    margin-bottom: -14.7em;
+    padding-bottom: 0em;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* speakers */
+  #speakers-img{
+    height: 6em;
+    margin-bottom: -14.7em;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .mainstream-paper {
+    background-size: 12em;
+  }
+
+  /* guitarists */
+  /* guitarist head */
+  .guitarist-skull{
+    height: 2em;
+    margin-bottom: -17.8em;
+    margin-left: 0.1em;
+  }
+
+  /* guitarist bodies */
+  .guitarist-body{
+    height: 4em;
+    margin-top: 0em;
+    margin-bottom: -20.75em;
+    margin-left: 0em;
+  }
+
+  /* guitarist right arm */
+  .guitarist-right-arm {
+  height: 1.8em;
+  margin-bottom: -17.65em;
+  margin-left: -1.8em;
+  position: relative;
+  z-index: 2;
+  }
+
+  .guitarist-left-arm {
+    height: 1.5em;
+    margin-bottom: -16.4em;
+    margin-left: 3em;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* guitars */
+  .mainstream-guitar{
+    height: 2em;
+    margin-bottom: -15.75em;
+    margin-top: 0em;
+    margin-left: -.2em; 
+  }
+
+  /* drummer */
+  #mohawk-skull {
+    height: 2.5em;
+    margin-top: 0em;
+    margin-bottom: -15.75em;
+    margin-left: -0.1em;
+    z-index: 2;
+  }
+
+  .drummer-body {
+    height: 3em;
+    margin-top: 0em;
+    margin-bottom: -15.25em;
+    margin-left: -0.2em;
+    z-index: 1;
+  }
+
+  .drummer-right-arm {
+    height: 2.5em;
+    margin-top: 0em;
+    margin-bottom: -16em;
+    margin-left: 0em;
+    position: relative;
+    z-index: 3;
+  }
+
+  .drummer-left-arm {
+    height: 2.25em;
+    margin-bottom: -15.65em;
+    margin-left: 0em;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* drums */
+  .drums {
+    height: 4em;
+    margin-bottom: -14.7em;
+    padding-bottom: 0em;
+    position: relative;
+    z-index: 1;
+  }
+
+  /* speakers */
+  #speakers-img{
+    height: 4em;
+    margin-bottom: -14.7em;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  
 }

@@ -1,7 +1,9 @@
 // import from react
 import React, { useState } from 'react';
+
 // import CSS
 import './TourVideoGallery.css';
+
 //  import from MUI
 import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
@@ -9,13 +11,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 // import images
-// import tvFrame from '../../assets/images/tv_background.jpeg';
-// import audio player
-// import AudioPlayer from 'react-h5-audio-player';
-// import 'react-h5-audio-player/lib/styles.css';
-// import images
-// import FileDownloadIcon from '@mui/icons-material/FileDownload';
-// import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
+import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 
 const TourVideoGallery = () => {
   const [videos] = useState([
@@ -236,11 +232,13 @@ const Item = styled(Paper)(({ theme }) => ({
         <Grid container spacing={4} >
           {videos.map((video) => (  
             <Grid xs={12} sm={6} lg={4}key={video.title} className='video-grid' >
-              
               <Item className='video-gallery-paper' elevation={12} >
-
                 <Grid item className='video-title-grid' >
                   <h3 id='video-title'>"{video.title}"</h3>
+                </Grid>
+
+                <Grid item>
+                  <img src={worldOnFire} alt='burning earth' className='vid-gallery-logo'></img>
                 </Grid>
 
                 <Grid item>
@@ -261,27 +259,13 @@ const Item = styled(Paper)(({ theme }) => ({
 
                 <Grid item id='iframe-grid'>
                   <div className='video-container'>
-                  <iframe
-                    className='video-frame' 
-                    src={video.src}
-                    title="Vain Mainstream - Life Expectancy Tour" 
+                    <iframe
+                      className='video-frame' 
+                      src={video.src}
+                      title="Vain Mainstream - Life Expectancy Tour" 
                     >
-                  </iframe>
+                    </iframe>
                   </div>
-                </Grid>
-
-
-
-                <Grid item>
-                  {/* <img src={} alt='' className=''></img> */}
-                </Grid>
-
-                <Grid item>
-
-                </Grid>
-
-                <Grid item>
-                
                 </Grid>
 
                 <Grid item>
@@ -289,8 +273,7 @@ const Item = styled(Paper)(({ theme }) => ({
                     Vain Mainstream - Life Expectancy Tour
                   </span>
                 </Grid>
-                </Item>
-             
+              </Item>
             </Grid>
           ))} 
        </Grid>

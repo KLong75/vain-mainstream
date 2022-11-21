@@ -10,10 +10,9 @@ nav li {
 
 #nav-list-item {
   list-style: none;
-  font-size: 18px;
+  font-size: 36px;
   text-decoration: none;
   color: blue;
-
 }
 
 .navActive {
@@ -24,4 +23,36 @@ nav li {
 
 .nav-patreon-link {
   text-decoration: none;
+}
+
+
+/* begin mediq queries for responsve sizing */
+@media screen and (max-width: 1536px) {
+  #nav-list-item {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #nav-list-item {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #nav-list-item {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #nav-list-item {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  #nav-list-item {
+  font-size: 12px;
+  }
 }

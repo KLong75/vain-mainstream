@@ -180,26 +180,12 @@ const Mainstream = () => {
               </Grid>
             </Grid>
 
-            {/* <Grid container spacing={1} disableEqualOverflow>
-            <Grid item xs={3}>
-              </Grid>
-            <Grid item xs={3}>
-                <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
-              </Grid>
-              <Grid item xs={3}>
-              <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
-              </Grid>
-              <Grid item xs={3}>
-              </Grid>
-            </Grid> */}
-
             <Grid container spacing={1} disableEqualOverflow>
             <Grid item xs={3}>
               </Grid>
               <Grid item xs={6}>
                 <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
               </Grid>
-           
               <Grid item xs={3}>
               </Grid>
             </Grid>
@@ -207,7 +193,6 @@ const Mainstream = () => {
             <Grid container spacing={1} disableEqualOverflow>
               <Grid item xs={3}>
               </Grid>
-           
               <Grid item xs={6}>
               <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
               </Grid>
@@ -217,13 +202,13 @@ const Mainstream = () => {
 
             <Grid container spacing={1} disableEqualOverflow id="drummer-body-grid">
               <Grid item xs={3}>
-                {/* <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/> */}
+               
               </Grid>
               <Grid item xs={6}>
               <img src={drummerBody} alt='pixelated skeleton torso' className='drummer-body' />
               </Grid>
               <Grid item xs={3}>
-              {/* <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/> */}
+              
               </Grid>
             </Grid>
 
