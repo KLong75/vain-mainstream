@@ -24,7 +24,7 @@ import drummerBody from '../../assets/images/drummer_body.png';
 import drummerRightArm from '../../assets/images/drummer_right_arm_with_drumstick.png';
 import drummerLeftArm from '../../assets/images/drummer_left_arm_with_drumstick.png';
 // import drumSkeleton from '../../assets/images/pixel_drums_headless_drummer2.png';
-import drummerHeadSolid from '../../assets/images/mohawk_head.png'
+import drummerHeadSolid from '../../assets/images/grey_mohawk_skull_solid.png'
 import mohawkSkull from '../../assets/images/mohawk_skull.png';
 // import skeletonNoSkull from '../../assets/images/pixel_skeleton_no_head.png';
 // import guitaristBody from '../../assets/images/guitarist_no_arms_no_head.png';
