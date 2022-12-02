@@ -10,8 +10,7 @@ nav li {
 
 #nav-list-item {
   list-style: none;
-  font-size: 36px;
-  text-decoration: none;
+  font-size: 26px;
   color: blue;
 }
 
@@ -29,13 +28,13 @@ nav li {
 /* begin mediq queries for responsve sizing */
 @media screen and (max-width: 1536px) {
   #nav-list-item {
-    font-size: 32px;
+    /* font-size: 32px; */
   }
 }
 
 @media screen and (max-width: 1200px) {
   #nav-list-item {
-    font-size: 26px;
+    /* font-size: 26px; */
   }
 }
 

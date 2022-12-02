@@ -4,9 +4,10 @@
 
 #tour-headline {
   font-size: 32px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   margin-bottom: .25em;
   text-align: center;
+  color: black;
 }
 
 #tour-div h3 {

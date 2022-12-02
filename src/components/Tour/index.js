@@ -12,14 +12,9 @@ import './Tour.css';
 const Tour = () => {
   return (
     <div id='tour-div'>
-
-
-      
-
-
       <Grid container>
         <Grid item xs={12}>
-        <h2 id='tour-headline'>The Life Expectancy Tour</h2>
+        <h2 id='tour-headline' className='font-effect-fire-animation'>The Life Expectancy Tour</h2>
         </Grid>
       </Grid>
 
@@ -52,7 +47,6 @@ const Tour = () => {
           </span>
       </Marquee>
     
-      
       <TourVideoGallery />
     </div>
   );

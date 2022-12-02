@@ -17,7 +17,8 @@ import 'react-h5-audio-player/lib/styles.css';
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 // import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
-import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
+import worldOnFire from '../../assets/images/try_this_one.gif';
+// import { blue } from '@mui/material/colors';
 
 
 const AlbumTracks = () => {
@@ -174,7 +175,6 @@ const Item = styled(Paper)(({ theme }) => ({
                 </Grid>
                 <Grid item>
                   <span className='download-title-msg'>Download "{track.title}"
-                  
                   </span>
                 </Grid>
                 </Item>

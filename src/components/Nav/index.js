@@ -11,7 +11,7 @@ const Nav = (props) => {
   return (
     <nav>
       <ul>
-        <Grid container> 
+        <Grid container spacing={1}> 
           <Grid item xs={3}> 
             <li 
               id='nav-list-item' 

@@ -11,7 +11,7 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 // import images
-import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
+import worldOnFire from '../../assets/images/try_this_one.gif';
 
 const TourVideoGallery = () => {
   const [videos] = useState([

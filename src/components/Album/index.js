@@ -17,7 +17,7 @@ const Album = () => {
 
       <Grid container justifyContent='center'>
         <Grid item xs={12} justifyContent='center'>
-        <h2 id='album-headline'>"Your Likeness"</h2>
+        <h2 id='album-headline' className='font-effect-fire-animation'>"Your Likeness"</h2>
         </Grid>
       </Grid>
 
@@ -27,10 +27,11 @@ const Album = () => {
         </Grid>
       </Grid>
       
-      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='tour-marquee'>
           <span 
             className='album-marquee-text'> 
               Download the smash hit new album "Your Likeness" by Vain Mainstream today!
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
           <span 
@@ -39,8 +40,9 @@ const Album = () => {
                 Click to join The Mainstream on Patreon!
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-        </Marquee>
+      </Marquee>
       <AlbumTracks />
     </section>
   );

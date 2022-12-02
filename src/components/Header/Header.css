@@ -8,8 +8,8 @@
   /* background-position-y: 200%; 
 } */
 .header-mohawk-skull {
-    height: 6em;
-    margin-top: .75em;
+    height: 3em;
+    margin-top: 0em;
     /* animation: App-logo-spin infinite 8s linear; */
   }
 
@@ -20,50 +20,53 @@
   
   
   .font-effect-fire-animation {
-    margin-top: .5em;
+    /* margin-top: .5em; */
   }
   .header-headline  {
-    font-size: 74px;
+    /* margin-top: .25em; */
+    font-size: 50px;
+    
+    color:black;
     /* margin-top: .5em;
     margin-bottom: 0;
     margin-left: 20px;
     margin-right: 20px;
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
+     */
   }
 
 
 /* begin mediq queries for responsve sizing */
 @media screen and (max-width: 1536px) {
-  .header-mohawk-skull {
+  /* .header-mohawk-skull {
     height: 5em;
     margin-top: .75em;
   }
 
   .header-headline  {
     font-size: 72px;
-  }
+  } */
 }
 
 @media screen and (max-width: 1200px) {
   .header-mohawk-skull {
-    height: 4em;
-    margin-top: .75em;
+    /* height: 4em;
+    margin-top: .75em; */
   }
 
   .header-headline  {
-    font-size: 60px;
+    /* font-size: 60px; */
   }
 }
 
 @media screen and (max-width: 900px) {
 
   .header-mohawk-skull {
-    height: 3em;
-    margin-top: .75em;
+    /* height: 3em;
+    margin-top: .75em; */
   }
 
   .header-headline  {
-    font-size: 50px;
+    /* font-size: 50px; */
   }
 }
 

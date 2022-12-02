@@ -19,23 +19,27 @@
 
 #mainstream-div h2 {
   font-size: 32px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0 10px blue;
   margin-bottom: .25em;
+  color: blue;
 }
 
 .mainstream-paper {
-  background-image: url('../../assets/images/pixel_world_on_fire_cropped.png');
-  background-size: 12em;
+  /* background-image: url('../../assets/images/world_on_fire.gif'); */
+  /* background-image: url('../../assets/images/try_this_one.gif'); */
+  background-size: 20em;
   background-repeat: no-repeat;
-  
-  background-position: 50% 10%;
+  background-position: 50% 2%;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   /* margin: 2em; */
   margin-bottom: 0em;
-  height: 33em;
+  height: 39.25em;
+  /* height: 36em; */
+  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
+
 
 .mainstream-marquee-text {
   font-size: 1.25em;
@@ -48,20 +52,41 @@
 .marquee-patreon-link {
   /* text-decoration: none; */
   color: red;
+  filter: drop-shadow(0 0 0.75rem crimson);
 }
+
+/* logo */
+/* #mainstream-logo-v {
+  font-size: 3em;
+  margin-top: 3.5em;
+  margin-left: 14.35em;
+  color: black;
+  z-index: 2;
+  position: relative;
+}
+
+#mainstream-logo-m {
+  font-size: 3em;
+  margin-top: 3.75em;
+  margin-left: -14em;
+  color: black;
+} */
 
 /* guitarists */
 /* guitarist head */
 .guitarist-skull{
-  height: 2em;
-  margin-bottom: -17.8em;
+  height: 3.25em;
+  margin-top: 0em;
+  margin-bottom: -14.25em;
   margin-left: 0.1em;
+  z-index: 2;
+  position: relative;
+  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-skull {
     animation: guitarist-head-nod infinite alternate .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
@@ -75,126 +100,150 @@
 }
 
 /* guitarist bodies */
-.guitarist-body{
-  height: 4em;
+.guitarist-torso{
+  height: 2.75em;
   margin-top: 0em;
-  margin-bottom: -20.75em;
+  margin-bottom: -15.75em;
   margin-left: 0em;
+  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .guitarist-body {
+  .guitarist-torso {
     animation: skeleton-guitarist-body-rock infinite alternate-reverse .70s linear;
   }
 }
 
 @keyframes skeleton-guitarist-body-rock {
   from {
-    transform: rotate(-4deg);
+    transform: rotate(2deg);
   }
   to {
-    transform: rotate(4deg);
+    transform: rotate(-2deg);
+  }
+}
+
+.guitarist-legs{
+  height: 5.5em;
+  margin-top: 0em;
+  margin-bottom: -17.25em;
+  margin-left: 0em;
+  /* filter: drop-shadow(0 0 0.75rem orange); */
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .guitarist-legs {
+    animation: guitarist-legs-rock infinite alternate-reverse .70s linear;
+  }
+}
+
+@keyframes guitarist-legs-rock {
+  from {
+    transform: rotate(-2deg);
+  }
+  to {
+    transform: rotate(2deg);
   }
 }
 
 
 /* guitarist right arm */
 .guitarist-right-arm {
-  height: 1.8em;
-  margin-bottom: -17.65em;
-  margin-left: -1.8em;
+  height: 3.5em;
+  margin-top: 0em;
+  margin-bottom: -15.55em;
+  margin-left: -3.5em;
   position: relative;
-  z-index: 2;
+  z-index: 3;
+  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-right-arm {
     animation: guitar-right-arm-strum infinite alternate .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
 @keyframes guitar-right-arm-strum {
   from {
-    transform: rotate(24deg);
+    transform: rotate(10deg);
   }
   to {
-    transform: rotate(-20deg);
+    transform: rotate(-14deg);
   }
 }
 
 .guitarist-left-arm {
-  height: 1.5em;
-  margin-bottom: -16.4em;
-  margin-left: 3em;
+  height: 2.75em;
+  margin-top: 0em;
+  margin-bottom: -13.85em;
+  margin-left: 6em;
   position: relative;
   z-index: 2;
+  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-left-arm {
     animation: guitar-left-arm-strum infinite  alternate .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
 @keyframes guitar-left-arm-strum {
   from {
-    transform: rotate(-10deg);
+    transform: rotate(-1deg);
   }
   to {
-    transform: rotate(12deg);
+    transform: rotate(3deg);
   }
 }
 
 /* guitars */
 
-#guitar-grid {
+/* #guitar-grid {
   margin-top: 0em;
-}
+} */
 
 .mainstream-guitar{
-  height: 2em;
-  margin-bottom: -15.75em;
+  height: 3.5em;
+  margin-bottom: -14.75em;
   margin-top: 0em;
   margin-left: -.2em; 
+  z-index: 1;
+  position:relative;
+  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
   .mainstream-guitar {
     animation: mainstream-guitar-spin infinite alternate .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
   }
 }
 
 @keyframes mainstream-guitar-spin {
   from {
-    transform: rotate(-12deg);
+    transform: rotate(-10deg);
   }
   to {
-    transform: rotate(10deg);
+    transform: rotate(-4deg);
   }
 }
 
 
 /* drummer */
-#drummer-head-grid {
-  margin-top: 0em;
-  margin-bottom: 0em;
-}
 
 #mohawk-skull {
-  height: 2.5em;
+  height: 4.25em;
   margin-top: 0em;
-  margin-bottom: -15.75em;
+  margin-bottom: -18.25em;
   margin-left: -0.1em;
-  z-index: 2;
+  z-index: 3;
+  position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
   #mohawk-skull {
-    animation: mohawk-head-nod infinite alternate .70s linear;
-    /* animation: header-guitar-spin infinite 10s reverse; */
+    animation: mohawk-head-nod infinite alternate .60s linear;
   }
 }
 
@@ -207,15 +256,17 @@
   }
 }
 
-#drummer-body-grid {
+/* #drummer-body-grid {
   margin-top: 0em;
   margin-bottom: 0em;
-}
+} */
 
 .drummer-body {
-  height: 3em;
+  height: 5.25em;
   margin-top: 0em;
-  margin-bottom: -15.25em;
+  margin-bottom: -20em;
+  /* margin-top: 0em;
+  margin-bottom: -38em; */
   margin-left: -0.2em;
   z-index: 1;
 }
@@ -236,9 +287,9 @@
 }
 
 .drummer-right-arm {
-  height: 2.5em;
+  height: 4em;
   margin-top: 0em;
-  margin-bottom: -16em;
+  margin-bottom: -19.5em;
   margin-left: 0em;
   position: relative;
   z-index: 3;
@@ -260,11 +311,12 @@
 }
 
 .drummer-left-arm {
-  height: 2.25em;
-  margin-bottom: -15.65em;
-  margin-left: 0em;
+  height: 3.5em;
+  margin-bottom: -18.8em;
+  margin-left: .5em;
   position: relative;
   z-index: 2;
+  
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -282,36 +334,39 @@
   }
 }
 
-#speakers-drums-grid {
+/* #speakers-drums-grid {
   margin-top: 0em;
-}
+} */
 
 /* drums */
 .drums {
-  height: 4em;
-  margin-bottom: -14.7em;
+  height: 6em;
+  margin-top: 0rem;
+  margin-bottom: -20em;
   padding-bottom: 0em;
   position: relative;
   z-index: 1;
+  
 }
 
 
 /* speakers */
-#speakers-img{
-  height: 4em;
-  margin-bottom: -14.7em;
+.speakers-img{
+  height: 8em;
+  margin-top: 0em;
+  margin-bottom: -20.25em;
   /* position: absolute; */
   /* bottom: 8vh; */
 }
 
-#mainstream-audio-player-grid {
-  margin-top: 0em;
-}
 
+/* audio-player */
 .mainstream-react-h5-audio-player {
-  margin-top: 14.5em;
-  outline: gray solid 1px;
+  margin-top: 20em;
+  margin-bottom: em;
+  outline: gray solid 2px;
   position: relative;
+  /* height: 6.5em; */
 }
 
 /* cursor */
@@ -321,13 +376,15 @@
 
 
 /* begin mediq queries for responsve sizing */
-@media screen and (max-width: 1536px) {
-
-}
+/* @media screen and (max-width: 1536px) {
+  .mainstream-paper {
+    background-size: 16em;
+  }
+} */
 
 @media screen and (max-width: 1200px) {
   .mainstream-paper {
-    background-size: 12em;
+    background-size: 18em;
   }
 
   /* guitarists */
@@ -425,7 +482,7 @@
 
 @media screen and (max-width: 900px) {
   .mainstream-paper {
-    background-size: 12em;
+    background-size: 18em;
   }
 
   /* guitarists */
@@ -521,8 +578,22 @@
 }
 
 @media screen and (max-width: 600px) {
+
+  #mainstream-logo-v {
+    font-size: 4.5em;
+    margin-top: 2.25em;
+    margin-left: .9em;
+  }
+  
+  #mainstream-logo-m {
+    font-size: 4.5em;
+    margin-top: 2.5em;
+    margin-left: -.9em;
+  }
+
   .mainstream-paper {
     background-size: 12em;
+    background-position: 50% 5%;
   }
 
   /* guitarists */
@@ -610,13 +681,276 @@
   }
 
   /* speakers */
-  #speakers-img{
-    height: 4em;
-    margin-bottom: -14.7em;
+  .speakers-img {
+    margin-top: -5em;
   }
+
+  .mainstream-react-h5-audio-player {
+    margin-top: 0em;
+}
+
 }
 
 
 @media screen and (max-width: 400px) {
+
+  #mainstream-logo-v {
+    font-size: 4em;
+    margin-top: 2.15em;
+    margin-left: .6em;
+    color: black;
+    z-index: 2;
+    position: relative;
+  }
   
+  #mainstream-logo-m {
+    font-size: 4em;
+    margin-top: 2.35em;
+    margin-left: -.6em;
+    color: black;
+  }
+  
+  .mainstream-paper {
+    background-size: 10em;
+    background-position: 50% 5%;
+  
+  }
+
+  /* guitarists */
+/* guitarist head */
+.guitarist-skull{
+  height: 2em;
+  margin-bottom: -6.25em;
+  margin-left: 0.1em;
+}
+
+/* guitarist bodies */
+.guitarist-body{
+  height: 4em;
+  margin-top: 0em;
+  margin-bottom: -9.2em;
+  margin-left: 0em;
+}
+
+/* guitarist right arm */
+.guitarist-right-arm {
+height: 1.8em;
+margin-bottom: -6.1em;
+margin-left: -2em;
+position: relative;
+z-index: 2;
+}
+
+.guitarist-left-arm {
+  height: 1.5em;
+  margin-bottom: -4.75em;
+  margin-left: 2.2em;
+  position: relative;
+  z-index: 2;
+}
+
+/* guitars */
+.mainstream-guitar{
+  height: 1.75em;
+  margin-bottom: -4em;
+  margin-top: 0em;
+  margin-left: -.2em; 
+}
+
+/* drummer */
+#mohawk-skull {
+  height: 2.5em;
+  margin-top: 0em;
+  margin-bottom: -4em;
+  margin-left: -0.1em;
+  z-index: 2;
+}
+
+.drummer-body {
+  height: 3em;
+  margin-top: 0em;
+  margin-bottom: -3.5em;
+  margin-left: -0.2em;
+  z-index: 1;
+}
+
+.drummer-right-arm {
+  height: 2.5em;
+  margin-top: 0em;
+  margin-bottom: -4.5em;
+  margin-left: 0em;
+  position: relative;
+  z-index: 3;
+}
+
+.drummer-left-arm {
+  height: 2.25em;
+  margin-bottom: -4em;
+  margin-left: 0em;
+  position: relative;
+  z-index: 2;
+}
+
+/* drums */
+.drums {
+  height: 3.5em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  position: relative;
+  z-index: 1;
+}
+
+/* speakers */
+
+.speakers-img {
+  margin-bottom: -.25em;
+}
+
+#speakers-stage-right{
+  height: 3.5em;
+  /* margin-top: 0em; */
+}
+
+#speakers-stage-left {
+  height: 3.5em;
+  /* margin-top: 0em; */
+  margin-left: 0em;
+}
+
+.mainstream-react-h5-audio-player {
+  margin-top: 0em;
+}
+}
+
+
+@media screen and (max-width: 300px) {
+  /* logo */
+#mainstream-logo-v {
+  font-size: 4em;
+  margin-top: 2.15em;
+  margin-left: .4em;
+  color: black;
+  z-index: 2;
+  position: relative;
+}
+
+#mainstream-logo-m {
+  font-size: 4em;
+  margin-top: 2.35em;
+  margin-left: -.4em;
+  color: black;
+}
+
+.mainstream-paper {
+  background-size: 10em;
+  background-position: 50% 5%;
+
+}
+
+/* guitarists */
+/* guitarist head */
+.guitarist-skull{
+  height: 2em;
+  margin-bottom: -6.25em;
+  margin-left: 0.1em;
+}
+
+/* guitarist bodies */
+.guitarist-body{
+  height: 4em;
+  margin-top: 0em;
+  margin-bottom: -9.2em;
+  margin-left: 0em;
+}
+
+/* guitarist right arm */
+.guitarist-right-arm {
+height: 1.8em;
+margin-bottom: -6.1em;
+margin-left: -2em;
+position: relative;
+z-index: 2;
+}
+
+.guitarist-left-arm {
+  height: 1.5em;
+  margin-bottom: -4.75em;
+  margin-left: 2.2em;
+  position: relative;
+  z-index: 2;
+}
+
+/* guitars */
+.mainstream-guitar{
+  height: 1.75em;
+  margin-bottom: -4em;
+  margin-top: 0em;
+  margin-left: -.2em; 
+}
+
+/* drummer */
+#mohawk-skull {
+  height: 2.5em;
+  margin-top: 0em;
+  margin-bottom: -4em;
+  margin-left: -0.1em;
+  z-index: 2;
+}
+
+.drummer-body {
+  height: 3em;
+  margin-top: 0em;
+  margin-bottom: -3.5em;
+  margin-left: -0.2em;
+  z-index: 1;
+}
+
+.drummer-right-arm {
+  height: 2.5em;
+  margin-top: 0em;
+  margin-bottom: -4.5em;
+  margin-left: 0em;
+  position: relative;
+  z-index: 3;
+}
+
+.drummer-left-arm {
+  height: 2.25em;
+  margin-bottom: -4em;
+  margin-left: 0em;
+  position: relative;
+  z-index: 2;
+}
+
+/* drums */
+.drums {
+  height: 3.5em;
+  margin-bottom: 0em;
+  padding-bottom: 0em;
+  position: relative;
+  z-index: 1;
+}
+
+/* speakers */
+
+.speakers-img {
+  margin-bottom: -.25em;
+}
+#speakers-stage-right{
+  height: 3.5em;
+  /* margin-top: 0em; */
+}
+
+#speakers-stage-left {
+  height: 3.5em;
+  /* margin-top: 0em; */
+  margin-left: -1em;
+}
+
+.mainstream-react-h5-audio-player {
+  margin-top: 0em;
+  outline: gray solid 2px;
+  position: relative;
+}
+
 }

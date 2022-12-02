@@ -35,13 +35,13 @@ const Header = (props) => {
 
         <Grid container >
 
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <img src={mohawkSkull} className='header-mohawk-skull' alt='vain mainstream logo'/>
           </Grid>
-          <Grid item xs={8}>
+          <Grid item xs={6}>
             <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
           </Grid>
-          <Grid item xs={2}>
+          <Grid item xs={3}>
             <img src={mohawkSkull} className='header-mohawk-skull' alt='vain mainstream logo'/>
           </Grid>
 </Grid>

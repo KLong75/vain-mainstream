@@ -3,9 +3,10 @@
 } */
 
 #album-headline {
-  font-size: 32px;
-  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-size: 36px;
+  /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   text-align: center;
+  color: black;
 }
   
 #album-sub-headline {
