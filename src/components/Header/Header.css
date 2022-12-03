@@ -82,7 +82,7 @@
 }
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
 
   .header-mohawk-skull {
     height: 1.8em;
@@ -90,6 +90,6 @@
   }
 
   .header-headline  {
-    font-size: 32px;
+    font-size: 28px;
   }
 }

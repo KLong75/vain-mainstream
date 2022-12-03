@@ -32,14 +32,14 @@ const TourVideoGallery = () => {
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     
-    {
-      city: 'city, state',
-      date: '12/31/2023',
-      landmark: 'cool or strange landmark associated with this place',
-      fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
-      title: 'Girl, You Have No Faith In Medicine',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
+    // {
+    //   city: 'city, state',
+    //   date: '12/31/2023',
+    //   landmark: 'cool or strange landmark associated with this place',
+    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
+    //   title: 'Girl, You Have No Faith In Medicine',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+    // },
     // { 
     //   city: 'city, state',
     //   date: '12/31/2023',
@@ -227,11 +227,11 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
   return (
-    <section id='album-tracks-section'>
+    <section id='video-gallery-section'>
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >
           {videos.map((video) => (  
-            <Grid xs={12} sm={6} lg={4}key={video.title} className='video-grid' >
+            <Grid xs={12} sm={6} md={4}key={video.title} className='video-grid' >
               <Item className='video-gallery-paper' elevation={12} >
                 <Grid item className='video-title-grid' >
                   <h3 id='video-title'>"{video.title}"</h3>
@@ -263,6 +263,7 @@ const Item = styled(Paper)(({ theme }) => ({
                       className='video-frame' 
                       src={video.src}
                       title="Vain Mainstream - Life Expectancy Tour" 
+                      allowfullscreen='true'
                     >
                     </iframe>
                   </div>

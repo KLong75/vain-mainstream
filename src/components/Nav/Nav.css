@@ -50,8 +50,8 @@ nav li {
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   #nav-list-item {
-  font-size: 12px;
+  font-size: 10px;
   }
 }
