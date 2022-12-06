@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/vain-mainstream/static/css/main.cacff31f.css",
-    "main.js": "/vain-mainstream/static/js/main.143113fb.js",
+    "main.js": "/vain-mainstream/static/js/main.54c1b754.js",
     "static/js/787.d66b2ccd.chunk.js": "/vain-mainstream/static/js/787.d66b2ccd.chunk.js",
     "static/media/cult_of_personality.mp3": "/vain-mainstream/static/media/cult_of_personality.bee8000c2940de449fb9.mp3",
     "static/media/CLT no vox 101222.mp3": "/vain-mainstream/static/media/CLT no vox 101222.50c870f92d91abd8f621.mp3",
@@ -16,11 +16,11 @@
     "index.html": "/vain-mainstream/index.html",
     "static/media/sym57.cur": "/vain-mainstream/static/media/sym57.9a22c58192664681027f.cur",
     "main.cacff31f.css.map": "/vain-mainstream/static/css/main.cacff31f.css.map",
-    "main.143113fb.js.map": "/vain-mainstream/static/js/main.143113fb.js.map",
+    "main.54c1b754.js.map": "/vain-mainstream/static/js/main.54c1b754.js.map",
     "787.d66b2ccd.chunk.js.map": "/vain-mainstream/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cacff31f.css",
-    "static/js/main.143113fb.js"
+    "static/js/main.54c1b754.js"
   ]
 }
