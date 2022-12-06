@@ -275,7 +275,7 @@ const Mainstream = () => {
                 autoPlay='true'
                 loop 
                 className='mainstream-react-h5-audio-player ' 
-                // src={require(`../../assets/audio/${randomTrack.src}`)} 
+                src={require(`../../assets/audio/${randomTrack.src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
             </Grid>

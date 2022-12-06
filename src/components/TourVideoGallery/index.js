@@ -67,7 +67,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   <img src={worldOnFireGif} alt='burning earth' className='vid-gallery-logo'></img>
                 </Grid>
 
-                <Grid item>
+                {/* <Grid item>
                   <span>{video.date}</span>
                 </Grid>
 
@@ -81,7 +81,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
                 <Grid item>
                   <span>{video.fact}</span>
-                </Grid>
+                </Grid> */}
 
                 <Grid item id='iframe-grid'>
                   <div className='video-container'>
