@@ -26,7 +26,7 @@ const TourVideoGallery = () => {
     {
       title: 'Violent Pornography',
       original_artist: 'System Of A Down',
-      location: 'city, state',
+      location: 'city, state or country',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     
