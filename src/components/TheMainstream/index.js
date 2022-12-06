@@ -72,7 +72,7 @@ console.log(randomTrack);
 console.log(randomTrack.src)
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   padding: theme.spacing(1),
   textAlign: 'center',
   backgroundImage: `url(${worldOnFireGif})`,
@@ -84,7 +84,7 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid item >
           <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
-            <h2 className='headline-patreonlink' justifyContent='center'>Please Click Here To Give Me A Dollar For Health Insurance</h2>
+            <h2 className='headline-patreonlink' >Please Click Here To Give Me A Dollar For Health Insurance</h2>
           </a>
         </Grid>
       </Grid>
@@ -110,10 +110,10 @@ const Mainstream = () => {
           <Item className='mainstream-paper ' elevation={12}>
 
       <Grid container justifyContent='center'>
-        <Grid item className='announcement-grid'>
+        <Grid  className='announcement-grid'>
          
           <span className='font-effect-fire-animation announcement-plain-text'>Presenting</span>
-          <h3 className='font-effect-fire-animation announcement-headline' justifyContent=''>The Life Expectancy Tour</h3>
+          <h3 className='font-effect-fire-animation announcement-headline' >The Life Expectancy Tour</h3>
           <span className='font-effect-fire-animation announcement-plain-text'>Performing the New Album:</span>
           <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4>
           <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
@@ -272,7 +272,7 @@ const Mainstream = () => {
             <Grid item id='mainstream-audio-player-grid'>
               <AudioPlayer
                 id='mainstream-audio-player'
-                autoPlay='true'
+                autoPlay={true}
                 loop 
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 

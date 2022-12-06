@@ -89,7 +89,7 @@ const Item = styled(Paper)(({ theme }) => ({
                       className='video-frame' 
                       src={video.src}
                       title="Vain Mainstream - Life Expectancy Tour" 
-                      allowfullscreen='true'
+                      allowFullScreen='true'
                     >
                     </iframe>
                   </div>

@@ -28,105 +28,153 @@ const AlbumTracks = () => {
       title: 'All I Really Want',
       original_artist: '(Alanis Morissette)',
       location: 'Lisbon, Portugal',
-      src: 'bst_no_vox.mp3'
+      src: 'cult_of_personality.mp3'
     },
-    {
-      title: 'Violent Pornography',
-      src: 'bst_no_vox.mp3'
-    },
+    // {
+    //   title: 'Violent Pornography',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
     
-    {
-      title: 'Girl, You Have No Faith In Medicine',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Smooth',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Number 1',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: "Don't Tell Me",
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Feel No Ways',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Fake Plastic Trees',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Dancing Queen',
-      src: 'DQ_no_vox.mp3'
-    },
-    {
-      title: 'Change The World',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Wildest Dreams',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Dragon Attack',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'All I Wanna Do',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Sizzler Promotional Commercial 1991',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Parabola',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Basket Case',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Ray Of Light',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Loser',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'The Locomotion',
-      src: 'bst_no_vox.mp3'
-    },
-    {
-      title: 'Cult of Personality',
-      src: 'cult_of_personality.mp3'
-    },
-    {
-      title: 'Love in Plaster',
-      src: 'cult_of_personality.mp3'
-    },
-    {
-      title: 'Stand Out',
-      src: 'cult_of_personality.mp3'
-    },
-    {
-      title: 'Warrior',
-      src: 'cult_of_personality.mp3'
-    },
-    {
-      title: 'Just A Clown',
-      src: 'cult_of_personality.mp3'
-    },
-    {
-      title: 'The Rockafeller Skank',
-      src: 'cult_of_personality.mp3'
-    }
+    // {
+    //   title: 'Girl, You Have No Faith In Medicine',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Smooth',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Number 1',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: "Don't Tell Me",
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Feel No Ways',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Fake Plastic Trees',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Dancing Queen',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: 'DQ_no_vox.mp3'
+    // },
+    // {
+    //   title: 'Change The World',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Wildest Dreams',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Dragon Attack',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'All I Wanna Do',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Sizzler Promotional Commercial 1991',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Parabola',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Basket Case',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: 'bst_no_vox.mp3'
+    // },
+    // {
+    //   title: 'Ray Of Light',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Loser',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'The Locomotion',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Cult of Personality',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: 'cult_of_personality.mp3'
+    // },
+    // {
+    //   title: 'Love in Plaster',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Stand Out',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Warrior',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'Just A Clown',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // },
+    // {
+    //   title: 'The Rockafeller Skank',
+    //   original_artist: '()',
+    //   location: '',
+    //   src: ''
+    // }
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
