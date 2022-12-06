@@ -34,4 +34,5 @@
 .marquee-patreon-link {
   /* text-decoration: none; */
   color: red;
+  cursor: url('../../assets/cursor/sym57.cur'), auto;
 }

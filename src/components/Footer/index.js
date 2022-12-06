@@ -16,26 +16,26 @@ const Footer = () => {
   return (
     <footer>
       <Grid container spacing={1}>
-        <Grid item xs={3}>
+        <Grid item xs={4}>
           <a href='https://www.youtube.com/@VainMainstream' target='_blank' rel='noreferrer' className='social-media-links'>
             <YouTubeIcon/>
           </a>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={4}>
           <a href='https://www.instagram.com/vainmainstream/?hl=en' target='_blank' rel='noreferrer' className='social-media-links'>
             <InstagramIcon/>
           </a>  
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={4}>
           <a href='https://twitter.com/vainmainstream' target='_blank' rel='noreferrer' className='social-media-links'>
             <TwitterIcon/>
           </a>
         </Grid>
-        <Grid item xs={3}>
+        {/* <Grid item xs={3}>
           <a href='https://www.facebook.com/VainMainstream/' target='_blank' rel='noreferrer' className='social-media-links'>
             <FacebookIcon/>
           </a>
-        </Grid>
+        </Grid> */}
         <Grid item xs={12} >
           ©2022 Vain Mainstream
         </Grid>

@@ -11,211 +11,32 @@ import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 // import images
-import worldOnFire from '../../assets/images/try_this_one.gif';
+// import worldOnFire from '../../assets/images/try_this_one.gif';
+import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 
 const TourVideoGallery = () => {
   const [videos] = useState([
     {
-      city: 'city, state',
-      date: '12/31/2023',
-      landmark: 'cool or strange landmark associated with this place',
-      fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
+      
       title: 'All I Really Want',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+      original_artist: 'Alanis Morissette',
+      location: 'Lisbon, Portugal',
+      src: 'https://www.youtube.com/embed/CKuDsijE6Ow'
     },
     {
-      city: 'city, state',
-      date: '12/31/2023',
-      landmark: 'cool or strange landmark associated with this place',
-      fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
       title: 'Violent Pornography',
+      original_artist: 'System Of A Down',
+      location: 'city, state',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     
-    // {
-    //   city: 'city, state',
-    //   date: '12/31/2023',
-    //   landmark: 'cool or strange landmark associated with this place',
-    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
-    //   title: 'Girl, You Have No Faith In Medicine',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // { 
-    //   city: 'city, state',
-    //   date: '12/31/2023',
-    //   landmark: 'cool or strange landmark associated with this place',
-    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
-    //   title: 'Smooth',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: 'city, state',
-    //   date: '12/31/2023',
-    //   landmark: 'cool or strange landmark associated with this place',
-    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
-    //   title: 'Number 1',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: 'city, state',
-    //   date: '12/31/2023',
-    //   landmark: 'cool or strange landmark associated with this place',
-    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
-    //   title: "Don't Tell Me",
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: 'city, state',
-    //   date: '12/31/2023',
-    //   landmark: 'cool or strange landmark associated with this place',
-    //   fact: 'here at this cool or strange landmark something cool or strange or interesting once happened',
-    //   title: 'Feel No Ways',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Fake Plastic Trees',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Dancing Queen',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Change The World',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Wildest Dreams',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Dragon Attack',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'All I Wanna Do',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Sizzler Promotional Commercial 1991',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Parabola',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Basket Case',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Ray Of Light',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
     {
-      city: 'Waco, TX',
-      date: '9/11/2001',
-      landmark: 'Branch Davidian Compound',
-      fact: '',
       title: 'Loser',
+      original_artist: 'Beck',
+      location: 'Waco, TX',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'The Locomotion',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Cult of Personality',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Love in Plaster',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Stand Out',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',  
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Warrior',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'Just A Clown',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   city: '',
-    //   date: '',
-    //   landmark: '',
-    //   fact: '',
-    //   title: 'The Rockafeller Skank',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // }
+    
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -234,11 +55,16 @@ const Item = styled(Paper)(({ theme }) => ({
             <Grid xs={12} sm={6} md={4}key={video.title} className='video-grid' >
               <Item className='video-gallery-paper' elevation={12} >
                 <Grid item className='video-title-grid' >
-                  <h3 id='video-title'>"{video.title}"</h3>
+                  {/* <h3 id='video-title'>"{video.title}" </h3> */}
+                  <h4 id='video-title'>{(`"${video.title}" (${video.original_artist}) ${video.location}`)}</h4>
                 </Grid>
 
+                {/* <Grid item>
+                  <h4>{`${video.location}`}</h4>
+                </Grid> */}
+
                 <Grid item>
-                  <img src={worldOnFire} alt='burning earth' className='vid-gallery-logo'></img>
+                  <img src={worldOnFireGif} alt='burning earth' className='vid-gallery-logo'></img>
                 </Grid>
 
                 <Grid item>

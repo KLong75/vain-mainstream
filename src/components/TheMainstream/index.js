@@ -82,8 +82,10 @@ const Mainstream = () => {
   return (
     <div id='mainstream-div'>
       <Grid container justifyContent='center'>
-        <Grid item>
-          <h2 className=''>Mainstream Radio</h2>
+        <Grid item >
+          <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
+            <h2 className='headline-patreonlink' justifyContent='center'>Please Click Here To Give Me A Dollar For Health Insurance</h2>
+          </a>
         </Grid>
       </Grid>
          
@@ -106,6 +108,20 @@ const Mainstream = () => {
         <Box sx={{ flexGrow: 1 }}>
 
           <Item className='mainstream-paper ' elevation={12}>
+
+      <Grid container justifyContent='center'>
+        <Grid item className='announcement-grid'>
+         
+          <span className='font-effect-fire-animation announcement-plain-text'>Presenting</span>
+          <h3 className='font-effect-fire-animation announcement-headline' justifyContent=''>The Life Expectancy Tour</h3>
+          <span className='font-effect-fire-animation announcement-plain-text'>Performing the New Album:</span>
+          <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4>
+          <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
+            <h5 className='font-effect-fire-animation announcement-sub-headline announcement-patreon-link'>aka "Please Give Me A Dollar For Health Insurance"</h5>
+          </a>
+        
+        </Grid>
+      </Grid>
 
           {/* <Grid container spacing={1} disableEqualOverflow id=''>
 
@@ -134,14 +150,6 @@ const Mainstream = () => {
               </Grid>
             </Grid>
 
-
-
-
-           
-
-
-
-
             <Grid container spacing={1} disableEqualOverflow id='guitarist-body-grid'>
               <Grid item xs={3} >
                 <img src={guitaristTorso} alt='pixelated skeleton' className='guitarist-torso' />
@@ -154,10 +162,6 @@ const Mainstream = () => {
                   <img src={guitaristTorso} alt='pixelated skeleton' className='guitarist-torso' />
               </Grid>
             </Grid>
-
-
-
-
 
             <Grid container spacing={1} disableEqualOverflow id='guitar-right-arm-grid'>
               <Grid item xs={3} >
@@ -187,14 +191,6 @@ const Mainstream = () => {
 
             </Grid>
 
-
-
-
-
-
-
-
-
             <Grid container spacing={1} disableEqualOverflow id='guitar-grid'>
               <Grid item xs={3} >
                 <img src={flyingV} className='mainstream-guitar ' alt='flying v electric guitar'/>
@@ -205,17 +201,6 @@ const Mainstream = () => {
                 <img src={flyingV} className='mainstream-guitar' id='stage-left-guitar' alt='flying v electric guitar'/>
               </Grid>
             </Grid>
-
-
-
-
-
-
-
-
-
-
-
 
             <Grid container spacing={1} disableEqualOverflow id='guitarist-body-grid'>
               <Grid item xs={3} >
@@ -229,10 +214,6 @@ const Mainstream = () => {
                   <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
               </Grid>
             </Grid>
-
-            
-
-            
 
             <Grid container spacing={1} disableEqualOverflow id='drummer-head-grid'>
             <Grid item xs={3}>
@@ -277,15 +258,15 @@ const Mainstream = () => {
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='speakers-drums-grid'>
-              <Grid item xs={3} >
+              {/* <Grid item xs={3} >
                 <img src={speakers} alt='pixelated loudspeakers' className= 'speakers-img' id='speakers-stage-right' />
-              </Grid>
-              <Grid item xs={6} >
+              </Grid> */}
+              <Grid item xs={12} >
                 <img src={drums} alt='pixelated drumset' id='' className='drums' />
               </Grid>
-              <Grid item xs={3} >
+              {/* <Grid item xs={3} >
               <img src={speakers} alt='pixelated loudspeakers' className= 'speakers-img' id='speakers-stage-left' />
-              </Grid>
+              </Grid> */}
             </Grid>
 
             <Grid item id='mainstream-audio-player-grid'>
@@ -294,10 +275,8 @@ const Mainstream = () => {
                 autoPlay='true'
                 loop 
                 className='mainstream-react-h5-audio-player ' 
-                src={require(`../../assets/audio/${randomTrack.src}`)}
-                // header={randomTrack.title} 
-                header={(`"${randomTrack.title}" by Vain Mainstream`)}
-                
+                // src={require(`../../assets/audio/${randomTrack.src}`)} 
+                header={(`"${randomTrack.title}"`)}
               />
             </Grid>
           </Item>

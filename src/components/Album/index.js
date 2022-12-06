@@ -23,7 +23,7 @@ const Album = () => {
 
       <Grid container>
         <Grid item xs={12}>
-        <h3 id='album-sub-headline'>by Vain Mainstream</h3>
+        <h3 id='album-sub-headline'>aka "Please Give Me A Dollar For Health Insurance"</h3>
         </Grid>
       </Grid>
       
@@ -37,7 +37,8 @@ const Album = () => {
           <span 
             className='album-marquee-text'> 
               <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
-                Click to join The Mainstream on Patreon!
+                {/* Click to join The Mainstream on Patreon! */}
+                The album is free but medical bills are not. Please click to give me a dollar for health insurance.
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

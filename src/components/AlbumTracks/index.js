@@ -17,7 +17,8 @@ import 'react-h5-audio-player/lib/styles.css';
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 // import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
-import worldOnFire from '../../assets/images/try_this_one.gif';
+// import worldOnFire from '../../assets/images/try_this_one.gif';
+import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 // import { blue } from '@mui/material/colors';
 
 
@@ -25,6 +26,8 @@ const AlbumTracks = () => {
   const [tracks] = useState([
     {
       title: 'All I Really Want',
+      original_artist: '(Alanis Morissette)',
+      location: 'Lisbon, Portugal',
       src: 'bst_no_vox.mp3'
     },
     {
@@ -144,18 +147,14 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
-                  <h3 id='track-title'>"{track.title}"</h3>
+                  <h3 id='track-title'>"{track.title}" {track.original_artist} {track.location}</h3>
                 </Grid>
                 <Grid item>
-                  <img src={worldOnFire} alt='pixelated earth on fire' className='pixel-record album-tracks-logo'></img>
+                  <img src={worldOnFireGif} alt='pixelated earth on fire' className='pixel-record album-tracks-logo'></img>
                 </Grid>
                 <Grid item>
-                  {/* <audio controls className='album-tracks-audio-player'>
-                    <source src={require(`../../assets/audio/${track.src}`)}></source>
-                  </audio> */}
                   
                   <AudioPlayer
-                    
                     className='react-h5-audio-player' 
                     src={require(`../../assets/audio/${track.src}`)} 
                     // header={(`${track.title}`)}
