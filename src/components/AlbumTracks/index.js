@@ -73,12 +73,12 @@ const AlbumTracks = () => {
     //   location: '',
     //   src: ''
     // },
-    // {
-    //   title: 'Dancing Queen',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: 'DQ_no_vox.mp3'
-    // },
+    {
+      title: 'Dancing Queen',
+      original_artist: '(Abba)',
+      location: '',
+      src: 'DQ_no_vox.mp3'
+    },
     // {
     //   title: 'Change The World',
     //   original_artist: '()',
@@ -115,12 +115,12 @@ const AlbumTracks = () => {
     //   location: '',
     //   src: ''
     // },
-    // {
-    //   title: 'Basket Case',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: 'bst_no_vox.mp3'
-    // },
+    {
+      title: 'Basket Case',
+      original_artist: '(Green Day)',
+      location: '',
+      src: 'bst_no_vox.mp3'
+    },
     // {
     //   title: 'Ray Of Light',
     //   original_artist: '()',
@@ -129,7 +129,7 @@ const AlbumTracks = () => {
     // },
     // {
     //   title: 'Loser',
-    //   original_artist: '()',
+    //   original_artist: '(Beck)',
     //   location: '',
     //   src: ''
     // },
@@ -139,12 +139,12 @@ const AlbumTracks = () => {
     //   location: '',
     //   src: ''
     // },
-    // {
-    //   title: 'Cult of Personality',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: 'cult_of_personality.mp3'
-    // },
+    {
+      title: 'Cult of Personality',
+      original_artist: '(Living Colour)',
+      location: '',
+      src: 'cult_of_personality.mp3'
+    },
     // {
     //   title: 'Love in Plaster',
     //   original_artist: '()',
