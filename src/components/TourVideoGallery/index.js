@@ -54,15 +54,15 @@ const Item = styled(Paper)(({ theme }) => ({
           {videos.map((video) => (  
             <Grid xs={12} sm={6} md={4} key={video.title} className='video-grid' >
               <Item className='video-gallery-paper' elevation={12} >
-                
+
                 <Grid item className='video-title-grid' >
                   {/* <h3 id='video-title'>"{video.title}" </h3> */}
-                  <h4 id='video-title'>{(`"${video.title}" (${video.original_artist}) ${video.location}`)}</h4>
+                  <h4 id='video-title'>{(`"${video.title}" (${video.original_artist}) `)}</h4>
                 </Grid>
 
-                {/* <Grid item>
-                  <h4>{`${video.location}`}</h4>
-                </Grid> */}
+                <Grid item>
+                  <h5 id='video-location'>{`${video.location}`}</h5>
+                </Grid>
 
                 <Grid item>
                   <img src={worldOnFireGif} alt='burning earth' className='vid-gallery-logo'></img>

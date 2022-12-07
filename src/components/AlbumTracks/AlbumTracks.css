@@ -1,17 +1,7 @@
-.css-124fws5 {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-left: 0;
-  padding-right: 0;
-}
-
 .album-tracks-logo {
   height: 8em;
 }
 
-/* .pixel-record {
-    height: 8em;
-} */
 
 /* .album-tracks-audio-player {
   width: 14em;
@@ -26,7 +16,15 @@
 
 #track-title {
   color: black;
-  font-size: 1.15em;
+  font-size: 1.5em;
+  padding-top: 0em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+#track-location {
+  color: black;
+  font-size: 1.5em;
   padding-top: 0em;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
@@ -62,7 +60,7 @@
 .react-h5-audio-player {
   /* margin-top: 2px;
   margin-bottom: 4px; */
-  outline: gray solid 1px;
+  outline: black solid 1px;
   
 }
 

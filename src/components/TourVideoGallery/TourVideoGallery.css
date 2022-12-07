@@ -1,5 +1,17 @@
 #video-title {
-  font-size: 1.15em;
+  color: black;
+  font-size: 1.5em;
+  padding-top: 0em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+}
+
+#video-location {
+  color: black;
+  font-size: 1.5em;
+  padding-top: 0em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
 }
 
 #video-gallery-section {

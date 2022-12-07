@@ -195,8 +195,15 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
-                  <h3 id='track-title'>"{track.title}" {track.original_artist} {track.location}</h3>
+                  <h3 id='track-title'>"{track.title}" {track.original_artist} </h3>
                 </Grid>
+
+                <Grid item className='track-location-grid' >
+                  <h4 id='track-location'> {track.location}</h4>
+                </Grid>
+
+
+
 
                 <Grid item>
                   <img src={worldOnFireGif} alt='pixelated earth on fire' className='album-tracks-logo'></img>
