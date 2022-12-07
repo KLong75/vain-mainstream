@@ -26,155 +26,155 @@ const AlbumTracks = () => {
   const [tracks] = useState([
     {
       title: 'All I Really Want',
-      original_artist: '(Alanis Morissette)',
+      original_artist: 'Alanis Morissette',
       location: 'Lisbon, Portugal',
       src: 'cult_of_personality.mp3'
     },
-    // {
-    //   title: 'Violent Pornography',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    
-    // {
-    //   title: 'Girl, You Have No Faith In Medicine',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Smooth',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Number 1',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: "Don't Tell Me",
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Feel No Ways',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Fake Plastic Trees',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
     {
-      title: 'Dancing Queen',
-      original_artist: '(Abba)',
-      location: '',
-      src: 'DQ_no_vox.mp3'
-    },
-    // {
-    //   title: 'Change The World',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Wildest Dreams',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Dragon Attack',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'All I Wanna Do',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Sizzler Promotional Commercial 1991',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Parabola',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    {
-      title: 'Basket Case',
-      original_artist: '(Green Day)',
-      location: '',
+      title: 'Violent Pornography',
+      original_artist: 'System Of A Down',
+      location: 'city, country',
       src: 'bst_no_vox.mp3'
     },
-    // {
-    //   title: 'Ray Of Light',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Loser',
-    //   original_artist: '(Beck)',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'The Locomotion',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
+    
+    {
+      title: 'Girl, You Have No Faith In Medicine',
+      original_artist: 'The White Stripes',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Smooth',
+      original_artist: 'Santana ft. Rob Thomas',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Number 1',
+      original_artist: 'Nelly',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: "Don't Tell Me",
+      original_artist: 'Avril Lavigne',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Feel No Ways',
+      original_artist: 'Drake',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Fake Plastic Trees',
+      original_artist: 'Radiohead',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Dancing Queen',
+      original_artist: 'Abba',
+      location: 'city, country',
+      src: 'DQ_no_vox.mp3'
+    },
+    {
+      title: 'Change The World',
+      original_artist: 'The Offspring',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Wildest Dreams',
+      original_artist: 'Taylor Swift',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Dragon Attack',
+      original_artist: 'Queen',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'All I Wanna Do',
+      original_artist: 'Sheryl Crow',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Sizzler Promotional Commercial 1991',
+      original_artist: 'Sizzler',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Parabola',
+      original_artist: 'Tool',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Basket Case',
+      original_artist: 'Green Day',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Ray Of Light',
+      original_artist: 'Madonna',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Loser',
+      original_artist: 'Beck',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'The Locomotion',
+      original_artist: 'Carol King',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
     {
       title: 'Cult of Personality',
-      original_artist: '(Living Colour)',
+      original_artist: 'Living Colour',
       location: '',
       src: 'cult_of_personality.mp3'
     },
-    // {
-    //   title: 'Love in Plaster',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Stand Out',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Warrior',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'Just A Clown',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // },
-    // {
-    //   title: 'The Rockafeller Skank',
-    //   original_artist: '()',
-    //   location: '',
-    //   src: ''
-    // }
+    {
+      title: 'Love in Plaster',
+      original_artist: 'The Hives',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Stand Out',
+      original_artist: 'Tevin Campbell',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Warrior',
+      original_artist: 'The Yeah Yeah Yeahs',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'Just A Clown',
+      original_artist: 'Charley Crockett',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
+    {
+      title: 'The Rockafeller Skank',
+      original_artist: 'Fatboy Slim',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    }
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -195,7 +195,8 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
-                  <h3 id='track-title'>"{track.title}" {track.original_artist} </h3>
+                  {/* <h3 id='track-title'>"{track.title}" {track.original_artist} </h3> */}
+                  <h3 id='track-title'>{(`"${track.title}" (${track.original_artist}) `)}</h3>
                 </Grid>
 
                 <Grid item className='track-location-grid' >
