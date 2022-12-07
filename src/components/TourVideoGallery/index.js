@@ -40,7 +40,7 @@ const TourVideoGallery = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   // ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
@@ -52,8 +52,9 @@ const Item = styled(Paper)(({ theme }) => ({
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >
           {videos.map((video) => (  
-            <Grid xs={12} sm={6} md={4}key={video.title} className='video-grid' >
+            <Grid xs={12} sm={6} md={4} key={video.title} className='video-grid' >
               <Item className='video-gallery-paper' elevation={12} >
+                
                 <Grid item className='video-title-grid' >
                   {/* <h3 id='video-title'>"{video.title}" </h3> */}
                   <h4 id='video-title'>{(`"${video.title}" (${video.original_artist}) ${video.location}`)}</h4>

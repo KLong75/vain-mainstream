@@ -178,7 +178,7 @@ const AlbumTracks = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   // ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
@@ -190,15 +190,16 @@ const Item = styled(Paper)(({ theme }) => ({
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >
           {tracks.map((track) => (  
-            <Grid xs={12} sm={6} md={4}key={track.title} className='track-grid'>
+            <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
               {/* <Paper elevation={24} className='track-paper'> */}
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
                   <h3 id='track-title'>"{track.title}" {track.original_artist} {track.location}</h3>
                 </Grid>
+
                 <Grid item>
-                  <img src={worldOnFireGif} alt='pixelated earth on fire' className='pixel-record album-tracks-logo'></img>
+                  <img src={worldOnFireGif} alt='pixelated earth on fire' className='album-tracks-logo'></img>
                 </Grid>
                 <Grid item>
                   

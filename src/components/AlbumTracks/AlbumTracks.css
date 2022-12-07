@@ -1,6 +1,10 @@
 .css-124fws5 {
-  padding: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
 }
+
 .album-tracks-logo {
   height: 8em;
 }
@@ -21,21 +25,21 @@
 }
 
 #track-title {
-  /* color: black; */
+  color: black;
   font-size: 1.15em;
   padding-top: 0em;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  
 }
 
-.MuiGrid2-root.MuiGrid2-direction-xs-row.css-27y2fm-MuiGrid2-root {
-    padding: 0;
-}
 
-.MuiGrid2-root.MuiGrid2-direction-xs-row.track-title-grid.css-6cmtoe-MuiGrid2-root {
+/* .MuiGrid2-direction-xs-row .css-27y2fm-MuiGrid2-root {
   padding: 0;
-}
+} */
+
+/* .MuiGrid2-root.MuiGrid2-direction-xs-row.track-title-grid.css-6cmtoe-MuiGrid2-root {
+  padding: 0;
+} */
 
 .track-download {
     /* cursor: pointer; */
