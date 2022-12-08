@@ -29,6 +29,7 @@
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   margin-top: -1.35em;
+  
 }
 
 
@@ -64,6 +65,7 @@
   /* margin-top: 2px;
   margin-bottom: 4px; */
   outline: black solid 1px;
+  margin-top: -1.5em;
   margin-bottom: -2em;
   
 }
