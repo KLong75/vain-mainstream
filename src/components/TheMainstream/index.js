@@ -112,12 +112,12 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid  className='announcement-grid'>
          
-          <span className='font-effect-fire-animation announcement-plain-text'>Presenting</span>
-          <h3 className='font-effect-fire-animation announcement-headline' >The Life Expectancy Tour</h3>
-          <span className='font-effect-fire-animation announcement-plain-text'>Performing the New Album:</span>
-          <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4>
+          <span className='font-effect-fire-animation announcement-plain-text'>The New ALbum</span>
+          <h3 className='font-effect-fire-animation announcement-headline' >Your Likeness</h3>
+          <span className='font-effect-fire-animation announcement-plain-text'>or</span>
+          {/* <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4> */}
           <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
-            <h5 className='font-effect-fire-animation announcement-sub-headline announcement-patreon-link'>aka "Please Give Me A Dollar For Health Insurance"</h5>
+            <h4 className='font-effect-fire-animation announcement-sub-headline announcement-patreon-link'>Please Give Me A Dollar For Health Insurance</h4>
           </a>
         
         </Grid>

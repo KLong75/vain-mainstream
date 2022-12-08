@@ -22,7 +22,8 @@ const TourVideoGallery = () => {
       location: 'Lisbon, Portugal',
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/512px-Flag_of_Portugal.svg.png',
       flag_alt: 'Flag of Portugal',
-      src: 'https://www.youtube.com/embed/CKuDsijE6Ow'
+      src: 'https://www.youtube.com/embed/CKuDsijE6Ow',
+      date: '12/4/2022'
     },
     {
       title: 'Loser',
@@ -30,7 +31,8 @@ const TourVideoGallery = () => {
       location: 'Waco, TX',
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
       flag_alt: 'Flag of Texas',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
+      src: 'https://www.youtube.com/embed/5XVP03JmRaI',
+      date: '10/17/2022'
     },
     {
       title: 'Violent Pornography',
@@ -243,7 +245,7 @@ const Item = styled(Paper)(({ theme }) => ({
 
                 <Grid item>
                   <span className='video-caption'>
-                    Vain Mainstream - Life Expectancy Tour
+                    Life Expectancy Tour - {video.date}
                   </span>
                 </Grid>
               </Item>

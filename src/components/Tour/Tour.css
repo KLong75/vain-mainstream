@@ -12,11 +12,18 @@
 
 #tour-div h3 {
   text-align: center;
+  color: black;
+}
+
+#tour-div h4 {
+  text-align: center;
+  color: black;
 }
 
 #tour-div p {
     text-align: center;
-    color: blue;
+    color: black;
+    font-size: 16px;
 }
 
 .tour-marquee {

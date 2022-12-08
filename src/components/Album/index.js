@@ -23,11 +23,11 @@ const Album = () => {
 
       <Grid container>
         <Grid item xs={12}>
-        <h3 id='album-sub-headline'>aka "Please Give Me A Dollar For Health Insurance"</h3>
+        <h3 id='album-sub-headline' className='font-effect-fire-animation'>aka "Please Give Me A Dollar For Health Insurance"</h3>
         </Grid>
       </Grid>
       
-      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='tour-marquee'>
+      {/* <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='tour-marquee'>
           <span 
             className='album-marquee-text'> 
               Download tracks from the new album "Your Likeness" by Vain Mainstream today! A new track will be added each week of the Life Expectancy Tour until all 25 tracks have been revealed.
@@ -42,7 +42,7 @@ const Album = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-      </Marquee>
+      </Marquee> */}
       <AlbumTracks />
     </section>
   );
