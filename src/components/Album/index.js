@@ -30,14 +30,13 @@ const Album = () => {
       <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='tour-marquee'>
           <span 
             className='album-marquee-text'> 
-              Download the smash hit new album "Your Likeness" by Vain Mainstream today!
+              Download tracks from the new album "Your Likeness" by Vain Mainstream today! A new track will be added each week of the Life Expectancy Tour until all 25 tracks have been revealed.
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
           <span 
             className='album-marquee-text'> 
-              <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
-                {/* Click to join The Mainstream on Patreon! */}
+              <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
                 The album is free but medical bills are not. Please click to give me a dollar for health insurance.
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

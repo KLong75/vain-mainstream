@@ -10,6 +10,8 @@ import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
+// import Typography from '@mui/material/Typography';
+
 // import audio player
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
@@ -178,9 +180,9 @@ const AlbumTracks = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   // ...theme.typography.body2,
-  padding: theme.spacing(1),
+  padding: theme.spacing(0),
   textAlign: 'center',
   // color: theme.palette.text.secondary,
 }));
@@ -191,7 +193,7 @@ const Item = styled(Paper)(({ theme }) => ({
         <Grid container spacing={4} >
           {tracks.map((track) => (  
             <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
-              {/* <Paper elevation={24} className='track-paper'> */}
+              {/* <Paper elevation={12} className='track-paper'> */}
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
@@ -203,16 +205,13 @@ const Item = styled(Paper)(({ theme }) => ({
                   <h4 id='track-location'> {track.location}</h4>
                 </Grid>
 
-
-
-
-                <Grid item>
+                {/* <Grid item>
                   <img src={worldOnFireGif} alt='pixelated earth on fire' className='album-tracks-logo'></img>
-                </Grid>
+                </Grid> */}
+
                 <Grid item>
-                  
                   <AudioPlayer
-                    className='react-h5-audio-player' 
+                    className='album-tracks-react-h5-audio-player' 
                     src={require(`../../assets/audio/${track.src}`)} 
                     // header={(`${track.title}`)}
                     header='Vain Mainstream'
@@ -230,10 +229,10 @@ const Item = styled(Paper)(({ theme }) => ({
                   </a>
                 </Grid>
                 <Grid item>
-                  <span className='download-title-msg'>Download "{track.title}"
+                  <span className='download-title-msg'>Download MP3 of "{track.title}"
                   </span>
                 </Grid>
-                </Item>
+              </Item>
               {/* </Paper> */}
             </Grid>
           ))} 

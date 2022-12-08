@@ -16,7 +16,8 @@ import { styled } from '@mui/material/styles';
 // import images
 // import flyingV from '../../assets/images/blue_flying_v.png';
 // import blackGuitar from '../../assets/images/black_rock_guitar.png';
-import mohawkSkull from '../../assets/images/mohawk_skull.png';
+// import mohawkSkull from '../../assets/images/mohawk_skull.png';
+import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 
 const Item = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
@@ -36,13 +37,13 @@ const Header = (props) => {
         <Grid container >
 
           <Grid item xs={3}>
-            <img src={mohawkSkull} className='header-mohawk-skull' alt='vain mainstream logo'/>
+            <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
           <Grid item xs={6}>
             <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
           </Grid>
           <Grid item xs={3}>
-            <img src={mohawkSkull} className='header-mohawk-skull' alt='vain mainstream logo'/>
+            <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
 </Grid>
 

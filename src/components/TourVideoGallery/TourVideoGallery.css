@@ -36,6 +36,10 @@
     border: 0;
 }
 
-.vid-gallery-logo {
-  height: 8em;
+#video-location {
+  margin-top: -1.25em;
+}
+
+.nation-flag {
+  margin-top: .2em;
 }

@@ -83,7 +83,7 @@ const Mainstream = () => {
     <div id='mainstream-div'>
       <Grid container justifyContent='center'>
         <Grid item >
-          <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
+          <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
             <h2 className='headline-patreonlink' >Please Click Here To Give Me A Dollar For Health Insurance</h2>
           </a>
         </Grid>
@@ -97,8 +97,8 @@ const Mainstream = () => {
           </span>
           <span 
             className='mainstream-marquee-text'> 
-              <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
-                Click to join The Mainstream on Patreon!
+              <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
+                Please click to give me a dollar for health insurance!
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
@@ -116,25 +116,13 @@ const Mainstream = () => {
           <h3 className='font-effect-fire-animation announcement-headline' >The Life Expectancy Tour</h3>
           <span className='font-effect-fire-animation announcement-plain-text'>Performing the New Album:</span>
           <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4>
-          <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
+          <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
             <h5 className='font-effect-fire-animation announcement-sub-headline announcement-patreon-link'>aka "Please Give Me A Dollar For Health Insurance"</h5>
           </a>
         
         </Grid>
       </Grid>
-
-          {/* <Grid container spacing={1} disableEqualOverflow id=''>
-
-            <Grid item xs={6}>
-            <p id='mainstream-logo-v' className='font-effect-fire-animation'>V</p>
-            </Grid>
-
-            <Grid item xs={6}>
-            <p id='mainstream-logo-m' className='font-effect-fire-animation'>M</p>
-            </Grid>
-
-          </Grid> */}
-
+      
             <Grid container spacing={1} disableEqualOverflow id=''>
 
               <Grid item xs={3} >
@@ -275,7 +263,7 @@ const Mainstream = () => {
                 autoPlay={true}
                 loop 
                 className='mainstream-react-h5-audio-player ' 
-                src={require(`../../assets/audio/${randomTrack.src}`)} 
+                // src={require(`../../assets/audio/${randomTrack.src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
             </Grid>

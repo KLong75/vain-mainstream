@@ -43,7 +43,8 @@
     /* cursor: pointer; */
     cursor: url('../../assets/cursor/sym57.cur'), auto;
     color: blue;
-    margin-top: .5em;
+    margin-top: -.5em;
+    margin-bottom: -1.25em;
 }
 
 .track-paper {
@@ -55,12 +56,14 @@
 .download-title-msg {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
+  margin-top: -15em;
 }
 
-.react-h5-audio-player {
+.album-tracks-react-h5-audio-player {
   /* margin-top: 2px;
   margin-bottom: 4px; */
   outline: black solid 1px;
+  margin-bottom: -2em;
   
 }
 
@@ -74,4 +77,14 @@
 
 .rhap_container svg  {
   cursor: url('../../assets/cursor/sym57.cur'), auto;
+}
+
+
+@media screen and (max-width: 280px) {
+
+  .album-tracks-react-h5-audio-player {
+    margin-top: 0em;
+    margin-bottom: 0em;
+    display: none;
+  }
 }

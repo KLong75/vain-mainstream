@@ -12,27 +12,40 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 // import images
 // import worldOnFire from '../../assets/images/try_this_one.gif';
-import worldOnFireGif from '../../assets/images/world_on_fire.gif';
+// import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 
 const TourVideoGallery = () => {
   const [videos] = useState([
     {
-      
       title: 'All I Really Want',
       original_artist: 'Alanis Morissette',
       location: 'Lisbon, Portugal',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/512px-Flag_of_Portugal.svg.png',
+      flag_alt: 'Flag of Portugal',
       src: 'https://www.youtube.com/embed/CKuDsijE6Ow'
+    },
+    {
+      title: 'Loser',
+      original_artist: 'Beck',
+      location: 'Waco, TX',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
+      flag_alt: 'Flag of Texas',
+      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     {
       title: 'Violent Pornography',
       original_artist: 'System Of A Down',
-      location: 'city, state or country',
+      location: 'city, country',
+      location_flag_src: '',
+      flag_alt: '',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     {
       title: 'Girl, You Have No Faith In Medicine',
       original_artist: 'The White Stripes',
       location: 'city, country',
+      location_flag_src: '',
+      flag_alt: '',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
     {
@@ -119,12 +132,7 @@ const TourVideoGallery = () => {
       location: 'city, country',
       src: 'https://www.youtube.com/embed/5XVP03JmRaI'
     },
-    {
-      title: 'Loser',
-      original_artist: 'Beck',
-      location: 'Waco, TX',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    },
+    
     {
       title: 'The Locomotion',
       original_artist: 'Carole King',
@@ -191,13 +199,19 @@ const Item = styled(Paper)(({ theme }) => ({
                   <h3 id='video-title'>{(`"${video.title}" (${video.original_artist}) `)}</h3>
                 </Grid>
 
-                <Grid item>
-                  <h4 id='video-location'>{`${video.location}`}</h4>
-                </Grid>
+                {/* <Grid item>
+                  <h4 id='video-location'>{`(${video.original_artist})`}</h4>
+                </Grid> */}
 
                 <Grid item>
-                  <img src={worldOnFireGif} alt='burning earth' className='vid-gallery-logo'></img>
+                  <h4 id='video-location'>{`${video.location}`}</h4>
+            
+                  <img width="64" alt={video.flag_alt} src={video.location_flag_src} className='nation-flag'></img>
                 </Grid>
+
+                {/* <Grid item>
+                  <img src={worldOnFireGif} alt='burning earth' className='vid-gallery-logo'></img>
+                </Grid> */}
 
                 {/* <Grid item>
                   <span>{video.date}</span>
