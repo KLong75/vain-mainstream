@@ -84,12 +84,12 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid item >
           <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
-            <h2 className='headline-patreonlink' >Please Click Here To Give Me A Dollar For Health Insurance</h2>
+            <h2 className='headline-patreonlink' >Please Click Here To Give Me A Dollar</h2>
           </a>
         </Grid>
       </Grid>
          
-      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+      {/* <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
         <span 
             className='mainstream-marquee-text'> 
               Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
@@ -103,7 +103,7 @@ const Mainstream = () => {
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
 
-        </Marquee>
+        </Marquee> */}
 
         <Box sx={{ flexGrow: 1 }}>
 
