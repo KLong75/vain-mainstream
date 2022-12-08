@@ -14,23 +14,19 @@ const Tour = () => {
     <div id='tour-div'>
       <Grid container>
         <Grid item xs={12}>
-        <h2 id='tour-headline' className='font-effect-fire-animation'>Life Expectancy Tour</h2>
-        <h3 className='font-effect-fire-animation'>December 2022 - May 2023</h3>
-        <span>Coming Soon to a town probably nowhere near you!</span>
+        <h2 id='tour-headline' className='font-effect-fire-animation tour-headline'>Life Expectancy Tour</h2>
         </Grid>
       </Grid>
 
       <Grid container  >
         <Grid item xs={12}>
-          <p className='tour-description-text font-effect-fire-animation'>Performing songs from the new album</p> 
-          <h3 className='font-effect-fire-animation'>Your Likeness</h3>
-          <h4 className='font-effect-fire-animation'>or Please Give Me A Dollar For Health Insurance</h4>
+        <h3 className='font-effect-fire-animation tour-date-sub-headline'>December 2022 - May 2023</h3>
         </Grid>
       </Grid>
 
       <Grid container  >
         <Grid item xs={12}>
-        {/* <p className='tour-description-text font-effect-fire-animation'>With the backing music recorded on digital 8-track in a Minneapolis basement, the lead vocals are being recorded in special live performances all around the world.</p> */}
+        <p className='tour-description-text font-effect-fire-animation'>Coming Soon to a town probably nowhere near you!</p>
         </Grid>
       </Grid>
 

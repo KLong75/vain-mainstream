@@ -10,18 +10,32 @@
 }
   
 #album-sub-headline {
+  font-size: 32px;
   color: black;
   margin-bottom: .25em;
   text-align: center;
 }
 
-.album-marquee-text {
+#album-headline-plain-text {
+  font-size: 24px;
+  color: black;
+  margin-bottom: .25em;
+  text-align: center;
+}
+
+.album-patreon-link {
+  text-decoration: none;
+  cursor: url('../../assets/cursor/sym57.cur'), auto;
+}
+
+
+/* .album-marquee-text {
   font-size: 1.25em;
   font-weight: bold;
   margin-top: .5em;
   margin-bottom: .5em;
   color: blue;
-}
+} */
 
 .marquee-patreon-link {
   /* text-decoration: none; */

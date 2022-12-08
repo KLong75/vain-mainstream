@@ -197,8 +197,11 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
-                  {/* <h3 id='track-title'>"{track.title}" {track.original_artist} </h3> */}
-                  <h3 id='track-title'>{(`"${track.title}" (${track.original_artist}) `)}</h3>
+                  <h3 id='track-title'>{(`"${track.title}"`)}</h3>
+                </Grid>
+
+                <Grid item className='track-title-grid' >
+                  <h3 id='track-original-artist'>{(`(${track.original_artist}) `)}</h3>
                 </Grid>
 
                 <Grid item className='track-location-grid' >
@@ -229,7 +232,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   </a>
                 </Grid>
                 <Grid item>
-                  <span className='download-title-msg'>Download MP3 of "{track.title}"
+                  <span className='download-title-msg'>Download "{track.title}"
                   </span>
                 </Grid>
               </Item>

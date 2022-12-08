@@ -198,12 +198,12 @@ const Item = styled(Paper)(({ theme }) => ({
 
                 <Grid item className='video-title-grid' >
                   {/* <h3 id='video-title'>"{video.title}" </h3> */}
-                  <h3 id='video-title'>{(`"${video.title}" (${video.original_artist}) `)}</h3>
+                  <h3 id='video-title'>{(`"${video.title}"`)}</h3>
                 </Grid>
 
-                {/* <Grid item>
-                  <h4 id='video-location'>{`(${video.original_artist})`}</h4>
-                </Grid> */}
+                <Grid item>
+                  <h4 id='video-original-artist'>{`(${video.original_artist})`}</h4>
+                </Grid>
 
                 <Grid item>
                   <h4 id='video-location'>{`${video.location}`}</h4>

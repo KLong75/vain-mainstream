@@ -6,12 +6,22 @@
   font-weight: bold;
 }
 
+#video-original-artist {
+  color: black;
+  font-size: 1.5em;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  font-weight: bold;
+  margin-top: -1.45em;
+}
+
+
+
 #video-location {
   color: black;
   font-size: 1.5em;
-  padding-top: 0em;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
+  margin-top: -1.85em;
 }
 
 #video-gallery-section {
@@ -39,9 +49,10 @@
 }
 
 #video-location {
-  margin-top: -1.25em;
+  
 }
 
 .nation-flag {
-  margin-top: .2em;
+  margin-top: .5em;
+  margin-bottom: -.5em;
 }

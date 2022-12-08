@@ -84,7 +84,7 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid item >
           <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
-            <h2 className='headline-patreonlink' >Please Click Here To Give Me A Dollar For Health Insurance</h2>
+            <h2 className='headline-patreonlink' >Click Here To Give Me A Dollar</h2>
           </a>
         </Grid>
       </Grid>
@@ -95,13 +95,13 @@ const Mainstream = () => {
               Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
-          <span 
+          {/* <span 
             className='mainstream-marquee-text'> 
               <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='marquee-patreon-link'>
                 Please click to give me a dollar for health insurance!
               </a>
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-          </span>
+          </span> */}
 
         </Marquee>
 
@@ -112,12 +112,15 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid  className='announcement-grid'>
          
-          <span className='font-effect-fire-animation announcement-plain-text'>The New ALbum</span>
+          <span className='font-effect-fire-animation announcement-plain-text'>The New Album</span>
           <h3 className='font-effect-fire-animation announcement-headline' >Your Likeness</h3>
           <span className='font-effect-fire-animation announcement-plain-text'>or</span>
           {/* <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4> */}
-          <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
-            <h4 className='font-effect-fire-animation announcement-sub-headline announcement-patreon-link'>Please Give Me A Dollar For Health Insurance</h4>
+          <a 
+            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='announcement-patreon-link'>
+              <h4 
+                className='font-effect-fire-animation announcement-sub-headline'>Please Give Me A Dollar</h4>
+              <h4 className='font-effect-fire-animation announcement-sub-headline'>For Health Insurance</h4>
           </a>
         
         </Grid>

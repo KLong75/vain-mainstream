@@ -59,7 +59,7 @@
 }
 
 .announcement-grid {
-  margin-top: 15em;
+  margin-top: 16em;
 }
 
 .announcement-plain-text{
@@ -73,12 +73,14 @@
 }
 
 .announcement-sub-headline {
-  font-size: 30px;
+  font-size: 32px;
   color: black;
+  text-decoration: none;
 }
 
 .announcement-patreon-link{
   cursor: url('../../assets/cursor/sym57.cur'), auto;
+  text-decoration: none;
 }
 
 /* logo */
