@@ -10,7 +10,7 @@ nav li {
 
 #nav-list-item {
   list-style: none;
-  font-size: 26px;
+  font-size: 36px;
   color: blue;
 }
 
@@ -40,18 +40,18 @@ nav li {
 
 @media screen and (max-width: 900px) {
   #nav-list-item {
-    font-size: 20px;
+    font-size: 32px;
   }
 }
 
 @media screen and (max-width: 600px) {
   #nav-list-item {
-    font-size: 16px;
+    font-size: 28px;
   }
 }
 
 @media screen and (max-width: 420px) {
   #nav-list-item {
-  font-size: 12px;
+  font-size: 20px;
   }
 }

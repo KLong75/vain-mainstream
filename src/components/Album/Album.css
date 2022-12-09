@@ -3,14 +3,14 @@
 } */
 
 #album-headline {
-  font-size: 36px;
+  font-size: 48px;
   /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   text-align: center;
   color: black;
 }
   
 #album-sub-headline {
-  font-size: 32px;
+  font-size: 36px;
   color: black;
   margin-bottom: .25em;
   text-align: center;
@@ -40,4 +40,77 @@
 .marquee-patreon-link {
   /* text-decoration: none; */
   color: red;
+}
+
+
+
+@media screen and (max-width: 900px) {
+  #album-headline {
+    font-size: 48px;
+  }
+    
+  #album-sub-headline {
+    font-size: 36px;
+  }
+  
+  #album-headline-plain-text {
+    font-size: 24px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+
+  
+}
+
+@media screen and (max-width: 484px) {
+  #album-headline {
+    font-size: 42px;
+  }
+    
+  #album-sub-headline {
+    font-size: 34px;
+  }
+  
+  #album-headline-plain-text {
+    font-size: 24px;
+  }
+  
+}
+
+
+@media screen and (max-width: 420px) {
+  #album-headline {
+    font-size: 36px;
+  }
+    
+  #album-sub-headline {
+    font-size: 28px;
+  }
+  
+  #album-headline-plain-text {
+    font-size: 24px;
+  }
+
+  
+}
+
+@media screen and (max-width: 400px) {
+
+  
+}
+
+@media screen and (max-width: 300px) {
+  #album-headline {
+    font-size: 30px;
+  }
+    
+  #album-sub-headline {
+    font-size: 24px;
+  }
+  
+  #album-headline-plain-text {
+    font-size: 20px;
+  }
 }

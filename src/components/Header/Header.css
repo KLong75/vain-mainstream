@@ -7,13 +7,9 @@
   /* background-position-x: 48%; */
   /* background-position-y: 200%; 
 } */
-.header-mohawk-skull {
-    height: 3em;
-    margin-top: 0em;
-}
 
 .header-earth {
-  height: 6em;
+  height: 6.5em;
   margin-top: .25em;
 }
 
@@ -22,14 +18,9 @@
     margin-bottom: .5em;
   }
   
-  
-  .font-effect-fire-animation {
-    /* margin-top: .5em; */
-  }
   .header-headline  {
     /* margin-top: .25em; */
     font-size: 60px;
-    
     color:black;
     margin-top: .5em;
     /* margin-bottom: 0; */
@@ -52,10 +43,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .header-mohawk-skull {
-    /* height: 4em;
-    margin-top: .75em; */
-  }
 
   .header-headline  {
     /* font-size: 60px; */
@@ -65,34 +52,34 @@
 @media screen and (max-width: 900px) {
 
   .header-earth {
-    height: 5em;
-    margin-top: 0em;
+    height: 5.5em;
+    margin-top: 0.2em;
   }
 
   .header-headline  {
-    font-size: 46px;
+    font-size: 54px;
   }
 }
 
 @media screen and (max-width: 600px) {
 
   .header-earth {
-    height: 4.5em;
+    height: 5em;
   }
 
   .header-headline  {
-    font-size: 34px;
+    font-size: 42px;
   }
 }
 
 @media screen and (max-width: 484px) {
 
   .header-headline  {
-    font-size: 30px;
+    font-size: 34px;
   }
 
   .header-earth {
-    height: 3.25em;
+    height: 3.75em;
   }
 }
 
@@ -125,11 +112,11 @@
 @media screen and (max-width: 300px) {
 
   .header-earth {
-    height: 2.25em;
+    height: 2.5em;
     
   }
 
   .header-headline  {
-    font-size: 18px;
+    font-size: 20px;
   }
 }

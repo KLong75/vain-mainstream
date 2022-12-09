@@ -16,7 +16,7 @@ import 'react-h5-audio-player/lib/styles.css';
 
 // import images
 // import logo from '../../assets/images/burning_logo_test.gif';
-import speakers from '../../assets/images/two_speakers.png';
+// import speakers from '../../assets/images/two_speakers.png';
 import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 // import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 import drums from '../../assets/images/pixel_drums_big.png';
@@ -25,7 +25,7 @@ import drummerRightArm from '../../assets/images/drummer_right_arm_with_drumstic
 import drummerLeftArm from '../../assets/images/drummer_left_arm_with_drumstick.png';
 // import drumSkeleton from '../../assets/images/pixel_drums_headless_drummer2.png';
 import drummerHeadSolid from '../../assets/images/grey_mohawk_skull_solid.png'
-import mohawkSkull from '../../assets/images/mohawk_skull.png';
+// import mohawkSkull from '../../assets/images/mohawk_skull.png';
 // import skeletonNoSkull from '../../assets/images/pixel_skeleton_no_head.png';
 // import guitaristBody from '../../assets/images/guitarist_no_arms_no_head.png';
 import guitaristTorso from '../../assets/images/guitarist-torso.png';
@@ -34,7 +34,7 @@ import guitaristLegs from '../../assets/images/guitarist_legs.png';
 import guitaristRightArm from '../../assets/images/guitarist_right_arm.png'
 import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
 import skull from '../../assets/images/skull.png'
-import pixelSkull from '../../assets/images/pixel_skull.png';
+// import pixelSkull from '../../assets/images/pixel_skull.png';
 import flyingV from '../../assets/images/blue_flying_v.png';
 // import blackGuitar from '../../assets/images/black_rock_guitar.png';
 
@@ -83,13 +83,13 @@ const Mainstream = () => {
     <div id='mainstream-div'>
       <Grid container justifyContent='center'>
         <Grid item >
-          <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'>
-            <h2 className='headline-patreonlink' >Click Here To Give Me A Dollar</h2>
+          <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer"      className='mainstream-patreon-link'>
+            <h2 className='mainstream-headline font-effect-fire-animation'>Click Here To Give Me A Dollar</h2>
           </a>
         </Grid>
       </Grid>
          
-      <Marquee speed={40} gradientWidth={100} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
+      <Marquee speed={40} gradientWidth={60} gradientColor={[0, 0, 255]} className='now-playing-marquee'>
         <span 
             className='mainstream-marquee-text'> 
               Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
@@ -112,21 +112,20 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid  className='announcement-grid'>
          
-          <span className='font-effect-fire-animation announcement-plain-text'>The New Album</span>
-          <h3 className='font-effect-fire-animation announcement-headline' >Your Likeness</h3>
+          <p className='font-effect-fire-animation announcement-plain-text'>The New Album</p>
+          <h3 className='font-effect-fire-animation announcement-headline'>Your Likeness</h3>
           <span className='font-effect-fire-animation announcement-plain-text'>or</span>
-          {/* <h4 className='font-effect-fire-animation announcement-headline'>"Your Likeness"</h4> */}
           <a 
-            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='announcement-patreon-link'>
-              <h4 
-                className='font-effect-fire-animation announcement-sub-headline'>Please Give Me A Dollar</h4>
-              <h4 className='font-effect-fire-animation announcement-sub-headline'>For Health Insurance</h4>
+            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='announcement-patreon-link'
+          >
+            <h4 className='font-effect-fire-animation announcement-sub-headline'>Please Give Me A Dollar</h4>
+            <h4 className='font-effect-fire-animation announcement-sub-headline'>For Health Insurance</h4>
           </a>
         
         </Grid>
       </Grid>
       
-            <Grid container spacing={1} disableEqualOverflow id=''>
+            <Grid container spacing={1} disableEqualOverflow >
 
               <Grid item xs={3} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
