@@ -6,7 +6,7 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import TwitterIcon from '@mui/icons-material/Twitter';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
-import FacebookIcon from '@mui/icons-material/Facebook';
+// import FacebookIcon from '@mui/icons-material/Facebook';
 
 // import CSS
 import './Footer.css';
@@ -37,7 +37,8 @@ const Footer = () => {
           </a>
         </Grid> */}
         <Grid item xs={12} >
-          ©2022 Vain Mainstream
+          <p>©2022 Vain Mainstream</p>
+          <p className=''>website by <a href='https://kevinlong.dev/'target='_blank' rel='noreferrer'className='website-credit'>kevinlong.dev</a></p>
         </Grid>
       </Grid>
     </footer>

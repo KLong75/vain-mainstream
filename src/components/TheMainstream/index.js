@@ -83,9 +83,9 @@ const Mainstream = () => {
     <div id='mainstream-div'>
       <Grid container justifyContent='center'>
         <Grid item >
-          <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer"      className='mainstream-patreon-link'>
-            <h2 className='mainstream-headline font-effect-fire-animation'>Click Here To Give Me A Dollar</h2>
-          </a>
+          
+            <h2 className='mainstream-headline font-effect-fire-animation'>Mainstream Radio</h2>
+          
         </Grid>
       </Grid>
          

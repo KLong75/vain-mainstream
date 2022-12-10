@@ -49,3 +49,20 @@
   margin-top: .5em;
   margin-bottom: -.5em;
 }
+
+
+@media screen and (max-width: 300px) {
+  #video-title {
+    font-size: 1.25em;
+  }
+  
+  #video-original-artist {
+    font-size: 1.25em;
+  }
+  
+  #video-location {
+    font-size: 1.25em;
+  }
+  
+  
+}

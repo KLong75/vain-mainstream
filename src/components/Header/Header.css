@@ -26,7 +26,20 @@
     /* margin-bottom: 0; */
     /* margin-left: 20px;
     margin-right: 20px; */
-    
+  }
+
+  .header-sub-headline {
+    font-size: 26px;
+    color: black;
+    margin-top: -.5em;
+  }
+
+  .header-patreon-link {
+    cursor: url('../../assets/cursor/sym57.cur'), auto;
+  }
+
+  .header-patreon-link:visited {
+    color: black;
   }
 
 
@@ -59,6 +72,12 @@
   .header-headline  {
     font-size: 54px;
   }
+
+  .header-sub-headline {
+    font-size: 22px;
+    
+    margin-top: 0em;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -70,17 +89,16 @@
   .header-headline  {
     font-size: 42px;
   }
+
+  .header-sub-headline {
+    font-size: 22px;
+    margin-top: 0em;
+  }
 }
 
 @media screen and (max-width: 484px) {
 
-  .header-headline  {
-    font-size: 34px;
-  }
-
-  .header-earth {
-    height: 3.75em;
-  }
+  
 }
 
 
@@ -94,26 +112,32 @@
     height: 3em;
   }
 
-  
+  .header-sub-headline {
+    font-size: 18px;
+    margin-top: 0em;
+  }
 }
 
 @media screen and (max-width: 400px) {
 
   .header-earth {
     height: 2.8em;
-  
   }
 
   .header-headline  {
     font-size: 26px;
+  }
+
+  .header-sub-headline {
+    font-size: 14px;
+    
   }
 }
 
 @media screen and (max-width: 300px) {
 
   .header-earth {
-    height: 2.5em;
-    
+    height: 2.5em; 
   }
 
   .header-headline  {

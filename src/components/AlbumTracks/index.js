@@ -26,12 +26,12 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 
 const AlbumTracks = () => {
   const [tracks] = useState([
-    // {
-    //   title: 'All I Really Want',
-    //   original_artist: 'Alanis Morissette',
-    //   location: 'Lisbon, Portugal',
-    //   src: 'cult_of_personality.mp3'
-    // },
+    {
+      title: 'All I Really Want',
+      original_artist: 'Alanis Morissette',
+      location: 'Lisbon, Portugal',
+      src: 'cult_of_personality.mp3'
+    },
     // {
     //   title: 'Violent Pornography',
     //   original_artist: 'System Of A Down',
@@ -180,7 +180,7 @@ const AlbumTracks = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   // ...theme.typography.body2,
   padding: theme.spacing(0),
   textAlign: 'center',
