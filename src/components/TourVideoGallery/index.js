@@ -16,24 +16,25 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
 const TourVideoGallery = () => {
   const [videos] = useState([
+
     {
-      title: 'All I Really Want',
-      original_artist: 'Alanis Morissette',
-      location: 'Lisbon, Portugal',
+      title: 'Song Title',
+      original_artist: 'Original Artist',
+      location: 'City, Country',
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/512px-Flag_of_Portugal.svg.png',
       flag_alt: 'Flag of Portugal',
-      src: 'https://www.youtube.com/embed/CKuDsijE6Ow',
+      src: 'https://www.youtube.com/embed/2pU3I9sVMbY',
       date: '12/4/2022'
     },
-    {
-      title: 'Loser',
-      original_artist: 'Beck',
-      location: 'Waco, TX',
-      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
-      flag_alt: 'Flag of Texas',
-      src: 'https://www.youtube.com/embed/5XVP03JmRaI',
-      date: '10/17/2022'
-    },
+    // {
+    //   title: 'Loser',
+    //   original_artist: 'Beck',
+    //   location: 'Waco, TX',
+    //   location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
+    //   flag_alt: 'Flag of Texas',
+    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI',
+    //   date: '10/17/2022'
+    // },
     // {
     //   title: 'Violent Pornography',
     //   original_artist: 'System Of A Down',

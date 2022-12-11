@@ -41,18 +41,13 @@
 
 
 .mainstream-marquee-text {
-  font-size: 1em;
+  font-size: 14px;
   font-weight: bold;
   margin-top: .5em;
   margin-bottom: .5em;
-  color: black;
+  color: blue;
 }
 
-/* .marquee-patreon-link {
-  color: red;
-  filter: drop-shadow(0 0 0.75rem crimson);
-  cursor: url('../../assets/cursor/sym57.cur'), auto;
-} */
 
 .announcement-grid {
   margin-top: 20em;
@@ -88,7 +83,6 @@
   margin-left: 0.1em;
   z-index: 2;
   position: relative;
-  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -112,7 +106,6 @@
   margin-top: -2em;
   margin-bottom: -7.5em;
   margin-left: 0em;
-  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -135,7 +128,6 @@
   margin-top: -8em;
   margin-bottom: -9em;
   margin-left: 0em;
-  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -162,7 +154,6 @@
   margin-left: -3.5em;
   position: relative;
   z-index: 3;
-  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -187,7 +178,6 @@
   margin-left: 6em;
   position: relative;
   z-index: 2;
-  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -772,7 +762,7 @@
   .guitarist-left-arm {
     height: 1.6em;
     margin-bottom: -4.65em;
-    margin-left: 3.15em;
+    margin-left: 3.25em;
   }
 
   /* guitars */

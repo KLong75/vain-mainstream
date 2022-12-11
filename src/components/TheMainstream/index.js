@@ -48,17 +48,17 @@ import flyingV from '../../assets/images/blue_flying_v.png';
 
 const playList = [
   {
-    title: 'Cult of Personality',
-    src: 'cult_of_personality.mp3'
+    title: 'Song Title',
+    src: 'DQ_no_vox.mp3'
   },
-  {
-      title: 'Dancing Queen',
-      src: 'DQ_no_vox.mp3'
-  },
-  {
-      title: 'Basket Case',
-      src: 'bst_no_vox.mp3'
-  },
+  // {
+  //     title: 'Dancing Queen',
+  //     src: 'DQ_no_vox.mp3'
+  // },
+  // {
+  //     title: 'Basket Case',
+  //     src: 'bst_no_vox.mp3'
+  // },
 ]
 
 const selectRandom = (array) => {

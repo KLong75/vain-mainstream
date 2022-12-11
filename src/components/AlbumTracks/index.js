@@ -27,10 +27,10 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 const AlbumTracks = () => {
   const [tracks] = useState([
     {
-      title: 'All I Really Want',
-      original_artist: 'Alanis Morissette',
-      location: 'Lisbon, Portugal',
-      src: 'cult_of_personality.mp3'
+      title: 'Song Title',
+      original_artist: 'Original Artist',
+      location: 'City, Country',
+      src: 'DQ_no_vox.mp3'
     },
     // {
     //   title: 'Violent Pornography',
@@ -75,12 +75,12 @@ const AlbumTracks = () => {
     //   location: 'city, country',
     //   src: 'bst_no_vox.mp3'
     // },
-    {
-      title: 'Dancing Queen',
-      original_artist: 'Abba',
-      location: 'city, country',
-      src: 'DQ_no_vox.mp3'
-    },
+    // {
+    //   title: 'Dancing Queen',
+    //   original_artist: 'Abba',
+    //   location: 'city, country',
+    //   src: 'DQ_no_vox.mp3'
+    // },
     // {
     //   title: 'Change The World',
     //   original_artist: 'The Offspring',
@@ -117,12 +117,12 @@ const AlbumTracks = () => {
     //   location: 'city, country',
     //   src: 'bst_no_vox.mp3'
     // },
-    {
-      title: 'Basket Case',
-      original_artist: 'Green Day',
-      location: 'city, country',
-      src: 'bst_no_vox.mp3'
-    },
+    // {
+    //   title: 'Basket Case',
+    //   original_artist: 'Green Day',
+    //   location: 'city, country',
+    //   src: 'bst_no_vox.mp3'
+    // },
     // {
     //   title: 'Ray Of Light',
     //   original_artist: 'Madonna',
@@ -141,12 +141,12 @@ const AlbumTracks = () => {
     //   location: 'city, country',
     //   src: 'bst_no_vox.mp3'
     // },
-    {
-      title: 'Cult of Personality',
-      original_artist: 'Living Colour',
-      location: 'city, country',
-      src: 'cult_of_personality.mp3'
-    },
+    // {
+    //   title: 'Cult of Personality',
+    //   original_artist: 'Living Colour',
+    //   location: 'city, country',
+    //   src: 'cult_of_personality.mp3'
+    // },
     // {
     //   title: 'Love in Plaster',
     //   original_artist: 'The Hives',
