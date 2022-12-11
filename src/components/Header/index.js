@@ -33,9 +33,7 @@ const Header = (props) => {
   return (
     <header>
       <Item elevation={12} className='header-paper'>
-
         <Grid container >
-
           <Grid item xs={3}>
             <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
@@ -45,25 +43,7 @@ const Header = (props) => {
           <Grid item xs={3}>
             <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
-
         </Grid>
-
-        <Grid container >
-
-          
-          <Grid item xs={12}>
-            <a 
-              href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer"      className='header-patreon-link'>
-              <h2 
-                className='header-sub-headline font-effect-fire-animation'
-              >Click Here To Give Me A Dollar
-              </h2>
-            </a>
-          </Grid>
-        
-          
-        </Grid>
-
       <Nav
         setCurrentPage={props.setCurrentPage}
         currentPage={props.currentPage}
