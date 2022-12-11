@@ -1,6 +1,6 @@
 #video-title {
   color: black;
-  font-size: 1.5em;
+  font-size: 24px;
   padding-top: 0em;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
@@ -8,7 +8,7 @@
 
 #video-original-artist {
   color: black;
-  font-size: 1.5em;
+  font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
   margin-top: -1.45em;
@@ -16,10 +16,10 @@
 
 #video-location {
   color: black;
-  font-size: 1.5em;
+  font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  margin-top: -1.85em;
+  margin-top: -1.9em;
 }
 
 #video-gallery-section {

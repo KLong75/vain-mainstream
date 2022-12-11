@@ -7,25 +7,25 @@
 
 #track-title {
   color: black;
-  font-size: 1.5em;
+  font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
 
 #track-original-artist {
   color: black;
-  font-size: 1.5em;
+  font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  margin-top: -1.35em;
+  margin-top: -1.45em;
 }
 
 #track-location {
   color: black;
-  font-size: 1.5em;
+  font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  margin-top: -1.7em;
+  margin-top: -1.9em;
 }
 
 
@@ -45,12 +45,6 @@
     margin-bottom: -1.25em;
 }
 
-/* .track-paper {
-  height: 25em;
-  margin-left: .25em;
-  margin-right: .25em;
-} */
-
 .download-title-msg {
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
@@ -59,8 +53,8 @@
 
 .album-tracks-react-h5-audio-player {
   outline: black solid 1px;
-  margin-top: -1.5em;
-  margin-bottom: -2em;
+  margin-top: -2.5em;
+  margin-bottom: -2.5em;
 }
 
 .rhap_header {

@@ -218,7 +218,7 @@ const Item = styled(Paper)(({ theme }) => ({
                     src={require(`../../assets/audio/${track.src}`)} 
                     // header={(`${track.title}`)}
                     header='Vain Mainstream'
-                    footer='"Your Likeness"'
+                    footer='Your Likeness'
                   />
 
                 </Grid>
@@ -232,8 +232,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   </a>
                 </Grid>
                 <Grid item>
-                  <span className='download-title-msg'>Download "{track.title}"
-                  </span>
+                  <span className='download-title-msg'>Download</span>
                 </Grid>
               </Item>
               {/* </Paper> */}

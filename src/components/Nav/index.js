@@ -36,15 +36,6 @@ const Nav = (props) => {
               Video
             </li>
           </Grid>
-
-          {/* <Grid item xs={3}>
-              <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='nav-patreon-link'>
-              <li id='nav-list-item'>
-              Join the Mainstream
-              </li>
-            </a>
-          </Grid> */}
-
         </Grid> 
       </ul>
     </nav>

@@ -114,7 +114,6 @@
 
   .header-sub-headline {
     font-size: 18px;
-    margin-top: 0em;
   }
 }
 
@@ -130,7 +129,6 @@
 
   .header-sub-headline {
     font-size: 14px;
-    
   }
 }
 
@@ -142,5 +140,9 @@
 
   .header-headline  {
     font-size: 20px;
+  }
+
+  .header-sub-headline {
+    font-size: 12px;
   }
 }
