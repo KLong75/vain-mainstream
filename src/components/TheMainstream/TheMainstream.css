@@ -543,6 +543,10 @@
     height: 39em;
   }
 
+  #mainstream-div h2 {
+    font-size: 36px;
+  }
+
   .announcement-grid {
     margin-top: 12.5em;
   }
@@ -762,6 +766,12 @@
 }
 
 @media screen and (max-width: 400px) {
+
+  #mainstream-div h2 {
+    font-size: 26px;
+  }
+
+
   .guitarist-left-arm {
     height: 1.6em;
     margin-bottom: -4.65em;
@@ -787,7 +797,7 @@
   }
 
   #mainstream-div h2 {
-    font-size: 30px;
+    /* font-size: 30px; */
   }
 
   .announcement-grid {
@@ -931,7 +941,7 @@
   }
 
   #mainstream-div h2 {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   .announcement-grid {
