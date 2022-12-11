@@ -20,18 +20,18 @@ import 'react-h5-audio-player/lib/styles.css';
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
 // import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
 // import worldOnFire from '../../assets/images/try_this_one.gif';
-import worldOnFireGif from '../../assets/images/world_on_fire.gif';
+// import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 // import { blue } from '@mui/material/colors';
 
 
 const AlbumTracks = () => {
   const [tracks] = useState([
-    // {
-    //   title: 'All I Really Want',
-    //   original_artist: 'Alanis Morissette',
-    //   location: 'Lisbon, Portugal',
-    //   src: 'cult_of_personality.mp3'
-    // },
+    {
+      title: 'All I Really Want',
+      original_artist: 'Alanis Morissette',
+      location: 'Lisbon, Portugal',
+      src: 'cult_of_personality.mp3'
+    },
     // {
     //   title: 'Violent Pornography',
     //   original_artist: 'System Of A Down',
@@ -75,12 +75,12 @@ const AlbumTracks = () => {
     //   location: 'city, country',
     //   src: 'bst_no_vox.mp3'
     // },
-    // {
-    //   title: 'Dancing Queen',
-    //   original_artist: 'Abba',
-    //   location: 'city, country',
-    //   src: 'DQ_no_vox.mp3'
-    // },
+    {
+      title: 'Dancing Queen',
+      original_artist: 'Abba',
+      location: 'city, country',
+      src: 'DQ_no_vox.mp3'
+    },
     // {
     //   title: 'Change The World',
     //   original_artist: 'The Offspring',
@@ -117,12 +117,12 @@ const AlbumTracks = () => {
     //   location: 'city, country',
     //   src: 'bst_no_vox.mp3'
     // },
-    // {
-    //   title: 'Basket Case',
-    //   original_artist: 'Green Day',
-    //   location: 'city, country',
-    //   src: 'bst_no_vox.mp3'
-    // },
+    {
+      title: 'Basket Case',
+      original_artist: 'Green Day',
+      location: 'city, country',
+      src: 'bst_no_vox.mp3'
+    },
     // {
     //   title: 'Ray Of Light',
     //   original_artist: 'Madonna',
@@ -141,12 +141,12 @@ const AlbumTracks = () => {
     //   location: 'city, country',
     //   src: 'bst_no_vox.mp3'
     // },
-    // {
-    //   title: 'Cult of Personality',
-    //   original_artist: 'Living Colour',
-    //   location: '',
-    //   src: 'cult_of_personality.mp3'
-    // },
+    {
+      title: 'Cult of Personality',
+      original_artist: 'Living Colour',
+      location: 'city, country',
+      src: 'cult_of_personality.mp3'
+    },
     // {
     //   title: 'Love in Plaster',
     //   original_artist: 'The Hives',
@@ -180,7 +180,7 @@ const AlbumTracks = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   // ...theme.typography.body2,
   padding: theme.spacing(0),
   textAlign: 'center',
@@ -197,17 +197,16 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
-                  {/* <h3 id='track-title'>"{track.title}" {track.original_artist} </h3> */}
-                  <h3 id='track-title'>{(`"${track.title}" (${track.original_artist}) `)}</h3>
+                  <h3 id='track-title'>{(`"${track.title}"`)}</h3>
+                </Grid>
+
+                <Grid item className='track-title-grid' >
+                  <h3 id='track-original-artist'>{(`(${track.original_artist}) `)}</h3>
                 </Grid>
 
                 <Grid item className='track-location-grid' >
                   <h4 id='track-location'> {track.location}</h4>
                 </Grid>
-
-                {/* <Grid item>
-                  <img src={worldOnFireGif} alt='pixelated earth on fire' className='album-tracks-logo'></img>
-                </Grid> */}
 
                 <Grid item>
                   <AudioPlayer
@@ -215,7 +214,7 @@ const Item = styled(Paper)(({ theme }) => ({
                     src={require(`../../assets/audio/${track.src}`)} 
                     // header={(`${track.title}`)}
                     header='Vain Mainstream'
-                    footer='"Your Likeness"'
+                    footer='Your Likeness'
                   />
 
                 </Grid>
@@ -229,8 +228,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   </a>
                 </Grid>
                 <Grid item>
-                  <span className='download-title-msg'>Download MP3 of "{track.title}"
-                  </span>
+                  <span className='download-title-msg'>Download</span>
                 </Grid>
               </Item>
               {/* </Paper> */}

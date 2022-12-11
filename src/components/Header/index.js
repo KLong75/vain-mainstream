@@ -20,7 +20,7 @@ import { styled } from '@mui/material/styles';
 import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 
 const Item = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
+  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   // ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
@@ -45,7 +45,24 @@ const Header = (props) => {
           <Grid item xs={3}>
             <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
-</Grid>
+
+        </Grid>
+
+        <Grid container >
+
+          
+          <Grid item xs={12}>
+            <a 
+              href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer"      className='header-patreon-link'>
+              <h2 
+                className='header-sub-headline font-effect-fire-animation'
+              >Click Here To Give Me A Dollar
+              </h2>
+            </a>
+          </Grid>
+        
+          
+        </Grid>
 
       <Nav
         setCurrentPage={props.setCurrentPage}

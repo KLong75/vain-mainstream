@@ -10,56 +10,52 @@
   /* background-color: blue; */
 }
 
-/* #mainstream-div h2 {
-  font-size: 1.25em;
-  text-align: center;
-  margin-top: .5em;
-  margin-bottom: .5em;
-} */
-
 #mainstream-div h2 {
-  font-size: 32px;
-  color: blue;
-  text-shadow: 0 0 10px blue;
+  font-size: 48px;
+  color: black;
+  /* text-shadow: 0 0 10px blue; */
   margin-bottom: .25em;
   text-align: center;
-  
 }
 
 .mainstream-paper {
   /* background-image: url('../../assets/images/world_on_fire.gif'); */
   /* background-image: url('../../assets/images/try_this_one.gif'); */
-  background-size: 20em;
+  background-size: 24em;
   background-repeat: no-repeat;
-  background-position: 50% 2%;
+  background-position: 50% 0%;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   /* margin: 2em; */
   margin-bottom: 0em;
-  height: 48em;
+  height: 52.5em;
   /* height: 36em; */
   /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
-
-.mainstream-marquee-text {
-  font-size: 1.25em;
-  font-weight: bold;
-  margin-top: .5em;
-  margin-bottom: .5em;
-  color: blue;
-}
-
-.marquee-patreon-link {
+.mainstream-patreon-link {
   /* text-decoration: none; */
-  color: red;
-  filter: drop-shadow(0 0 0.75rem crimson);
   cursor: url('../../assets/cursor/sym57.cur'), auto;
 }
 
+
+.mainstream-marquee-text {
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: .5em;
+  margin-bottom: .5em;
+  color: black;
+}
+
+/* .marquee-patreon-link {
+  color: red;
+  filter: drop-shadow(0 0 0.75rem crimson);
+  cursor: url('../../assets/cursor/sym57.cur'), auto;
+} */
+
 .announcement-grid {
-  margin-top: 15em;
+  margin-top: 20em;
 }
 
 .announcement-plain-text{
@@ -73,30 +69,15 @@
 }
 
 .announcement-sub-headline {
-  font-size: 30px;
+  font-size: 32px;
   color: black;
+  text-decoration: none;
 }
 
 .announcement-patreon-link{
   cursor: url('../../assets/cursor/sym57.cur'), auto;
+  text-decoration: none;
 }
-
-/* logo */
-/* #mainstream-logo-v {
-  font-size: 3em;
-  margin-top: 3.5em;
-  margin-left: 14.35em;
-  color: black;
-  z-index: 2;
-  position: relative;
-}
-
-#mainstream-logo-m {
-  font-size: 3em;
-  margin-top: 3.75em;
-  margin-left: -14em;
-  color: black;
-} */
 
 /* guitarists */
 /* guitarist head */
@@ -225,11 +206,6 @@
 }
 
 /* guitars */
-
-/* #guitar-grid {
-  margin-top: 0em;
-} */
-
 .mainstream-guitar{
   height: 3.75em;
   margin-bottom: -6.75em;
@@ -257,7 +233,6 @@
 
 
 /* drummer */
-
 #mohawk-skull {
   height: 4.5em;
   margin-top: -4em;
@@ -282,10 +257,9 @@
   }
 }
 
-
 .drummer-body {
   height: 5.25em;
-  margin-top: -6em;
+  margin-top: -5.75em;
   margin-bottom: 1.25em;
   margin-left: -0.2em;
   z-index: 1;
@@ -354,9 +328,6 @@
   }
 }
 
-/* #speakers-drums-grid {
-  margin-top: 0em;
-} */
 
 /* drums */
 .drums {
@@ -485,7 +456,7 @@
 @media screen and (max-width: 900px) {
 
   #mainstream-div h2 {
-    font-size: 28px;
+    /* font-size: 28px; */
   }
   .mainstream-paper {
     /* background-size: 18em; */
@@ -576,7 +547,7 @@
   .mainstream-paper {
     background-size: 16em;
     background-position: 50% 5%;
-    height: 40em;
+    height: 39em;
   }
 
   .announcement-grid {
@@ -629,7 +600,7 @@
   .guitarist-left-arm {
     height: 1.6em;
     margin-bottom: -4.65em;
-    margin-left: 3.5em;
+    margin-left: 3.65em;
   }
 
   /* guitars */
@@ -663,9 +634,9 @@
   }
 
   .drummer-left-arm {
-    height: 2.18em;
-    margin-bottom: 0em;
-    margin-left: 0.2em;
+    height: 2.16em;
+    margin-bottom: 0.15em;
+    margin-left: 0.15em;
   }
 
   /* drums */
@@ -673,22 +644,6 @@
     height: 6em;
     margin-top: -4em;
     margin-bottom: 0em;
-  }
-
-  /* speakers */
-  .speakers-img {
-    /* margin-bottom: -.25em; */
-  }
-
-  #speakers-stage-right{
-    height: 4.75em;
-    /* margin-top: 0em; */
-  }
-
-  #speakers-stage-left {
-    height: 4.75em;
-    /* margin-top: 0em; */
-    /* margin-left: 0em; */
   }
 
   .mainstream-react-h5-audio-player {
@@ -704,11 +659,11 @@
   .mainstream-paper {
     background-size: 16em;
     background-position: 50% 5%;
-    height: 41.25em;
+    height: 39em;
   }
 
   #mainstream-div h2 {
-    font-size: 20px;
+    font-size: 36px;
   }
 
   .announcement-grid {
@@ -769,7 +724,7 @@
     height: 1.85em;
     margin-bottom: -4.75em;
     /* margin-top: 0em; */
-    margin-left: .5em; 
+    margin-left: .35em; 
   }
 
 /* drummer */
@@ -795,9 +750,9 @@
   }
 
   .drummer-left-arm {
-    height: 2.18em;
-    margin-bottom: 0em;
-    margin-left: 0.2em;
+    height: 2.16em;
+    margin-bottom: 0.15em;
+    margin-left: 0.15em;
   }
 
   /* drums */
@@ -813,17 +768,33 @@
   }
 }
 
+@media screen and (max-width: 400px) {
+  .guitarist-left-arm {
+    height: 1.6em;
+    margin-bottom: -4.65em;
+    margin-left: 3.15em;
+  }
+
+  /* guitars */
+  .mainstream-guitar{
+    height: 1.85em;
+    margin-bottom: -4.75em;
+    /* margin-top: 0em; */
+    margin-left: 0em; 
+  }
+
+}
 
 @media screen and (max-width: 375px) {
 
   .mainstream-paper {
     background-size: 14em;
     background-position: 50% 5%;
-    height: 37.25em;
+    height: 35.75em;
   }
 
   #mainstream-div h2 {
-    font-size: 14px;
+    font-size: 30px;
   }
 
   .announcement-grid {
@@ -875,8 +846,8 @@
 
   .guitarist-left-arm {
     height: 1.4em;
-    margin-bottom: -3.68em;
-    margin-left: 2.15em;
+    margin-bottom: -3.7em;
+    margin-left: 2.9em;
   }
 
   /* guitars */
@@ -884,7 +855,7 @@
     height: 1.75em;
     margin-bottom: -3.75em;
     /* margin-top: 0em; */
-    margin-left: -.75em; 
+    margin-left: 0em; 
   }
 
 /* drummer */
@@ -912,7 +883,7 @@
   .drummer-left-arm {
     height: 1.8em;
     margin-bottom: .15em;
-    margin-left: .25em;
+    margin-left: .3em;
   }
 
   /* drums */
@@ -928,16 +899,46 @@
   }
 }
 
+@media screen and (max-width: 350px){
+  .guitarist-left-arm {
+    height: 1.4em;
+    margin-bottom: -3.7em;
+    margin-left: 2.75em;
+  }
+
+  /* guitars */
+  .mainstream-guitar{
+    height: 1.75em;
+    margin-bottom: -3.75em;
+    margin-left: -.2em; 
+  }
+}
+
+@media screen and (max-width: 325px){
+  .guitarist-left-arm {
+    height: 1.4em;
+    margin-bottom: -3.7em;
+    margin-left: 2.5em;
+  }
+
+  /* guitars */
+  .mainstream-guitar{
+    height: 1.75em;
+    margin-bottom: -3.75em;
+    margin-left: -.5em; 
+  }
+}
+
 @media screen and (max-width: 280px) {
 
   .mainstream-paper {
     background-size: 14em;
     background-position: 50% 5%;
-    height: 37.25em;
+    height: 35.75em;
   }
 
   #mainstream-div h2 {
-    font-size: 14px;
+    font-size: 28px;
   }
 
   .announcement-grid {

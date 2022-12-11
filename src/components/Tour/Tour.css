@@ -1,22 +1,28 @@
-#tour-div {
-  /* height: 90vh; */
-}
+/* #tour-div {
+  height: 90vh;
+} */
 
 #tour-headline {
-  font-size: 32px;
-  /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
-  margin-bottom: .25em;
+  font-size: 48px;
   text-align: center;
   color: black;
 }
 
-#tour-div h3 {
+.tour-dates {
+  font-size: 36px;
   text-align: center;
+  color: black;
 }
 
-#tour-div p {
+/* #tour-div h4 {
+  text-align: center;
+  color: black;
+} */
+
+.tour-description-text {
     text-align: center;
-    color: blue;
+    color: black;
+    font-size: 24px;
 }
 
 .tour-marquee {
@@ -35,4 +41,76 @@
   /* text-decoration: none; */
   color: red;
   cursor: url('../../assets/cursor/sym57.cur'), auto;
+}
+
+
+@media screen and (max-width: 900px) {
+  
+
+}
+
+@media screen and (max-width: 600px) {
+  #tour-headline {
+    font-size: 42px;
+  }
+  
+  .tour-dates {
+    font-size: 32px;
+  }
+  
+  .tour-description-text {
+    font-size: 22px;
+  }
+  
+}
+
+@media screen and (max-width: 484px) {
+  #tour-headline {
+    font-size: 40px;
+  }
+  
+  .tour-dates {
+    font-size: 30px;
+  }
+  
+  .tour-description-text {
+    font-size: 20px;
+  }
+  
+}
+
+
+@media screen and (max-width: 420px) {
+  
+  
+}
+
+@media screen and (max-width: 400px) {
+  #tour-headline {
+    font-size: 38px;
+  }
+  
+  .tour-dates {
+    font-size: 28px;
+  }
+  
+  .tour-description-text {
+    font-size: 16px;
+  }
+  
+}
+
+@media screen and (max-width: 300px) {
+  #tour-headline {
+    font-size: 30px;
+  }
+  
+  .tour-dates {
+    font-size: 26px;
+  }
+  
+  .tour-description-text {
+    font-size: 14px;
+  }
+ 
 }

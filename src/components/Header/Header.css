@@ -7,13 +7,9 @@
   /* background-position-x: 48%; */
   /* background-position-y: 200%; 
 } */
-.header-mohawk-skull {
-    height: 3em;
-    margin-top: 0em;
-}
 
 .header-earth {
-  height: 5em;
+  height: 6.5em;
   margin-top: .25em;
 }
 
@@ -22,20 +18,28 @@
     margin-bottom: .5em;
   }
   
-  
-  .font-effect-fire-animation {
-    /* margin-top: .5em; */
-  }
   .header-headline  {
     /* margin-top: .25em; */
     font-size: 60px;
-    
     color:black;
-    /* margin-top: .5em;
-    margin-bottom: 0;
-    margin-left: 20px;
-    margin-right: 20px;
-     */
+    margin-top: .5em;
+    /* margin-bottom: 0; */
+    /* margin-left: 20px;
+    margin-right: 20px; */
+  }
+
+  .header-sub-headline {
+    font-size: 26px;
+    color: black;
+    margin-top: -.5em;
+  }
+
+  .header-patreon-link {
+    cursor: url('../../assets/cursor/sym57.cur'), auto;
+  }
+
+  .header-patreon-link:visited {
+    color: black;
   }
 
 
@@ -52,10 +56,6 @@
 }
 
 @media screen and (max-width: 1200px) {
-  .header-mohawk-skull {
-    /* height: 4em;
-    margin-top: .75em; */
-  }
 
   .header-headline  {
     /* font-size: 60px; */
@@ -65,71 +65,84 @@
 @media screen and (max-width: 900px) {
 
   .header-earth {
-    height: 4em;
-    margin-top: 0em;
+    height: 5.5em;
+    margin-top: 0.2em;
   }
 
   .header-headline  {
-    font-size: 42px;
+    font-size: 54px;
+  }
+
+  .header-sub-headline {
+    font-size: 22px;
+    
+    margin-top: 0em;
   }
 }
 
 @media screen and (max-width: 600px) {
 
   .header-earth {
-    height: 3.5em;
-    margin-top: 0em;
+    height: 5em;
   }
 
   .header-headline  {
-    font-size: 35px;
+    font-size: 42px;
+  }
+
+  .header-sub-headline {
+    font-size: 22px;
+    margin-top: 0em;
   }
 }
 
 @media screen and (max-width: 484px) {
 
-  .header-headline  {
-    font-size: 30px;
-  }
-
-  .header-earth {
-    height: 3em;
-  }
+  
 }
 
 
 @media screen and (max-width: 420px) {
 
-  .header-earth {
-    height: 2.8em;
-    margin-top: 0em;
-  }
-
   .header-headline  {
     font-size: 28px;
+  }
+
+  .header-earth {
+    height: 3em;
+  }
+
+  .header-sub-headline {
+    font-size: 18px;
   }
 }
 
 @media screen and (max-width: 400px) {
 
   .header-earth {
-    height: 3em;
-   
+    height: 2.8em;
   }
 
   .header-headline  {
-    font-size: 20px;
+    font-size: 26px;
+  }
+
+  .header-sub-headline {
+    font-size: 14px;
   }
 }
 
 @media screen and (max-width: 300px) {
 
   .header-earth {
-    height: 2.25em;
-    
+    height: 2.5em; 
   }
 
   .header-headline  {
-    font-size: 18px;
+    font-size: 20px;
+  }
+
+  .header-sub-headline {
+    font-size: 12px;
   }
 }

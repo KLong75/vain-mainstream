@@ -12,44 +12,29 @@ const Nav = (props) => {
     <nav>
       <ul>
         <Grid container spacing={1}> 
-          <Grid item xs={3}> 
+          <Grid item xs={4}> 
             <li 
               id='nav-list-item' 
               onClick={() => { props.setCurrentPage('Mainstream')}} 
               className={props.currentPage==='Mainstream' ? 'navActive' : ''}>
-              Mainstream Radio
+              Radio
             </li>
           </Grid>
-          <Grid item xs={3}> 
+          <Grid item xs={4}> 
             <li 
               id='nav-list-item'
               onClick={() => { props.setCurrentPage('Album')}} 
               className={props.currentPage==='Album' ? 'navActive' : ''}>
-              The Album
+              Audio
             </li>
           </Grid>
-          <Grid item xs={3}> 
+          <Grid item xs={4}> 
             <li 
               id='nav-list-item' 
               onClick={() => { props.setCurrentPage('Tour')}} 
               className={props.currentPage==='Tour' ? 'navActive' : ''}>
-              The Tour
+              Video
             </li>
-          </Grid>
-          <Grid item xs={3}>
-
-            {/* <li 
-              id='nav-list-item'
-              onClick={() => { props.setCurrentPage('CallToAction')}} 
-              className={props.currentPage==='CallToAction' ? 'navActive' : ''}>
-              Join the Mainstream
-            </li> */}
-
-            <a href='https://www.patreon.com/' target='_blank' rel="noreferrer" className='nav-patreon-link'>
-              <li id='nav-list-item'>
-              Join the Mainstream
-              </li>
-            </a>
           </Grid>
         </Grid> 
       </ul>
