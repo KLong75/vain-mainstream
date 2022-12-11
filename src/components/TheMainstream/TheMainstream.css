@@ -19,17 +19,15 @@
 }
 
 .mainstream-paper {
-  /* background-image: url('../../assets/images/world_on_fire.gif'); */
-  /* background-image: url('../../assets/images/try_this_one.gif'); */
   background-size: 24em;
   background-repeat: no-repeat;
-  background-position: 50% 0%;
+  background-position: 50% 2%;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   /* margin: 2em; */
   margin-bottom: 0em;
-  height: 52.5em;
+  height: 53em;
   /* height: 36em; */
   /* filter: drop-shadow(0 0 0.75rem orange); */
 }
@@ -53,21 +51,21 @@
 
 
 .announcement-grid {
-  margin-top: 20em;
+  margin-top: 18em;
 }
 
 .announcement-plain-text{
-  font-size: 20px;
+  font-size: 28px;
   color: black;
 }
 
 .announcement-headline {
-  font-size: 40px;
+  font-size: 48px;
   color: black;
 }
 
 .announcement-sub-headline {
-  font-size: 32px;
+  font-size: 42px;
   color: black;
   text-decoration: none;
 }
@@ -528,19 +526,14 @@
     padding-bottom: 0em; */
   }
 
-  /* speakers */
-  #speakers-img{
-    /* height: 6em;
-    margin-bottom: -14.7em; */
-  }
 }
 
 @media screen and (max-width: 700px) {
 
   .mainstream-paper {
-    background-size: 16em;
+    background-size: 18em;
     background-position: 50% 5%;
-    height: 39em;
+    height: 44em;
   }
 
   #mainstream-div h2 {
@@ -548,19 +541,19 @@
   }
 
   .announcement-grid {
-    margin-top: 12.5em;
+    margin-top: 13.5em;
   }
   
   .announcement-plain-text{
-    font-size: 16px;
+    font-size: 22px;
   }
   
   .announcement-headline {
-    font-size: 30px;
+    font-size: 42px;
   }
   
   .announcement-sub-headline {
-    font-size: 18px;
+    font-size: 36px;
   }
 
   /* guitarists */
@@ -656,7 +649,7 @@
   .mainstream-paper {
     background-size: 16em;
     background-position: 50% 5%;
-    height: 39em;
+    height: 41.2em;
   }
 
   #mainstream-div h2 {
@@ -664,19 +657,20 @@
   }
 
   .announcement-grid {
-    margin-top: 12.5em;
+    margin-top: 12em;
+    /* margin-left: .5em; */
   }
   
   .announcement-plain-text{
-    font-size: 16px;
+    font-size: 20px;
   }
   
   .announcement-headline {
-    font-size: 30px;
+    font-size: 36px;
   }
   
   .announcement-sub-headline {
-    font-size: 18px;
+    font-size: 32px;
   }
 
   /* guitarists */
@@ -791,13 +785,9 @@
 @media screen and (max-width: 375px) {
 
   .mainstream-paper {
-    background-size: 14em;
+    background-size: 15em;
     background-position: 50% 5%;
-    height: 35.75em;
-  }
-
-  #mainstream-div h2 {
-    /* font-size: 30px; */
+    height: 38.25em;
   }
 
   .announcement-grid {
@@ -805,15 +795,15 @@
   }
   
   .announcement-plain-text{
-    font-size: 12px;
+    font-size: 18px;
   }
   
   .announcement-headline {
-    font-size: 20px;
+    font-size: 32px;
   }
   
   .announcement-sub-headline {
-    font-size: 16px;
+    font-size: 26px;
   }
 
   /* guitarists */
@@ -918,6 +908,30 @@
 }
 
 @media screen and (max-width: 325px){
+
+
+  .mainstream-paper {
+    background-size: 15em;
+    background-position: 50% 5%;
+    height: 38em;
+  }
+
+  .announcement-grid {
+    margin-top: 12em;
+  }
+  
+  .announcement-plain-text{
+    font-size: 18px;
+  }
+  
+  .announcement-headline {
+    font-size: 26px;
+  }
+  
+  .announcement-sub-headline {
+    font-size: 22px;
+  }
+
   .guitarist-left-arm {
     height: 1.4em;
     margin-bottom: -3.7em;
