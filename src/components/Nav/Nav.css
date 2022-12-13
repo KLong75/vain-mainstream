@@ -7,12 +7,18 @@ nav li {
   cursor: url('../../assets/cursor/sym57.cur'), auto;
 }
 
-
 #nav-list-item {
   list-style: none;
   font-size: 36px;
   color: blue;
 }
+
+/* #nav-list-item:hover {
+  text-shadow:
+    0px -2px 10px #FF3,
+    0px -10px 20px #F90,
+    0px -20px 40px #C33;
+} */
 
 .navActive {
   text-shadow: 0 0 10px blue;
@@ -23,20 +29,7 @@ nav li {
   text-decoration: none;
 }
 
-
-/* begin mediq queries for responsve sizing */
-@media screen and (max-width: 1536px) {
-  #nav-list-item {
-    /* font-size: 32px; */
-  }
-}
-
-@media screen and (max-width: 1200px) {
-  #nav-list-item {
-    /* font-size: 26px; */
-  }
-}
-
+/* begin media queries for responsve sizing */
 @media screen and (max-width: 900px) {
   #nav-list-item {
     font-size: 32px;

@@ -1,13 +1,12 @@
 // import from React
 import React, { useState } from 'react';
+
 // import all components
 import Header from './components/Header';
 import Mainstream from "./components/TheMainstream";
 import Tour from "./components/Tour";
 import Album from "./components/Album";
-import CallToAction from "./components/CallToAction";
 import Footer from "./components/Footer";
-
 
 const App = () => {
 
@@ -20,9 +19,7 @@ const App = () => {
       return <Album />
     } else if (currentPage === 'Tour') {
       return <Tour />
-    } else if (currentPage === 'CallToAction') {
-      return <CallToAction />
-    }
+    } 
   }
 
   return (

@@ -10,18 +10,12 @@ import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
-// import Typography from '@mui/material/Typography';
-
 // import audio player
 import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-// import pixelRecord from '../../assets/images/pixel_record_blue_label.png';
-// import worldOnFire from '../../assets/images/try_this_one.gif';
-// import worldOnFireGif from '../../assets/images/world_on_fire.gif';
-// import { blue } from '@mui/material/colors';
 
 
 const AlbumTracks = () => {
@@ -180,11 +174,8 @@ const AlbumTracks = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  // ...theme.typography.body2,
   padding: theme.spacing(0),
   textAlign: 'center',
-  // color: theme.palette.text.secondary,
 }));
 
   return (
@@ -193,7 +184,7 @@ const Item = styled(Paper)(({ theme }) => ({
         <Grid container spacing={4} >
           {tracks.map((track) => (  
             <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
-              {/* <Paper elevation={12} className='track-paper'> */}
+              
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
@@ -231,7 +222,6 @@ const Item = styled(Paper)(({ theme }) => ({
                   <span className='download-title-msg'>Download</span>
                 </Grid>
               </Item>
-              {/* </Paper> */}
             </Grid>
           ))} 
        </Grid>
