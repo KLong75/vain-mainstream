@@ -1,10 +1,5 @@
-/* #album-div {
-  height: 90vh;
-} */
-
 #album-headline {
   font-size: 48px;
-  /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.5); */
   text-align: center;
   color: black;
 }
@@ -36,12 +31,9 @@
   color: blue;
 } */
 
-.marquee-patreon-link {
-  /* text-decoration: none; */
+/* .marquee-patreon-link {
   color: red;
-}
-
-
+} */
 
 @media screen and (max-width: 900px) {
   #album-headline {
