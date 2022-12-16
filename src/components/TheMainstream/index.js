@@ -15,28 +15,18 @@ import AudioPlayer from 'react-h5-audio-player';
 import 'react-h5-audio-player/lib/styles.css';
 
 // import images
-// import logo from '../../assets/images/burning_logo_test.gif';
-// import speakers from '../../assets/images/two_speakers.png';
 import worldOnFireGif from '../../assets/images/world_on_fire.gif';
-// import worldOnFire from '../../assets/images/pixel_world_on_fire_cropped.png';
 import drums from '../../assets/images/pixel_drums_big.png';
 import drummerBody from '../../assets/images/drummer_body.png';
 import drummerRightArm from '../../assets/images/drummer_right_arm_with_drumstick.png';
 import drummerLeftArm from '../../assets/images/drummer_left_arm_with_drumstick.png';
-// import drumSkeleton from '../../assets/images/pixel_drums_headless_drummer2.png';
 import drummerHeadSolid from '../../assets/images/grey_mohawk_skull_solid.png'
-// import mohawkSkull from '../../assets/images/mohawk_skull.png';
-// import skeletonNoSkull from '../../assets/images/pixel_skeleton_no_head.png';
-// import guitaristBody from '../../assets/images/guitarist_no_arms_no_head.png';
 import guitaristTorso from '../../assets/images/guitarist-torso.png';
 import guitaristLegs from '../../assets/images/guitarist_legs.png';
-// import guitaristNoArm from '../../assets/images/pixel_guitarist_no_arm.png';
 import guitaristRightArm from '../../assets/images/guitarist_right_arm.png'
 import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
 import skull from '../../assets/images/skull.png'
-// import pixelSkull from '../../assets/images/pixel_skull.png';
 import flyingV from '../../assets/images/blue_flying_v.png';
-// import blackGuitar from '../../assets/images/black_rock_guitar.png';
 
 // import audio
 // import cultOfP from '../../assets/audio/cult_of_personality.mp3';
@@ -72,7 +62,6 @@ console.log(randomTrack);
 console.log(randomTrack.src)
 
 const Item = styled(Paper)(({ theme }) => ({
-  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
   padding: theme.spacing(1),
   textAlign: 'center',
   backgroundImage: `url(${worldOnFireGif})`,
@@ -84,7 +73,7 @@ const Mainstream = () => {
       <Grid container justifyContent='center'>
         <Grid item >
           <a 
-            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='mainstream-patreon-link'
+            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" id='mainstream-patreon-link'
           >
             <h2 className='mainstream-headline font-effect-fire-animation'>Click Here To Give Me a Dollar</h2>
           </a>
@@ -101,9 +90,7 @@ const Mainstream = () => {
       </Marquee> 
 
       <Box sx={{ flexGrow: 1 }}>
-
         <Item className='mainstream-paper ' elevation={12}>
-
           <Grid container justifyContent='center'>
             <Grid  className='announcement-grid'>
               <p className='font-effect-fire-animation announcement-plain-text'>The New Album</p>
@@ -119,28 +106,22 @@ const Mainstream = () => {
           </Grid>
       
             <Grid container spacing={1} disableEqualOverflow >
-
               <Grid item xs={3} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
-
               <Grid item xs={6}>
               <div></div>
               </Grid>
-
               <Grid item xs={3} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
             </Grid>
-
             <Grid container spacing={1} disableEqualOverflow id='guitarist-body-grid'>
               <Grid item xs={3} >
                 <img src={guitaristTorso} alt='pixelated skeleton' className='guitarist-torso' />
               </Grid>
-
               <Grid item xs={6}>
               </Grid>
-
               <Grid item xs={3} >
                   <img src={guitaristTorso} alt='pixelated skeleton' className='guitarist-torso' />
               </Grid>
@@ -150,28 +131,22 @@ const Mainstream = () => {
               <Grid item xs={3} >
                 <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-
               <Grid item xs={6}>
               </Grid>
-
                <Grid item xs={3} >
                <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='guitar-left-arm-grid'>
-
               <Grid item xs={3} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-
               <Grid item xs={6}>
               </Grid>
-
               <Grid item xs={3} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='guitar-grid'>
@@ -189,10 +164,8 @@ const Mainstream = () => {
               <Grid item xs={3} >
                 <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
               </Grid>
-
               <Grid item xs={6}>
               </Grid>
-
               <Grid item xs={3} >
                   <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
               </Grid>
@@ -230,26 +203,18 @@ const Mainstream = () => {
 
             <Grid container spacing={1} disableEqualOverflow id="drummer-body-grid">
               <Grid item xs={3}>
-               
               </Grid>
               <Grid item xs={6}>
               <img src={drummerBody} alt='pixelated skeleton torso' className='drummer-body' />
               </Grid>
               <Grid item xs={3}>
-              
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='speakers-drums-grid'>
-              {/* <Grid item xs={3} >
-                <img src={speakers} alt='pixelated loudspeakers' className= 'speakers-img' id='speakers-stage-right' />
-              </Grid> */}
               <Grid item xs={12} >
                 <img src={drums} alt='pixelated drumset' id='' className='drums' />
               </Grid>
-              {/* <Grid item xs={3} >
-              <img src={speakers} alt='pixelated loudspeakers' className= 'speakers-img' id='speakers-stage-left' />
-              </Grid> */}
             </Grid>
 
             <Grid item id='mainstream-audio-player-grid'>

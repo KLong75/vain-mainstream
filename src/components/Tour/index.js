@@ -1,11 +1,15 @@
 // import from React
 import React from 'react';
-// import video gallery
+
+// import video gallery component
 import TourVideoGallery from '../TourVideoGallery';
+
 // import from mui
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
+
 // import marquee
 // import Marquee from "react-fast-marquee";
+
 // import CSS
 import './Tour.css';
 

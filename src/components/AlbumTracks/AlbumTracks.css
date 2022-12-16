@@ -29,7 +29,6 @@
 }
 
 .track-download {
-    /* cursor: pointer; */
     cursor: url('../../assets/cursor/sym57.cur'), auto;
     color: blue;
     margin-top: -.5em;

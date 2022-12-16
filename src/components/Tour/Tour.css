@@ -1,7 +1,3 @@
-/* #tour-div {
-  height: 90vh;
-} */
-
 #tour-headline {
   font-size: 48px;
   text-align: center;
@@ -14,10 +10,6 @@
   color: black;
 }
 
-/* #tour-div h4 {
-  text-align: center;
-  color: black;
-} */
 
 .tour-description-text {
     text-align: center;
@@ -37,17 +29,15 @@
   color: blue;
 }
 
-.marquee-patreon-link {
-  /* text-decoration: none; */
+/* .marquee-patreon-link {
   color: red;
   cursor: url('../../assets/cursor/sym57.cur'), auto;
-}
+} */
 
 
-@media screen and (max-width: 900px) {
+/* @media screen and (max-width: 900px) {
   
-
-}
+} */
 
 @media screen and (max-width: 600px) {
   #tour-headline {
@@ -79,11 +69,6 @@
   
 }
 
-
-@media screen and (max-width: 420px) {
-  
-  
-}
 
 @media screen and (max-width: 400px) {
   #tour-headline {

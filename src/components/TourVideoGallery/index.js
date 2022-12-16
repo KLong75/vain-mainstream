@@ -10,9 +10,6 @@ import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 
-// import images
-// import worldOnFire from '../../assets/images/try_this_one.gif';
-// import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 
 const TourVideoGallery = () => {
   const [videos] = useState([
@@ -182,11 +179,8 @@ const TourVideoGallery = () => {
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
-  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  // ...theme.typography.body2,
   padding: theme.spacing(0),
   textAlign: 'center',
-  // color: theme.palette.text.secondary,
 }));
 
   return (

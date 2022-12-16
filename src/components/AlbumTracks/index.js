@@ -203,7 +203,6 @@ const Item = styled(Paper)(({ theme }) => ({
                   <AudioPlayer
                     className='album-tracks-react-h5-audio-player' 
                     src={require(`../../assets/audio/${track.src}`)} 
-                    // header={(`${track.title}`)}
                     header='Vain Mainstream'
                     footer='Your Likeness'
                   />
@@ -213,7 +212,6 @@ const Item = styled(Paper)(({ theme }) => ({
                   <a 
                     href={require(`../../assets/audio/${track.src}`)} 
                     download={(`Vain Mainstream - ${track.title}`)}
-                    className=''
                   >
                     <FileDownloadIcon className='track-download'/>
                   </a>
