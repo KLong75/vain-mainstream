@@ -58,8 +58,8 @@ const selectRandom = (array) => {
 }
 
 const randomTrack = selectRandom(playList);
-console.log(randomTrack);
-console.log(randomTrack.src)
+// console.log(randomTrack);
+// console.log(randomTrack.src)
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
