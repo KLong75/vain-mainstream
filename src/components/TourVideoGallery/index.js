@@ -15,12 +15,12 @@ const TourVideoGallery = () => {
   const [videos] = useState([
 
     {
-      title: 'Song Title',
-      original_artist: 'Original Artist',
-      location: 'City, Country',
+      title: 'All I Really Want',
+      original_artist: 'Alanis Morissette',
+      location: 'Lisbon, Portugal',
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/512px-Flag_of_Portugal.svg.png',
       flag_alt: 'Flag of Portugal',
-      src: 'https://www.youtube.com/embed/2pU3I9sVMbY',
+      src: 'https://www.youtube.com/embed/I2WToQq4Pt8',
       date: '12/4/2022'
     },
     // {

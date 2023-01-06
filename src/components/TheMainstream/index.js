@@ -38,8 +38,10 @@ import flyingV from '../../assets/images/blue_flying_v.png';
 
 const playList = [
   {
-    title: 'Song Title',
-    src: 'DQ_no_vox.mp3'
+    title: 'All I Really Want',
+    original_artist: 'Alanis Morissette',
+    location: 'Lisbon,Portugal',
+    src: 'All_I_Really_Want.mp3',
   },
   // {
   //     title: 'Dancing Queen',
@@ -84,7 +86,7 @@ const Mainstream = () => {
       <Marquee speed={40} gradientWidth={60} gradientColor={[255, 255, 255]} className='now-playing-marquee'>
         <span 
             className='mainstream-marquee-text'> 
-              Now Playing on Mainstream Radio: "{randomTrack.title}" by Vain Mainstream
+              Now Playing on Mainstream Radio: "{randomTrack.title} ({randomTrack.original_artist})" by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           </span>
       </Marquee> 
@@ -223,8 +225,8 @@ const Mainstream = () => {
                 autoPlay={true}
                 loop 
                 className='mainstream-react-h5-audio-player ' 
-                // src={require(`../../assets/audio/${randomTrack.src}`)} 
-                header={(`"${randomTrack.title}"`)}
+                src={require(`../../assets/audio/${randomTrack.src}`)} 
+                header={(`"${randomTrack.title}" (${randomTrack.original_artist})`)}
               />
             </Grid>
           </Item>
