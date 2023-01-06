@@ -35,7 +35,7 @@ Enjoy the tunes and videos.
 
 ## License
 
-https://spdx.org/licenses/MIT.html
+<https://spdx.org/licenses/MIT.html>
 
 MIT License
 
@@ -71,7 +71,7 @@ n/a
 
 For more information please see:
 
-https://github.com/KLong75
+<https://github.com/KLong75>
 
 For questions please contact:
 
