@@ -21,7 +21,7 @@ const Footer = () => {
           </a>
         </Grid>
         <Grid item xs={4}>
-          <a href='https://www.instagram.com/vainmainstream/?hl=en' target='_blank' rel='noreferrer' className='social-media-links' aria-label='Link to Vain Mainstream Instagram'>
+          <a href='https://www.instagram.com/vainmainstream' target='_blank' rel='noreferrer' className='social-media-links' aria-label='Link to Vain Mainstream Instagram'>
             <InstagramIcon/>
           </a>  
         </Grid>

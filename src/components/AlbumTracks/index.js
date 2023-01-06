@@ -21,10 +21,10 @@ import FileDownloadIcon from '@mui/icons-material/FileDownload';
 const AlbumTracks = () => {
   const [tracks] = useState([
     {
-      title: 'Song Title',
-      original_artist: 'Original Artist',
-      location: 'City, Country',
-      src: 'DQ_no_vox.mp3'
+      title: 'All I Really Want',
+      original_artist: 'Alanis Morissette',
+      location: 'Lisbon, Portugal',
+      src: 'All_I_Really_Want.mp3'
     },
     // {
     //   title: 'Violent Pornography',
@@ -211,7 +211,7 @@ const Item = styled(Paper)(({ theme }) => ({
                 <Grid item>
                   <a 
                     href={require(`../../assets/audio/${track.src}`)} 
-                    download={(`Vain Mainstream - ${track.title}`)}
+                    download={(`Vain Mainstream - ${track.title} (${track.original_artist}) ${track.location}`)}
                   >
                     <FileDownloadIcon className='track-download'/>
                   </a>
