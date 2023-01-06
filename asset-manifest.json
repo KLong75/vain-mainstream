@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/vain-mainstream/static/css/main.2d3e0f7f.css",
-    "main.js": "/vain-mainstream/static/js/main.c7b8a76a.js",
-    "static/js/787.d66b2ccd.chunk.js": "/vain-mainstream/static/js/787.d66b2ccd.chunk.js",
-    "static/media/All_I_Really_Want.mp3": "/vain-mainstream/static/media/All_I_Really_Want.c1316eda65fac06f7721.mp3",
-    "static/media/cult_of_personality.mp3": "/vain-mainstream/static/media/cult_of_personality.bee8000c2940de449fb9.mp3",
-    "static/media/DQ_no_vox.mp3": "/vain-mainstream/static/media/DQ_no_vox.6be8236ca696b9c18d4b.mp3",
-    "static/media/world_on_fire.gif": "/vain-mainstream/static/media/world_on_fire.aef27bfae6ae7cd6b747.gif",
-    "service-worker.js": "/vain-mainstream/service-worker.js",
-    "static/media/guitar_left_arm_angled.png": "/vain-mainstream/static/media/guitar_left_arm_angled.8e97ab41dce1d551afb7.png",
-    "static/media/blue_flying_v.png": "/vain-mainstream/static/media/blue_flying_v.8f57a208535bbf00bc38.png",
-    "static/media/pixel_drums_big.png": "/vain-mainstream/static/media/pixel_drums_big.7012f57cf273601c6241.png",
-    "index.html": "/vain-mainstream/index.html",
-    "static/media/sym57.cur": "/vain-mainstream/static/media/sym57.9a22c58192664681027f.cur",
-    "main.2d3e0f7f.css.map": "/vain-mainstream/static/css/main.2d3e0f7f.css.map",
-    "main.c7b8a76a.js.map": "/vain-mainstream/static/js/main.c7b8a76a.js.map",
-    "787.d66b2ccd.chunk.js.map": "/vain-mainstream/static/js/787.d66b2ccd.chunk.js.map"
+    "main.css": "/static/css/main.8495fb8d.css",
+    "main.js": "/static/js/main.db3f541c.js",
+    "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
+    "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.c1316eda65fac06f7721.mp3",
+    "static/media/cult_of_personality.mp3": "/static/media/cult_of_personality.bee8000c2940de449fb9.mp3",
+    "static/media/DQ_no_vox.mp3": "/static/media/DQ_no_vox.6be8236ca696b9c18d4b.mp3",
+    "static/media/world_on_fire.gif": "/static/media/world_on_fire.aef27bfae6ae7cd6b747.gif",
+    "service-worker.js": "/service-worker.js",
+    "static/media/guitar_left_arm_angled.png": "/static/media/guitar_left_arm_angled.8e97ab41dce1d551afb7.png",
+    "static/media/blue_flying_v.png": "/static/media/blue_flying_v.8f57a208535bbf00bc38.png",
+    "static/media/pixel_drums_big.png": "/static/media/pixel_drums_big.7012f57cf273601c6241.png",
+    "index.html": "/index.html",
+    "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
+    "main.8495fb8d.css.map": "/static/css/main.8495fb8d.css.map",
+    "main.db3f541c.js.map": "/static/js/main.db3f541c.js.map",
+    "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d3e0f7f.css",
-    "static/js/main.c7b8a76a.js"
+    "static/css/main.8495fb8d.css",
+    "static/js/main.db3f541c.js"
   ]
 }
