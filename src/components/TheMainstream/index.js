@@ -101,8 +101,8 @@ const Mainstream = () => {
               <a 
                 href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='announcement-patreon-link'
               >
-                <h4 className='font-effect-fire-animation announcement-sub-headline'>Please Give Me A Dollar</h4>
-                <h4 className='font-effect-fire-animation announcement-sub-headline'>For Health Insurance</h4>
+                <h4 className='font-effect-fire-animation announcement-sub-headline'>Please Give Me a Dollar</h4>
+                <h4 className='font-effect-fire-animation announcement-sub-headline'>for Health Insurance</h4>
               </a>
             </Grid>
           </Grid>

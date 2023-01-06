@@ -30,8 +30,8 @@ const Album = () => {
       <Grid container>
         <Grid item xs={12}>
           <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='album-patreon-link'>  
-            <h3 id='album-sub-headline' className='font-effect-fire-animation'>Please Give Me A Dollar</h3>
-            <h3 id='album-sub-headline' className='font-effect-fire-animation'>For Health Insurance</h3>
+            <h3 id='album-sub-headline' className='font-effect-fire-animation'>Please Give Me a Dollar</h3>
+            <h3 id='album-sub-headline' className='font-effect-fire-animation'>for Health Insurance</h3>
           </a>
         </Grid>
       </Grid>
