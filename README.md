@@ -8,7 +8,7 @@ A progressive web application for musician Vain Mainstream
 
 ## URL of Deployed Application
 
-https://vainmainstream.com/
+<https://vainmainstream.com/>
 
 ## Screenshots of Application
 
