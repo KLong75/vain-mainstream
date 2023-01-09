@@ -23,158 +23,27 @@ const TourVideoGallery = () => {
       src: 'https://www.youtube.com/embed/I2WToQq4Pt8',
       date: '12/4/2022'
     },
+    {
+      title: 'Violent Pornography',
+      original_artist: 'System Of A Down',
+      location: 'Barcelona, Spain',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/512px-Bandera_de_Espa%C3%B1a.svg.png',
+      flag_alt: 'Flag of Spain',
+      src: 'https://www.youtube.com/embed/YSMddvEw0b0',
+      date: '12/13/2022'
+    },
+
+   
     // {
-    //   title: 'Loser',
-    //   original_artist: 'Beck',
+    //   title: '',
+    //   original_artist: '',
     //   location: 'Waco, TX',
     //   location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
     //   flag_alt: 'Flag of Texas',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI',
+    //   src: '',
     //   date: '10/17/2022'
     // },
-    // {
-    //   title: 'Violent Pornography',
-    //   original_artist: 'System Of A Down',
-    //   location: 'city, country',
-    //   location_flag_src: '',
-    //   flag_alt: '',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Girl, You Have No Faith In Medicine',
-    //   original_artist: 'The White Stripes',
-    //   location: 'city, country',
-    //   location_flag_src: '',
-    //   flag_alt: '',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Smooth',
-    //   original_artist: 'Santana ft. Rob Thomas',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Number 1',
-    //   original_artist: 'Nelly',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: "Don't Tell Me",
-    //   original_artist: 'Avril Lavigne',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Feel No Ways',
-    //   original_artist: 'Drake',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Fake Plastic Trees',
-    //   original_artist: 'Radiohead',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Dancing Queen',
-    //   original_artist: 'Abba',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Change The World',
-    //   original_artist: 'The Offspring',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Wildest Dreams',
-    //   original_artist: 'Taylor Swift',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Dragon Attack',
-    //   original_artist: 'Queen',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'All I Wanna Do',
-    //   original_artist: 'Sheryl Crow',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Sizzler Promotional Commercial 1991',
-    //   original_artist: 'Sizzler',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Parabola',
-    //   original_artist: 'Tool',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Basket Case',
-    //   original_artist: 'Green Day',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Ray Of Light',
-    //   original_artist: 'Madonna',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    
-    // {
-    //   title: 'The Locomotion',
-    //   original_artist: 'Carole King',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Cult Of Personality',
-    //   original_artist: 'Living Colour',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Love in Plaster',
-    //   original_artist: 'The Hives',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Stand Out',
-    //   original_artist: 'Tevin Campbell',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Warrior',
-    //   original_artist: 'The Yeah Yeah Yeahs',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'Just A Clown',
-    //   original_artist: 'Charley Crockett',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
-    // {
-    //   title: 'The Rockafeller Skank',
-    //   original_artist: 'Fatboy Slim',
-    //   location: 'city, country',
-    //   src: 'https://www.youtube.com/embed/5XVP03JmRaI'
-    // },
+   
     
 ])
 

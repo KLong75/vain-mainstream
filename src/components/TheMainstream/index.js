@@ -43,14 +43,13 @@ const playList = [
     location: 'Lisbon,Portugal',
     src: 'All_I_Really_Want.mp3',
   },
-  // {
-  //     title: 'Dancing Queen',
-  //     src: 'DQ_no_vox.mp3'
-  // },
-  // {
-  //     title: 'Basket Case',
-  //     src: 'bst_no_vox.mp3'
-  // },
+  {
+    title: 'Violent Pornography',
+    original_artist: 'System Of A Down',
+    location: 'Barcelona, Spain',
+    src: 'Violent_P.mp3'
+  },
+ 
 ]
 
 const selectRandom = (array) => {
