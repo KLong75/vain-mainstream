@@ -13,7 +13,6 @@ import './Album.css';
 // import components
 import AlbumTracks from '../AlbumTracks';
 
-
 const Album = () => {
   return (
     <section id='album-div'>

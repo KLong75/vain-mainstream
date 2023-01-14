@@ -1,6 +1,8 @@
 // import from react
 import React, { useState } from 'react';
 
+// import ShareComponent from '../ShareComponent';
+
 // import CSS
 import './AlbumTracks.css';
 
@@ -40,8 +42,15 @@ const Item = styled(Paper)(({ theme }) => ({
 }));
 
   return (
+    
     <section id='album-tracks-section'>
-      <Box sx={{ flexGrow: 1 }}> 
+      {/* <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
+        <Item className='track-paper' elevation={12}>
+          <ShareComponent />
+        </Item>
+      </Box> */}
+
+      <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={4} >
           {tracks.map((track) => (  
             <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
@@ -86,6 +95,7 @@ const Item = styled(Paper)(({ theme }) => ({
        </Grid>
       </Box> 
     </section>
+    
   );
 };
   

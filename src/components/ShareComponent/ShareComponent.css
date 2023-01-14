@@ -1,0 +1,13 @@
+.share-text {
+    color: blue;
+    font-size: 16px;
+}
+
+.social-media-share-links {
+    color: black;
+    cursor: url('../../assets/cursor/sym57.cur'), auto;
+}
+
+.social-media-share-links:active {
+    color: blue;
+}

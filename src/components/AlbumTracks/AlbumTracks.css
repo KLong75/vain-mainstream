@@ -1,8 +1,12 @@
 
 #album-tracks-section {
-    margin-top: 1em;
-    margin-left: 2em;
-    margin-right: 2em;
+  margin-top: 1em;
+  margin-left: 2em;
+  margin-right: 2em;
+}
+
+.audio-share-box {
+  margin-bottom: 1em;
 }
 
 #track-title {

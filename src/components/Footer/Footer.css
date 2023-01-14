@@ -9,9 +9,22 @@ footer {
     font-size: 14px;
 }
 
-.social-media-links {
+.follow-text {
+  color: black;
+  font-size: 16px;
+}
+
+.social-media-follow-links {
   color: blue;
   cursor: url('../../assets/cursor/sym57.cur'), auto;
+}
+
+.social-media-follow-links:active {
+  color: black;
+}
+
+.copywrite {
+  color: black;
 }
 
 .website-credit {

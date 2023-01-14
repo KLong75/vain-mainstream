@@ -50,6 +50,9 @@
   margin-bottom: -.5em;
 }
 
+.share-video-text {
+  margin-top: .5em;
+}
 
 @media screen and (max-width: 300px) {
   #video-title {
@@ -63,6 +66,5 @@
   #video-location {
     font-size: 1.25em;
   }
-  
   
 }

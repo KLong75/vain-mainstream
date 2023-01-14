@@ -1,12 +1,15 @@
 // import from React
 import React from 'react';
+
 // import CSS
 import './TheMainstream.css';
+
 // import from mui
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
 import { Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
+
 //  import scrolling marquee
 import Marquee from "react-fast-marquee";
 
@@ -28,13 +31,6 @@ import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
 import skull from '../../assets/images/skull.png'
 import flyingV from '../../assets/images/blue_flying_v.png';
 
-// import audio
-// import cultOfP from '../../assets/audio/cult_of_personality.mp3';
-// import dancingQ from '../../assets/audio/DQ_no_vox.mp3';
-// import basketCase from '../../assets/audio/bst_no_vox.mp3';
-
-
-// const playList = [cultOfP, dancingQ, basketCase]
 
 const playList = [
   {
@@ -80,7 +76,6 @@ const Mainstream = () => {
           </a>
         </Grid>
       </Grid>
-      
          
       <Marquee speed={40} gradientWidth={60} gradientColor={[255, 255, 255]} className='now-playing-marquee'>
         <span 

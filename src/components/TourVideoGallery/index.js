@@ -1,6 +1,9 @@
 // import from react
 import React, { useState } from 'react';
 
+// import components
+// import ShareComponent from '../ShareComponent';
+
 // import CSS
 import './TourVideoGallery.css';
 
@@ -9,6 +12,12 @@ import { styled } from '@mui/material/styles';
 import { Paper } from '@mui/material';
 import Box from '@mui/material/Box';
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import TwitterIcon from '@mui/icons-material/Twitter';
+
+// import from react-share
+import FacebookShareButton from 'react-share/lib/FacebookShareButton';
+import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 
 
 const TourVideoGallery = () => {
@@ -21,7 +30,8 @@ const TourVideoGallery = () => {
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/512px-Flag_of_Portugal.svg.png',
       flag_alt: 'Flag of Portugal',
       src: 'https://www.youtube.com/embed/I2WToQq4Pt8',
-      date: '12/4/2022'
+      date: '12/4/2022',
+      share_url: 'https://youtu.be/I2WToQq4Pt8'
     },
     {
       title: 'Violent Pornography',
@@ -30,7 +40,8 @@ const TourVideoGallery = () => {
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/512px-Bandera_de_Espa%C3%B1a.svg.png',
       flag_alt: 'Flag of Spain',
       src: 'https://www.youtube.com/embed/YSMddvEw0b0',
-      date: '12/13/2022'
+      date: '12/13/2022',
+      share_url: 'https://youtu.be/YSMddvEw0b0'
     },
 
    
@@ -54,6 +65,11 @@ const Item = styled(Paper)(({ theme }) => ({
 
   return (
     <section id='video-gallery-section'>
+      {/* <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
+        <Item className='track-paper' elevation={12}>
+          <ShareComponent />
+        </Item>
+      </Box> */}
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >
           {videos.map((video) => (  
@@ -90,7 +106,91 @@ const Item = styled(Paper)(({ theme }) => ({
                   <span className='video-caption'>
                     Life Expectancy Tour - {video.date}
                   </span>
+
+                  <p className='share-video-text'>
+                    Share Video:
+                  </p>
+
+                  <FacebookShareButton
+                    url={`${video.share_url}`}
+                    quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
+                    hashtag='#PleaseGiveMeADollar'
+                  >
+                    <FacebookIcon className='social-media-share-links' />
+                  </FacebookShareButton>
+
+                  <TwitterShareButton
+                    url={`${video.share_url}`}
+                    title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
+                    hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
+                    related={['VainMainstream']}
+                    via={`VainMainstream\nvainmainstream.com`}
+                  >
+                    <TwitterIcon className='social-media-share-links'/>
+                  </TwitterShareButton>
+
                 </Grid>
+
+                {/* <Grid container spacing={0} > */}
+        {/* <Grid item><p>Share Video:</p>
+
+
+        <FacebookShareButton
+            url={`${video.share_url}`}
+            quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
+            hashtag='#PleaseGiveMeADollar'
+          >
+            <FacebookIcon className='social-media-share-links' />
+          </FacebookShareButton>
+
+          <TwitterShareButton
+            url={`${video.share_url}`}
+            title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
+            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
+            related={['VainMainstream']}
+            via={`VainMainstream\nvainmainstream.com`}
+          >
+            <TwitterIcon className='social-media-share-links'/>
+          </TwitterShareButton>
+        
+        </Grid> */}
+        {/* <Grid item xs={4}></Grid> */}
+        {/* <Grid item>
+          <FacebookShareButton
+            url={`${video.share_url}`}
+            quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
+            hashtag='#PleaseGiveMeADollar'
+          >
+            <FacebookIcon className='social-media-share-links' />
+          </FacebookShareButton>
+
+          <TwitterShareButton
+            url={`${video.share_url}`}
+            title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
+            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
+            related={['VainMainstream']}
+            via={`VainMainstream\nvainmainstream.com`}
+          >
+            <TwitterIcon className='social-media-share-links'/>
+          </TwitterShareButton>
+        </Grid> */}
+
+        {/* <Grid item>
+          <TwitterShareButton
+            url={`${video.share_url}`}
+            title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
+            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
+            related={['VainMainstream']}
+            via={`VainMainstream\nvainmainstream.com`}
+          >
+            <TwitterIcon className='social-media-share-links'/>
+          </TwitterShareButton>
+        </Grid> */}
+
+        {/* <Grid item xs={4}></Grid> */}
+      {/* </Grid> */}
+
+
               </Item>
             </Grid>
           ))} 

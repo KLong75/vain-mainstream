@@ -9,25 +9,17 @@ import Nav from '../Nav';
 
 // import from MUI
 import Grid from '@mui/material/Unstable_Grid2/Grid2';
-// import { Stack } from '@mui/material'; 
 import { Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 // import images
-// import flyingV from '../../assets/images/blue_flying_v.png';
-// import blackGuitar from '../../assets/images/black_rock_guitar.png';
-// import mohawkSkull from '../../assets/images/mohawk_skull.png';
 import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 
+
 const Item = styled(Paper)(({ theme }) => ({
-  // backgroundColor: theme.palette.mode === 'dark' ? '#1A2027' : '#fff',
-  // ...theme.typography.body2,
   padding: theme.spacing(1),
   textAlign: 'center',
-  // color: theme.palette.text.secondary,
 }));
-
-
 
 const Header = (props) => {
   return (
