@@ -4,6 +4,7 @@ import { useState } from 'react';
 
 // import components
 import ShareComponent from '../ShareComponent';
+// import SEO from '../SEO';
 
 // import from mui
 import Grid from '@mui/material/Unstable_Grid2/Grid2';

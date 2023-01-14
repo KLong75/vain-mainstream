@@ -128,69 +128,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   >
                     <TwitterIcon className='social-media-share-links'/>
                   </TwitterShareButton>
-
                 </Grid>
-
-                {/* <Grid container spacing={0} > */}
-        {/* <Grid item><p>Share Video:</p>
-
-
-        <FacebookShareButton
-            url={`${video.share_url}`}
-            quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
-            hashtag='#PleaseGiveMeADollar'
-          >
-            <FacebookIcon className='social-media-share-links' />
-          </FacebookShareButton>
-
-          <TwitterShareButton
-            url={`${video.share_url}`}
-            title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
-            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-            related={['VainMainstream']}
-            via={`VainMainstream\nvainmainstream.com`}
-          >
-            <TwitterIcon className='social-media-share-links'/>
-          </TwitterShareButton>
-        
-        </Grid> */}
-        {/* <Grid item xs={4}></Grid> */}
-        {/* <Grid item>
-          <FacebookShareButton
-            url={`${video.share_url}`}
-            quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
-            hashtag='#PleaseGiveMeADollar'
-          >
-            <FacebookIcon className='social-media-share-links' />
-          </FacebookShareButton>
-
-          <TwitterShareButton
-            url={`${video.share_url}`}
-            title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
-            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-            related={['VainMainstream']}
-            via={`VainMainstream\nvainmainstream.com`}
-          >
-            <TwitterIcon className='social-media-share-links'/>
-          </TwitterShareButton>
-        </Grid> */}
-
-        {/* <Grid item>
-          <TwitterShareButton
-            url={`${video.share_url}`}
-            title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
-            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-            related={['VainMainstream']}
-            via={`VainMainstream\nvainmainstream.com`}
-          >
-            <TwitterIcon className='social-media-share-links'/>
-          </TwitterShareButton>
-        </Grid> */}
-
-        {/* <Grid item xs={4}></Grid> */}
-      {/* </Grid> */}
-
-
               </Item>
             </Grid>
           ))} 

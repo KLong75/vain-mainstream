@@ -34,7 +34,7 @@ const ShareComponent = () => {
 
         <Grid item xs={2}>
           <TwitterShareButton
-            url={'vainmainstream.com/'}
+            url={'https://vainmainstream.com/'}
             title='Vain Mainstream'
             hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
             related={['VainMainstream']}

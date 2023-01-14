@@ -1,6 +1,9 @@
 // import from React
 import React, { useState } from 'react';
 
+// import from react-helmet-async
+// import { HelmetProvider } from 'react-helmet-async';
+
 // import all components
 import Header from './components/Header';
 import Mainstream from "./components/TheMainstream";

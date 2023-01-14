@@ -1,6 +1,8 @@
 // import from React
 import React from 'react';
 
+// import SEO from '../SEO';
+
 // import CSS
 import './TheMainstream.css';
 
@@ -67,6 +69,12 @@ const Item = styled(Paper)(({ theme }) => ({
 const Mainstream = () => {
   return (
     <div id='mainstream-div'>
+      {/* <SEO
+        title='Vain Mainstream'
+        description='Web application for indie rock musician Vain Mainstream, featuring music from the new album Your Likeness and videos from the Life Expectancy Tour'
+        name='vainmainstream.com'
+        type='music' 
+      /> */}
       <Grid container justifyContent='center'>
         <Grid item >
           <a 
