@@ -28,7 +28,7 @@ const TourVideoGallery = () => {
       flag_alt: 'Flag of Portugal',
       src: 'https://www.youtube.com/embed/I2WToQq4Pt8',
       date: '12/4/2022',
-      share_url: 'https://youtu.be/I2WToQq4Pt8'
+      share_url: 'youtu.be/I2WToQq4Pt8'
     },
     {
       title: 'Violent Pornography',
@@ -38,7 +38,7 @@ const TourVideoGallery = () => {
       flag_alt: 'Flag of Spain',
       src: 'https://www.youtube.com/embed/YSMddvEw0b0',
       date: '12/13/2022',
-      share_url: 'https://youtu.be/YSMddvEw0b0'
+      share_url: 'youtu.be/YSMddvEw0b0'
     },
     {
       title: 'Girl, You Have No Faith In Medicine',
@@ -48,7 +48,7 @@ const TourVideoGallery = () => {
       flag_alt: 'Flag of Vatican City',
       src: 'https://www.youtube.com/embed/FXOcwC8uHgs',
       date: '12/25/2022',
-      share_url: 'https://youtu.be/FXOcwC8uHgs'
+      share_url: 'youtu.be/FXOcwC8uHgs'
     }
 
     // {
