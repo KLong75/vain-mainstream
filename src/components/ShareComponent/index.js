@@ -45,7 +45,7 @@ const ShareComponent = () => {
         </Grid> */}
 
         <Grid xs={2}>
-          <a href='https://twitter.com/intent/tweet?url=vainmainstream.com&text=Vain%20Mainstream&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream' target="_blank" rel="nofollow noreferrer noopener">
+          <a href='https://twitter.com/intent/tweet?url=vainmainstream.com&text=Follow%20Vain%20Mainstream%20on%20the%20Life%20Expectancy%20Tour%20@&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream' target="_blank" rel="nofollow noreferrer noopener">
             <TwitterIcon className='social-media-share-links'/>
           </a>
         </Grid>
