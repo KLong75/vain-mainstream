@@ -14,7 +14,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 // import from react-share
 import FacebookShareButton from 'react-share/lib/FacebookShareButton';
-import TwitterShareButton from 'react-share/lib/TwitterShareButton';
+// import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 
 
 const TourVideoGallery = () => {
@@ -124,15 +124,21 @@ const Item = styled(Paper)(({ theme }) => ({
                     <FacebookIcon className='social-media-share-links' />
                   </FacebookShareButton>
 
-                  <TwitterShareButton
+                  {/* <TwitterShareButton
                     url={`${video.share_url}`}
                     title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
                     hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-                    related={['VainMainstream']}
                     via={`VainMainstream`}
                   >
                     <TwitterIcon className='social-media-share-links'/>
-                  </TwitterShareButton>
+                  </TwitterShareButton> */}
+
+                  <a 
+                    href={`https://twitter.com/intent/tweet?url=${video.share_url}&text=Vain%20Mainstream&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream`} 
+                    target="_blank" 
+                    rel="nofollow noreferrer noopener">
+                      <TwitterIcon className='social-media-share-links'/>
+                  </a>
                 </Grid>
               </Item>
             </Grid>
