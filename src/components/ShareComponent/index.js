@@ -5,14 +5,16 @@ import React from 'react';
 import './ShareComponent.css';
 
 // import from mui
-import { Grid } from '@mui/material';
+
+import Grid from '@mui/material/Unstable_Grid2';
+
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import TwitterIcon from '@mui/icons-material/Twitter';
 
 // import from react-share
 import FacebookShareButton from 'react-share/lib/FacebookShareButton';
-import TwitterShareButton from 'react-share/lib/TwitterShareButton';
+// import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 import { EmailShareButton } from 'react-share';
 
 
@@ -31,7 +33,7 @@ const ShareComponent = () => {
           </FacebookShareButton>
         </Grid>
 
-        <Grid item xs={2}>
+        {/* <Grid item xs={2}>
           <TwitterShareButton
             url={'https://vainmainstream.com/'}
             title='Vain Mainstream'
@@ -40,6 +42,12 @@ const ShareComponent = () => {
           >
             <TwitterIcon className='social-media-share-links'/>
           </TwitterShareButton>
+        </Grid> */}
+
+        <Grid xs={2}>
+          <a href='https://twitter.com/intent/tweet?url=vainmainstream.com&text=Vain%20Mainstream&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream' target="_blank" rel="nofollow noreferrer noopener">
+            <TwitterIcon className='social-media-share-links'/>
+          </a>
         </Grid>
 
         <Grid item xs={2}>
