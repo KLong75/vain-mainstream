@@ -223,7 +223,7 @@ const Mainstream = () => {
                 loop 
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
-                header={(`"${randomTrack.title}" (${randomTrack.original_artist})`)}
+                header={(`"${randomTrack.title}"`)}
               />
             </Grid>
           </Item>

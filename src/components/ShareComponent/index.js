@@ -36,7 +36,6 @@ const ShareComponent = () => {
             url={'https://vainmainstream.com/'}
             title='Vain Mainstream'
             hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-            related={['VainMainstream']}
             via={'VainMainstream'}
           >
             <TwitterIcon className='social-media-share-links'/>
