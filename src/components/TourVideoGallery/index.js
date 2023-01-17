@@ -134,7 +134,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   </TwitterShareButton> */}
 
                   <a 
-                    href={`https://twitter.com/intent/tweet?url=${video.share_url}&text=Vain%20Mainstream&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream`} 
+                    href={`https://twitter.com/intent/tweet?url=${video.share_url}&text=Vain%20Mainstream%20-%20${video.title}%20(${video.original_artist})%20${video.location}%20${video.date}&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour`} 
                     target="_blank" 
                     rel="nofollow noreferrer noopener">
                       <TwitterIcon className='social-media-share-links'/>
