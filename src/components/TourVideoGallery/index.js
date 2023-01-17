@@ -1,9 +1,6 @@
 // import from react
 import React, { useState } from 'react';
 
-// import components
-// import ShareComponent from '../ShareComponent';
-
 // import CSS
 import './TourVideoGallery.css';
 
@@ -43,8 +40,17 @@ const TourVideoGallery = () => {
       date: '12/13/2022',
       share_url: 'https://youtu.be/YSMddvEw0b0'
     },
+    {
+      title: 'Girl, You Have No Faith In Medicine',
+      original_artist: 'The White Stripes',
+      location: 'Vatican City',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/256px-Flag_of_the_Vatican_City.svg.png',
+      flag_alt: 'Flag of Vatican City',
+      src: 'https://www.youtube.com/embed/FXOcwC8uHgs',
+      date: '12/25/2022',
+      share_url: 'https://youtu.be/FXOcwC8uHgs'
+    }
 
-   
     // {
     //   title: '',
     //   original_artist: '',
@@ -113,7 +119,6 @@ const Item = styled(Paper)(({ theme }) => ({
 
                   <FacebookShareButton
                     url={`${video.share_url}`}
-                    quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
                     hashtag='#PleaseGiveMeADollar'
                   >
                     <FacebookIcon className='social-media-share-links' />
@@ -124,7 +129,7 @@ const Item = styled(Paper)(({ theme }) => ({
                     title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
                     hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
                     related={['VainMainstream']}
-                    via={`VainMainstream\nvainmainstream.com`}
+                    via={`VainMainstream`}
                   >
                     <TwitterIcon className='social-media-share-links'/>
                   </TwitterShareButton>

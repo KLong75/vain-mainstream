@@ -25,7 +25,6 @@ const ShareComponent = () => {
         <Grid item xs={2}>
           <FacebookShareButton
             url={'https://vainmainstream.com/'}
-            quote={`Check out the latest from Vain Mainstream @ vainmainstream.com\nSupport on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
             hashtag='#PleaseGiveMeADollar'
           >
             <FacebookIcon className='social-media-share-links' />

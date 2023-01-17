@@ -34,6 +34,12 @@ const AlbumTracks = () => {
       location: 'Barcelona, Spain',
       src: 'Violent_P.mp3'
     },
+    {
+      title: 'Girl, You Have No Faith In Medicine',
+      original_artist: 'The White Stripes',
+      location: 'Vatican City',
+      src: 'Girl_No_Faith_Med.mp3'
+    }
 ])
 
 const Item = styled(Paper)(({ theme }) => ({

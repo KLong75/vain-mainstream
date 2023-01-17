@@ -31,7 +31,6 @@ const Footer = () => {
   return (
     <footer>
       <ShareComponent />
-
       <Grid container spacing={1}>
         <Grid item xs={12}>
           <span className='follow-text'>Follow:</span>

@@ -28,6 +28,11 @@
   margin-right: 2em;
 }
 
+.nation-flag {
+  outline: solid;
+  outline-width: 1px;
+}
+
 .video-container {
     position: relative;
     width: 100%;
