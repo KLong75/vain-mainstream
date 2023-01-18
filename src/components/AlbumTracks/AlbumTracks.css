@@ -9,27 +9,27 @@
   margin-bottom: 1em;
 }
 
-#track-title {
+.track-title {
   color: black;
   font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
 }
 
-#track-original-artist {
+.track-original-artist {
   color: black;
   font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  margin-top: -1.45em;
+  margin-top: -1.35em;
 }
 
-#track-location {
+.track-location {
   color: black;
   font-size: 24px;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   font-weight: bold;
-  margin-top: -1.9em;
+  margin-top: -1.7em;
 }
 
 .track-download {

@@ -64,15 +64,15 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='track-paper' elevation={12}>
 
                 <Grid item className='track-title-grid' >
-                  <h3 id='track-title'>{(`"${track.title}"`)}</h3>
+                  <h4 className='track-title'>{(`"${track.title}"`)}</h4>
                 </Grid>
 
                 <Grid item className='track-title-grid' >
-                  <h3 id='track-original-artist'>{(`(${track.original_artist}) `)}</h3>
+                  <h5 className='track-original-artist'>{(`(${track.original_artist}) `)}</h5>
                 </Grid>
 
                 <Grid item className='track-location-grid' >
-                  <h4 id='track-location'> {track.location}</h4>
+                  <h6 className='track-location'> {track.location}</h6>
                 </Grid>
 
                 <Grid item>

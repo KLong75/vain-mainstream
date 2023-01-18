@@ -53,8 +53,8 @@ const ShareComponent = () => {
         <Grid item xs={2}>
           <EmailShareButton
             url={`Support on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
-            subject='Check out the latest from Vain Mainstream on vainmainstream.com'
-            body={`Checkout the latest from Vain Mainstream on vainmainstream.com\n`}
+            subject='Follow Vain Mainstream on the Life Expectancy Tour @ vainmainstream.com'
+            body={`Follow Vain Mainstream on the Life Expectancy Tour @ vainmainstream.com\n`}
             separator={`\n`}
           >
             <EmailIcon className='social-media-share-links' />

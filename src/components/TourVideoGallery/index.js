@@ -83,15 +83,15 @@ const Item = styled(Paper)(({ theme }) => ({
               <Item className='video-gallery-paper' elevation={12} >
 
                 <Grid item className='video-title-grid' >
-                  <h3 id='video-title'>{(`"${video.title}"`)}</h3>
+                  <h4 className='video-title'>{(`"${video.title}"`)}</h4>
                 </Grid>
 
                 <Grid item>
-                  <h4 id='video-original-artist'>{`(${video.original_artist})`}</h4>
+                  <h5 className='video-original-artist'>{`(${video.original_artist})`}</h5>
                 </Grid>
 
                 <Grid item>
-                  <h4 id='video-location'>{`${video.location}`}</h4>
+                  <h6 className='video-location'>{`${video.location}`}</h6>
             
                   <img width="64" alt={video.flag_alt} src={video.location_flag_src} className='nation-flag'></img>
                 </Grid>
