@@ -92,6 +92,7 @@ const Mainstream = () => {
         <Item className='mainstream-paper ' elevation={12}>
           <Grid container justifyContent='center'>
             <Grid  className='announcement-grid'>
+              {/* <p className='font-effect-fire-animation announcement-plain-text'>Vain Mainstream</p> */}
               <p className='font-effect-fire-animation announcement-plain-text'>The New Album</p>
               <h3 className='font-effect-fire-animation announcement-headline'>Your Likeness</h3>
               <span className='font-effect-fire-animation announcement-plain-text'>or</span>
