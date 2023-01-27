@@ -125,29 +125,21 @@ const Item = styled(Paper)(({ theme }) => ({
                   <p className='share-video-text'>
                     Share Video:
                   </p>
-
                   <FacebookShareButton
                     url={`${video.share_url}`}
                     hashtag='#PleaseGiveMeADollar'
+                    aria-label='Share this video on Facebook'
                   >
                     <FacebookIcon className='social-media-share-links' />
                   </FacebookShareButton>
-
-                  {/* <TwitterShareButton
-                    url={`${video.share_url}`}
-                    title={`Vain Mainstream - ${video.title} (${video.original_artist}) ${video.location}`}
-                    hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-                    via={`VainMainstream`}
-                  >
-                    <TwitterIcon className='social-media-share-links'/>
-                  </TwitterShareButton> */}
-
                   <a 
                     href={`https://twitter.com/intent/tweet?url=${video.share_url}&text=Vain%20Mainstream%20-%20${video.title}%20(${video.original_artist})%20${video.location}%20${video.date}&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour`} 
                     target="_blank" 
-                    rel="nofollow noreferrer noopener">
+                    rel="nofollow noreferrer noopener"
+                    aria-label='Share this video on Twitter'>
                       <TwitterIcon className='social-media-share-links'/>
                   </a>
+
                 </Grid>
               </Item>
             </Grid>

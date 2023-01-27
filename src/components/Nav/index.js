@@ -13,7 +13,7 @@ const Nav = (props) => {
     <nav>
       <ul>
         <Grid container spacing={1}> 
-          <Grid xs={4}> 
+          <Grid xs={4}>
             <li 
               id='nav-list-item' 
               onClick={() => { props.setCurrentPage('Mainstream')}} 

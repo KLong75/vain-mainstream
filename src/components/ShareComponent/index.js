@@ -28,6 +28,7 @@ const ShareComponent = () => {
           <FacebookShareButton
             url={'https://vainmainstream.com/'}
             hashtag='#PleaseGiveMeADollar'
+            aria-label='Share vainmainstream.com on Facebook'
           >
             <FacebookIcon className='social-media-share-links' />
           </FacebookShareButton>
@@ -48,7 +49,8 @@ const ShareComponent = () => {
           <a 
             href='https://twitter.com/intent/tweet?url=vainmainstream.com&text=Follow%20Vain%20Mainstream%20on%20the%20Life%20Expectancy%20Tour%20@&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream' 
             target="_blank" 
-            rel="nofollow noreferrer noopener">
+            rel="nofollow noreferrer noopener"
+            aria-label='share vainmainstream.com on twitter'>
             <TwitterIcon className='social-media-share-links'/>
           </a>
         </Grid>
@@ -57,6 +59,7 @@ const ShareComponent = () => {
           <EmailShareButton
             url={`Support on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
             subject='Follow Vain Mainstream on the Life Expectancy Tour @ vainmainstream.com'
+            aria-label='Share vainmainstream.com by email'
             body={`Follow Vain Mainstream on the Life Expectancy Tour @ vainmainstream.com\n`}
             separator={`\n`}
           >
