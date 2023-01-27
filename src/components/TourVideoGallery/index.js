@@ -92,21 +92,20 @@ const Item = styled(Paper)(({ theme }) => ({
             <Grid xs={12} sm={6} md={4} key={video.title} className='video-grid' >
               <Item className='video-gallery-paper' elevation={12} >
 
-                <Grid item className='video-title-grid' >
+                <Grid className='video-title-grid' >
                   <h4 className='video-title'>{(`"${video.title}"`)}</h4>
                 </Grid>
 
-                <Grid item>
+                <Grid>
                   <h5 className='video-original-artist'>{`(${video.original_artist})`}</h5>
                 </Grid>
 
-                <Grid item>
+                <Grid>
                   <h6 className='video-location'>{`${video.location}`}</h6>
-            
                   <img width="64" alt={video.flag_alt} src={video.location_flag_src} className='nation-flag'></img>
                 </Grid>
 
-                <Grid item id='iframe-grid'>
+                <Grid id='iframe-grid'>
                   <div className='video-container'>
                     <iframe
                       className='video-frame' 
@@ -118,7 +117,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   </div>
                 </Grid>
 
-                <Grid item>
+                <Grid>
                   <span className='video-caption'>
                     Life Expectancy Tour - {video.date}
                   </span>

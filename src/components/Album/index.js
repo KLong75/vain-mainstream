@@ -17,17 +17,17 @@ const Album = () => {
   return (
     <section id='album-div'>
       <Grid container justifyContent='center'>
-        <Grid item xs={12} justifyContent='center'>
+        <Grid xs={12} justifyContent='center'>
           <h2 id='album-headline' className='font-effect-fire-animation'>Your Likeness</h2>
         </Grid>
       </Grid>
       <Grid container justifyContent='center'>
-        <Grid item xs={12} justifyContent='center'>
+        <Grid xs={12} justifyContent='center'>
           <p id='album-headline-plain-text' className='font-effect-fire-animation'>or</p>
         </Grid>
       </Grid>
       <Grid container>
-        <Grid item xs={12}>
+        <Grid xs={12}>
           <a href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='album-patreon-link'>  
             <h3 id='album-sub-headline' className='font-effect-fire-animation'>Please Give Me a Dollar</h3>
             <h3 id='album-sub-headline' className='font-effect-fire-animation'>for Health Insurance</h3>

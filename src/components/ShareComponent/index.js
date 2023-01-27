@@ -22,9 +22,9 @@ const ShareComponent = () => {
 
     return (
       <Grid container spacing={1} >
-        <Grid item xs={12} ><span className='share-text'>Share:</span></Grid>
-        <Grid item xs={3}></Grid>
-        <Grid item xs={2}>
+        <Grid xs={12} ><span className='share-text'>Share:</span></Grid>
+        <Grid xs={3}></Grid>
+        <Grid xs={2}>
           <FacebookShareButton
             url={'https://vainmainstream.com/'}
             hashtag='#PleaseGiveMeADollar'
@@ -45,12 +45,15 @@ const ShareComponent = () => {
         </Grid> */}
 
         <Grid xs={2}>
-          <a href='https://twitter.com/intent/tweet?url=vainmainstream.com&text=Follow%20Vain%20Mainstream%20on%20the%20Life%20Expectancy%20Tour%20@&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream' target="_blank" rel="nofollow noreferrer noopener">
+          <a 
+            href='https://twitter.com/intent/tweet?url=vainmainstream.com&text=Follow%20Vain%20Mainstream%20on%20the%20Life%20Expectancy%20Tour%20@&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour,VainMainstream' 
+            target="_blank" 
+            rel="nofollow noreferrer noopener">
             <TwitterIcon className='social-media-share-links'/>
           </a>
         </Grid>
 
-        <Grid item xs={2}>
+        <Grid xs={2}>
           <EmailShareButton
             url={`Support on Patreon:\npatreon.com/vainmainstream\n\nFollow on social media:\ntwitter.com/vainmainstream\ninstagram.com/vainmainstream\nyoutube.com/@VainMainstream\n#PleaseGiveMeADollar\n#YourLikeness\n#LifeExpectancyTour\n#VainMainstream\n\n`}
             subject='Follow Vain Mainstream on the Life Expectancy Tour @ vainmainstream.com'
@@ -60,7 +63,7 @@ const ShareComponent = () => {
             <EmailIcon className='social-media-share-links' />
           </EmailShareButton>
         </Grid>
-        <Grid item xs={3}></Grid>
+        <Grid xs={3}></Grid>
       </Grid>
     )
 }

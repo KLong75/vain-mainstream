@@ -70,19 +70,19 @@ const Item = styled(Paper)(({ theme }) => ({
               
               <Item className='track-paper' elevation={12}>
 
-                <Grid item className='track-title-grid' >
+                <Grid className='track-title-grid' >
                   <h4 className='track-title'>{(`"${track.title}"`)}</h4>
                 </Grid>
 
-                <Grid item className='track-title-grid' >
+                <Grid className='track-title-grid' >
                   <h5 className='track-original-artist'>{(`(${track.original_artist}) `)}</h5>
                 </Grid>
 
-                <Grid item className='track-location-grid' >
+                <Grid className='track-location-grid' >
                   <h6 className='track-location'> {track.location}</h6>
                 </Grid>
 
-                <Grid item>
+                <Grid>
                   <AudioPlayer
                     className='album-tracks-react-h5-audio-player' 
                     src={require(`../../assets/audio/${track.src}`)} 
@@ -91,7 +91,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   />
 
                 </Grid>
-                <Grid item>
+                <Grid>
                   <a 
                     href={require(`../../assets/audio/${track.src}`)} 
                     download={(`Vain Mainstream - ${track.title} (${track.original_artist}) ${track.location}`)}
@@ -99,7 +99,7 @@ const Item = styled(Paper)(({ theme }) => ({
                     <FileDownloadIcon className='track-download'/>
                   </a>
                 </Grid>
-                <Grid item>
+                <Grid>
                   <span className='download-title-msg'>Download</span>
                 </Grid>
               </Item>

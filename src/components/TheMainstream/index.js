@@ -77,7 +77,7 @@ const Mainstream = () => {
   return (
     <div id='mainstream-div'>
       <Grid container justifyContent='center'>
-        <Grid item >
+        <Grid>
           <a 
             href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" id='mainstream-patreon-link'
           >
@@ -112,65 +112,65 @@ const Mainstream = () => {
           </Grid>
       
             <Grid container spacing={1} disableEqualOverflow >
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               <div></div>
               </Grid>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
             </Grid>
             <Grid container spacing={1} disableEqualOverflow id='guitarist-body-grid'>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={guitaristTorso} alt='pixelated skeleton' className='guitarist-torso' />
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               </Grid>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                   <img src={guitaristTorso} alt='pixelated skeleton' className='guitarist-torso' />
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='guitar-right-arm-grid'>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               </Grid>
-               <Grid item xs={3} >
+               <Grid xs={3} >
                <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='guitar-left-arm-grid'>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               </Grid>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='guitar-grid'>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={flyingV} className='mainstream-guitar ' alt='flying v electric guitar'/>
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               </Grid>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={flyingV} className='mainstream-guitar' id='stage-left-guitar' alt='flying v electric guitar'/>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='guitarist-body-grid'>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                 <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               </Grid>
               <Grid item xs={3} >
                   <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
@@ -178,52 +178,52 @@ const Mainstream = () => {
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='drummer-head-grid'>
-            <Grid item xs={3}>
+            <Grid xs={3}>
               </Grid>
-              <Grid item xs={6} >
-               <img item src={drummerHeadSolid} alt='pixelated skull with mohawk'  id='mohawk-skull' />
+              <Grid xs={6} >
+               <img src={drummerHeadSolid} alt='pixelated skull with mohawk'  id='mohawk-skull' />
               </Grid>
-              <Grid item xs={3}>
-              </Grid>
-            </Grid>
-
-            <Grid container spacing={1} disableEqualOverflow>
-            <Grid item xs={3}>
-              </Grid>
-              <Grid item xs={6}>
-                <img item src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
-              </Grid>
-              <Grid item xs={3}>
+              <Grid xs={3}>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow>
-              <Grid item xs={3}>
+            <Grid xs={3}>
               </Grid>
-              <Grid item xs={6}>
-              <img item src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
+              <Grid xs={6}>
+                <img src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
               </Grid>
-              <Grid item xs={3}>
+              <Grid xs={3}>
+              </Grid>
+            </Grid>
+
+            <Grid container spacing={1} disableEqualOverflow>
+              <Grid xs={3}>
+              </Grid>
+              <Grid xs={6}>
+              <img src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
+              </Grid>
+              <Grid xs={3}>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id="drummer-body-grid">
-              <Grid item xs={3}>
+              <Grid xs={3}>
               </Grid>
-              <Grid item xs={6}>
+              <Grid xs={6}>
               <img src={drummerBody} alt='pixelated skeleton torso' className='drummer-body' />
               </Grid>
-              <Grid item xs={3}>
+              <Grid xs={3}>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} disableEqualOverflow id='speakers-drums-grid'>
-              <Grid item xs={12} >
+              <Grid xs={12} >
                 <img src={drums} alt='pixelated drumset' id='' className='drums' />
               </Grid>
             </Grid>
 
-            <Grid item id='mainstream-audio-player-grid'>
+            <Grid id='mainstream-audio-player-grid'>
               <AudioPlayer
                 id='mainstream-audio-player'
                 autoPlay={true}

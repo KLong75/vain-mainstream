@@ -32,10 +32,10 @@ const Footer = () => {
     <footer>
       <ShareComponent />
       <Grid container spacing={1}>
-        <Grid item xs={12}>
+        <Grid xs={12}>
           <span className='follow-text'>Follow:</span>
         </Grid>
-        <Grid item xs={4}>
+        <Grid xs={4}>
           <a 
             href='https://www.youtube.com/@VainMainstream?sub_confirmation=1' 
             target='_blank' 
@@ -45,7 +45,7 @@ const Footer = () => {
             <YouTubeIcon/>
           </a>
         </Grid>
-        <Grid item xs={4}>
+        <Grid xs={4}>
           <a 
             href='https://www.instagram.com/vainmainstream' 
             target='_blank' 
@@ -55,7 +55,7 @@ const Footer = () => {
             <InstagramIcon/>
           </a>  
         </Grid>
-        <Grid item xs={4}>
+        <Grid xs={4}>
           <a 
             href='https://twitter.com/vainmainstream' 
             target='_blank' 
@@ -65,7 +65,7 @@ const Footer = () => {
             <TwitterIcon/>
           </a>
         </Grid>
-        <Grid item xs={12} >
+        <Grid xs={12} >
           <p className='font-effect-fire-animation copywrite'>©2023 Vain Mainstream</p>
           <p>design and development by <a 
               href='https://kevinlong.dev/'

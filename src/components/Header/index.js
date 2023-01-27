@@ -26,13 +26,13 @@ const Header = (props) => {
     <header>
       <Item elevation={12} className='header-paper'>
         <Grid container >
-          <Grid item xs={3}>
+          <Grid xs={3}>
             <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
-          <Grid item xs={6}>
+          <Grid xs={6}>
             <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
           </Grid>
-          <Grid item xs={3}>
+          <Grid xs={3}>
             <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
         </Grid>

@@ -13,7 +13,7 @@ const Nav = (props) => {
     <nav>
       <ul>
         <Grid container spacing={1}> 
-          <Grid item xs={4}> 
+          <Grid xs={4}> 
             <li 
               id='nav-list-item' 
               onClick={() => { props.setCurrentPage('Mainstream')}} 
@@ -21,7 +21,7 @@ const Nav = (props) => {
               Radio
             </li>
           </Grid>
-          <Grid item xs={4}> 
+          <Grid xs={4}> 
             <li 
               id='nav-list-item'
               onClick={() => { props.setCurrentPage('Album')}} 
@@ -29,7 +29,7 @@ const Nav = (props) => {
               Audio
             </li>
           </Grid>
-          <Grid item xs={4}> 
+          <Grid xs={4}> 
             <li 
               id='nav-list-item' 
               onClick={() => { props.setCurrentPage('Tour')}} 

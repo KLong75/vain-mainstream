@@ -17,19 +17,19 @@ const Tour = () => {
   return (
     <div id='tour-div'>
       <Grid container>
-        <Grid item xs={12}>
+        <Grid xs={12}>
         <h2 id='tour-headline' className='font-effect-fire-animation tour-headline'>Life Expectancy Tour</h2>
         </Grid>
       </Grid>
 
       <Grid container  >
-        <Grid item xs={12}>
+        <Grid xs={12}>
         <h3 className='font-effect-fire-animation tour-date-sub-headline tour-dates'>December 2022 - May 2023</h3>
         </Grid>
       </Grid>
 
       <Grid container  >
-        <Grid item xs={12}>
+        <Grid xs={12}>
         <p className='tour-description-text font-effect-fire-animation'>Coming Soon to a town probably nowhere near you!</p>
         </Grid>
       </Grid>
