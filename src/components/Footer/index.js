@@ -71,6 +71,7 @@ const Footer = () => {
               href='https://kevinlong.dev/'
               target='_blank' 
               rel='noreferrer'
+              aria-label='link to kevinlong.dev'
               className={isHovering ? 'font-effect-fire-animation website-credit' : 'website-credit'}
               onMouseOver={handleMouseOver}
               onMouseOut={handleMouseOut}
