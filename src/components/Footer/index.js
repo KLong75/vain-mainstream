@@ -37,7 +37,7 @@ const Footer = () => {
         </Grid>
         <Grid item xs={4}>
           <a 
-            href='https://www.youtube.com/@VainMainstream' 
+            href='https://www.youtube.com/@VainMainstream?sub_confirmation=1' 
             target='_blank' 
             rel='noreferrer' 
             className='social-media-follow-links'
