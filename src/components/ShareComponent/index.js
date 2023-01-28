@@ -14,7 +14,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 // import from react-share
 import FacebookShareButton from 'react-share/lib/FacebookShareButton';
-// import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 import { EmailShareButton } from 'react-share';
 
 
@@ -33,17 +32,6 @@ const ShareComponent = () => {
             <FacebookIcon className='social-media-share-links' />
           </FacebookShareButton>
         </Grid>
-
-        {/* <Grid item xs={2}>
-          <TwitterShareButton
-            url={'https://vainmainstream.com/'}
-            title='Vain Mainstream'
-            hashtags={['PleaseGiveMeADollar', 'VainMainstream', 'LifeExpectancyTour', 'YourLikeness']}
-            via={'VainMainstream'}
-          >
-            <TwitterIcon className='social-media-share-links'/>
-          </TwitterShareButton>
-        </Grid> */}
 
         <Grid xs={2}>
           <a 

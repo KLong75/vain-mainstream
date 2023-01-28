@@ -97,7 +97,7 @@ const Mainstream = () => {
       <Box sx={{ flexGrow: 1 }}>
         <Item className='mainstream-paper ' elevation={12}>
           <Grid container justifyContent='center'>
-            <Grid  className='announcement-grid'>
+            <Grid item className='announcement-grid'>
               {/* <p className='font-effect-fire-animation announcement-plain-text'>Vain Mainstream</p> */}
               <p className='font-effect-fire-animation announcement-plain-text'>The New Album</p>
               <h3 className='font-effect-fire-animation announcement-headline'>Your Likeness</h3>
@@ -172,7 +172,7 @@ const Mainstream = () => {
               </Grid>
               <Grid xs={6}>
               </Grid>
-              <Grid item xs={3} >
+              <Grid xs={3} >
                   <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
               </Grid>
             </Grid>
@@ -219,20 +219,22 @@ const Mainstream = () => {
 
             <Grid container spacing={1} disableEqualOverflow id='speakers-drums-grid'>
               <Grid xs={12} >
-                <img src={drums} alt='pixelated drumset' id='' className='drums' />
+                <img src={drums} alt='pixelated drumset' className='drums' />
               </Grid>
             </Grid>
 
-            <Grid id='mainstream-audio-player-grid'>
+            {/* <Grid container> */}
+              
               <AudioPlayer
                 id='mainstream-audio-player'
-                autoPlay={true}
+                // autoPlay={true}
                 loop 
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
-            </Grid>
+      
+            {/* </Grid> */}
           </Item>
         </Box>
     </div>
