@@ -1,3 +1,8 @@
+/* bring in normalize.css styles */
+@import-normalize;
+
+/* rest of app styles */
+
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap&effect=fire-animation');
 
 #root {

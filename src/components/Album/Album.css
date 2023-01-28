@@ -5,13 +5,13 @@
 }
   
 #album-sub-headline {
-  font-size: 36px;
+  font-size: 42px;
   color: black;
   text-align: center;
 }
 
 #album-headline-plain-text {
-  font-size: 24px;
+  font-size: 28px;
   color: black;
   margin-bottom: .25em;
   text-align: center;
@@ -36,17 +36,17 @@
 } */
 
 @media screen and (max-width: 900px) {
-  #album-headline {
+  /* #album-headline {
     font-size: 48px;
   }
     
   #album-sub-headline {
-    font-size: 36px;
+    font-size: 42px;
   }
   
   #album-headline-plain-text {
     font-size: 24px;
-  }
+  } */
 
 }
 
@@ -60,7 +60,7 @@
   }
     
   #album-sub-headline {
-    font-size: 34px;
+    font-size: 36px;
   }
   
   #album-headline-plain-text {
@@ -76,7 +76,7 @@
   }
     
   #album-sub-headline {
-    font-size: 28px;
+    font-size: 32px;
   }
   
   #album-headline-plain-text {
