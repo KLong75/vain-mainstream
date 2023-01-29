@@ -45,7 +45,14 @@ const AlbumTracks = () => {
       original_artist: 'The White Stripes',
       location: 'Vatican City',
       src: 'Girl_No_Faith_Med.mp3'
+    },
+    {
+      title: 'Fake Plastic Trees',
+      original_artist: 'Radiohead',
+      location: 'Rome, Italy',
+      src: 'Fake_Plastic_Trees.mp3'
     }
+
     
 ])
 
