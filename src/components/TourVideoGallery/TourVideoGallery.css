@@ -59,6 +59,10 @@
   margin-top: .5em;
 }
 
+.video-caption {
+  color: black;
+}
+
 @media screen and (max-width: 300px) {
   #video-title {
     font-size: 1.25em;

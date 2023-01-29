@@ -118,7 +118,7 @@ const Item = styled(Paper)(({ theme }) => ({
                 </Grid>
 
                 <Grid>
-                  <span className='video-caption'>
+                  <span className='video-caption font-effect-fire-animation'>
                     Life Expectancy Tour - {video.date}
                   </span>
 

@@ -100,7 +100,7 @@ const Item = styled(Paper)(({ theme }) => ({
                   </a>
                 </Grid>
                 <Grid>
-                  <span className='download-title-msg'>Download</span>
+                  <span className='download-title-msg font-effect-fire-animation'>Download</span>
                 </Grid>
               </Item>
             </Grid>
