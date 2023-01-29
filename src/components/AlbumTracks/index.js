@@ -45,7 +45,14 @@ const AlbumTracks = () => {
       original_artist: 'The White Stripes',
       location: 'Vatican City',
       src: 'Girl_No_Faith_Med.mp3'
+    },
+    {
+      title: 'Fake Plastic Trees',
+      original_artist: 'Radiohead',
+      location: 'Rome, Italy',
+      src: 'Fake_Plastic_Trees.mp3'
     }
+
     
 ])
 
@@ -69,7 +76,6 @@ const Item = styled(Paper)(({ theme }) => ({
             <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
               
               <Item className='track-paper' elevation={12}>
-
                 <Grid className='track-title-grid' >
                   <h4 className='track-title'>{(`"${track.title}"`)}</h4>
                 </Grid>
@@ -89,7 +95,6 @@ const Item = styled(Paper)(({ theme }) => ({
                     header='Vain Mainstream'
                     footer='Your Likeness'
                   />
-
                 </Grid>
                 <Grid>
                   <a 
