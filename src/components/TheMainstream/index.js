@@ -19,17 +19,17 @@ import 'react-h5-audio-player/lib/styles.css';
 
 // import images
 import worldOnFireGif from '../../assets/images/world_on_fire.gif';
-import drums from '../../assets/images/pixel_drums_big.png';
-import drummerBody from '../../assets/images/drummer_body.png';
-import drummerRightArm from '../../assets/images/drummer_right_arm_with_drumstick.png';
-import drummerLeftArm from '../../assets/images/drummer_left_arm_with_drumstick.png';
-import drummerHeadSolid from '../../assets/images/grey_mohawk_skull_solid.png'
-import guitaristTorso from '../../assets/images/guitarist-torso.png';
-import guitaristLegs from '../../assets/images/guitarist_legs.png';
-import guitaristRightArm from '../../assets/images/guitarist_right_arm.png'
-import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
-import skull from '../../assets/images/skull.png'
-import flyingV from '../../assets/images/blue_flying_v.png';
+// import drums from '../../assets/images/pixel_drums_big.png';
+// import drummerBody from '../../assets/images/drummer_body.png';
+// import drummerRightArm from '../../assets/images/drummer_right_arm_with_drumstick.png';
+// import drummerLeftArm from '../../assets/images/drummer_left_arm_with_drumstick.png';
+// import drummerHeadSolid from '../../assets/images/grey_mohawk_skull_solid.png'
+// import guitaristTorso from '../../assets/images/guitarist-torso.png';
+// import guitaristLegs from '../../assets/images/guitarist_legs.png';
+// import guitaristRightArm from '../../assets/images/guitarist_right_arm.png'
+// import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
+// import skull from '../../assets/images/skull.png'
+// import flyingV from '../../assets/images/blue_flying_v.png';
 
 
 const playList = [
