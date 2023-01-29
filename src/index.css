@@ -1,10 +1,9 @@
 /* bring in normalize.css styles */
 @import-normalize;
 
-/* rest of app styles */
-
 @import url('https://fonts.googleapis.com/css?family=VT323&display=swap&effect=fire-animation');
 
+/* rest of app styles */
 #root {
   height: 100vh;
   
@@ -36,7 +35,7 @@ html {
 
 .main {
   height: 100%; 
-  /* min-height: calc(72vh);  */
+  /* min-height: calc(60vh);  */
 }
 
 
