@@ -9,13 +9,13 @@
 .mainstream-paper {
   background-size: 24em;
   background-repeat: no-repeat;
-  background-position: 50% 2%;
+  background-position: 50% 10%;
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
   /* margin: 2em; */
   margin-bottom: 0em;
-  height: 56.25em;
+  height: 43.25em;
   /* height: 36em; */
   /* filter: drop-shadow(0 0 0.75rem orange); */
 }
@@ -327,7 +327,7 @@
 
 /* audio-player */
 .mainstream-react-h5-audio-player {
-  margin-top: 0em;
+  margin-top: 3.5em;
   margin-bottom: 0em;
   outline: black solid 2px;
   position: relative;
@@ -356,8 +356,8 @@
 
   .mainstream-paper {
     background-size: 18em;
-    background-position: 50% 5%;
-    height: 46.2em;
+    background-position: 50% 15%;
+    height: 36.25em;
   }
 
   #mainstream-div h2 {
@@ -460,7 +460,7 @@
   }
 
   .mainstream-react-h5-audio-player {
-    margin-top: 0em;
+    margin-top: 3em;
     margin-bottom: 0em;
   }
 }
@@ -470,8 +470,8 @@
 
   .mainstream-paper {
     background-size: 16em;
-    background-position: 50% 5%;
-    height: 46em;
+    background-position: 50% 10%;
+    height: 33em;
   }
 
   #mainstream-div h2 {
@@ -576,8 +576,8 @@
   }
 
   .mainstream-react-h5-audio-player {
-    margin-top: 0em;
-    margin-bottom: 0em;
+    margin-top: 2.5em;
+    /* margin-bottom: 0em; */
   }
 }
 
@@ -607,9 +607,9 @@
 @media screen and (max-width: 375px) {
 
   .mainstream-paper {
-    background-size: 15em;
-    background-position: 50% 5%;
-    height: 42.75em;
+    background-size: 15.5em;
+    background-position: 50% 8%;
+    height: 31em;
   }
 
   .announcement-grid {
@@ -709,12 +709,19 @@
   }
 
   .mainstream-react-h5-audio-player {
-    margin-top: -.2em;
-    margin-bottom: 0em;
+    /* margin-top: -.2em;
+    margin-bottom: 0em; */
   }
 }
 
 @media screen and (max-width: 350px){
+
+  .mainstream-paper {
+    background-size: 15.5em;
+    background-position: 50% 8%;
+    height: 31em;
+  }
+
   .guitarist-left-arm {
     height: 1.55em;
     margin-bottom: -6.68em;
@@ -730,17 +737,18 @@
   }
 }
 
+
+
 @media screen and (max-width: 325px){
 
-
   .mainstream-paper {
-    background-size: 15em;
-    background-position: 50% 5%;
-    height: 42.25em;
+    background-size: 14em;
+    background-position: 50% 8%;
+    height: 29.35em;
   }
 
   .announcement-grid {
-    margin-top: 12em;
+    margin-top: 11em;
   }
   
   .announcement-plain-text{
@@ -805,7 +813,7 @@
   .mainstream-paper {
     background-size: 13em;
     background-position: 50% 5%;
-    height: 40em;
+    height: 28em;
   }
 
   #mainstream-div h2 {
@@ -813,19 +821,19 @@
   }
 
   .announcement-grid {
-    margin-top: 11.5em;
+    margin-top: 10em;
   }
   
   .announcement-plain-text{
-    font-size: 12px;
+    font-size: 16px;
   }
   
   .announcement-headline {
-    font-size: 20px;
+    font-size: 26px;
   }
   
   .announcement-sub-headline {
-    font-size: 16px;
+    font-size: 20px;
   }
 
   /* guitarists */
@@ -907,7 +915,6 @@
   }
 
   /* audio player */
-
   .rhap_volume-button {
     display: none;
   }
@@ -919,7 +926,4 @@
   .rhap_repeat-button {
     display: none;
   }
-
-
-
 }

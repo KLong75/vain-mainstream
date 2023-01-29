@@ -111,7 +111,7 @@ const Mainstream = () => {
             </Grid>
           </Grid>
       
-            <Grid container spacing={1} disableEqualOverflow >
+            {/* <Grid container spacing={1} disableEqualOverflow >
               <Grid xs={3} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
@@ -221,20 +221,20 @@ const Mainstream = () => {
               <Grid xs={12} >
                 <img src={drums} alt='pixelated drumset' className='drums' />
               </Grid>
-            </Grid>
+            </Grid> */}
 
-            {/* <Grid container> */}
+            <Grid container>
               
               <AudioPlayer
                 id='mainstream-audio-player'
-                // autoPlay={true}
+                autoPlay={false}
                 loop 
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
       
-            {/* </Grid> */}
+            </Grid>
           </Item>
         </Box>
     </div>
