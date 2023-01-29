@@ -13,17 +13,19 @@
   margin-top: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  /* margin: 2em; */
   margin-bottom: 0em;
   height: 43.25em;
-  /* height: 36em; */
-  /* filter: drop-shadow(0 0 0.75rem orange); */
 }
 
 #mainstream-patreon-link {
   /* text-decoration: none; */
   cursor: url('../../assets/cursor/sym57.cur'), auto;
   color:black;
+  text-shadow:
+  /* 0px -2px 4px #fff, */
+  0px -2px 10px #FF3,
+  0px -10px 20px #F90,
+  0px -20px 40px #C33;
 }
 
 #mainstream-patreon-link:visited {
@@ -47,17 +49,34 @@
   font-size: 28px;
   color: black;
   font-weight: bold;
+  text-shadow:
+ /* 0px -2px 4px #fff, */
+ 0px -2px 10px #FF3,
+ 0px -10px 20px #F90,
+ 0px -20px 40px #C33;
 }
 
 .announcement-headline {
   font-size: 48px;
   color: black;
+  /* font-weight: bold; */
+ text-shadow:
+ /* 0px -2px 4px #fff, */
+ 0px -2px 10px #FF3,
+ 0px -10px 20px #F90,
+ 0px -20px 40px #C33;
+				
 }
 
 .announcement-sub-headline {
   font-size: 42px;
   color: black;
   text-decoration: none;
+  text-shadow:
+  /* 0px -2px 4px #fff, */
+  0px -2px 10px #FF3,
+  0px -10px 20px #F90,
+  0px -20px 40px #C33;
 }
 
 .announcement-patreon-link{
@@ -576,7 +595,8 @@
   }
 
   .mainstream-react-h5-audio-player {
-    margin-top: 2.5em;
+    /* this is the thing to change back to 2.5if it looks bad */
+    margin-top: 2.25em;
     /* margin-bottom: 0em; */
   }
 }
@@ -708,10 +728,10 @@
     margin-bottom: 0em;
   }
 
-  /* .mainstream-react-h5-audio-player {
-    margin-top: -.2em;
+  .mainstream-react-h5-audio-player {
+    /* margin-top: 3em; */
     margin-bottom: 0em;
-  } */
+  }
 }
 
 @media screen and (max-width: 350px){
