@@ -14,26 +14,23 @@ const Nav = (props) => {
       <ul>
         <Grid container spacing={1}> 
           <Grid xs={4}>
-            <li 
-              id='nav-list-item' 
+            <li  
               onClick={() => { props.setCurrentPage('Mainstream')}} 
-              className={props.currentPage==='Mainstream' ? 'navActive' : ''}>
+              className={props.currentPage==='Mainstream' ? 'navActive nav-list-item' : 'nav-list-item'}>
               Radio
             </li>
           </Grid>
           <Grid xs={4}> 
             <li 
-              id='nav-list-item'
               onClick={() => { props.setCurrentPage('Album')}} 
-              className={props.currentPage==='Album' ? 'navActive' : ''}>
+              className={props.currentPage==='Album' ? 'navActive nav-list-item' : 'nav-list-item'}>
               Audio
             </li>
           </Grid>
           <Grid xs={4}> 
-            <li 
-              id='nav-list-item' 
+            <li  
               onClick={() => { props.setCurrentPage('Tour')}} 
-              className={props.currentPage==='Tour' ? 'navActive' : ''}>
+              className={props.currentPage==='Tour' ? 'navActive nav-list-item' : 'nav-list-item'}>
               Video
             </li>
           </Grid>

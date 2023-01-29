@@ -7,7 +7,7 @@ nav li {
   cursor: url('../../assets/cursor/sym57.cur'), auto;
 }
 
-#nav-list-item {
+.nav-list-item {
   list-style: none;
   font-size: 36px;
   color: blue;
@@ -31,19 +31,19 @@ nav li {
 
 /* begin media queries for responsve sizing */
 @media screen and (max-width: 900px) {
-  #nav-list-item {
+  .nav-list-item {
     font-size: 32px;
   }
 }
 
 @media screen and (max-width: 600px) {
-  #nav-list-item {
+  .nav-list-item {
     font-size: 28px;
   }
 }
 
 @media screen and (max-width: 420px) {
-  #nav-list-item {
+  .nav-list-item {
   font-size: 20px;
   }
 }
