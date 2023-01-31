@@ -13,7 +13,7 @@ import { Paper } from '@mui/material';
 import { styled } from '@mui/material/styles';
 
 // import images
-import worldOnFireGif from '../../assets/images/world_on_fire.gif';
+import headerWorldOnFireGif from '../../assets/images/header_world_on_fire.gif';
 
 
 const Item = styled(Paper)(({ theme }) => ({
@@ -27,13 +27,13 @@ const Header = (props) => {
       <Item elevation={12} className='header-paper'>
         <Grid container >
           <Grid xs={3}>
-            <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
+            <img src={headerWorldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
           <Grid xs={6}>
             <h1 className='header-headline font-effect-fire-animation'>Vain Mainstream</h1>
           </Grid>
           <Grid xs={3}>
-            <img src={worldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
+            <img src={headerWorldOnFireGif} className='header-earth' alt='vain mainstream logo'/>
           </Grid>
         </Grid>
       <Nav

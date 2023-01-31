@@ -3,7 +3,7 @@
 .header-earth {
   height: 6.5em;
   margin-top: .25em;
-  
+  width: max-content;
 }
 
   .header-paper {
