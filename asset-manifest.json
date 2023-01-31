@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.50e70ba2.css",
-    "main.js": "/static/js/main.9e372dd9.js",
+    "main.css": "/static/css/main.753c4ca0.css",
+    "main.js": "/static/js/main.5f7604a2.js",
     "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
     "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.92315bff8ee602405de8.mp3",
     "static/media/Smooth.mp3": "/static/media/Smooth.284bd38af3e552ed2da1.mp3",
@@ -10,14 +10,15 @@
     "static/media/Girl_No_Faith_Med.mp3": "/static/media/Girl_No_Faith_Med.93c8e80d939322252c27.mp3",
     "static/media/world_on_fire.gif": "/static/media/world_on_fire.aef27bfae6ae7cd6b747.gif",
     "service-worker.js": "/service-worker.js",
+    "static/media/header_world_on_fire.gif": "/static/media/header_world_on_fire.d0d20fa65b4a86503066.gif",
     "index.html": "/index.html",
     "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
-    "main.50e70ba2.css.map": "/static/css/main.50e70ba2.css.map",
-    "main.9e372dd9.js.map": "/static/js/main.9e372dd9.js.map",
+    "main.753c4ca0.css.map": "/static/css/main.753c4ca0.css.map",
+    "main.5f7604a2.js.map": "/static/js/main.5f7604a2.js.map",
     "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50e70ba2.css",
-    "static/js/main.9e372dd9.js"
+    "static/css/main.753c4ca0.css",
+    "static/js/main.5f7604a2.js"
   ]
 }
