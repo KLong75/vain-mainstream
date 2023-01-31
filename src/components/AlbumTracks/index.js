@@ -35,17 +35,18 @@ const AlbumTracks = () => {
       src: 'Violent_P.mp3'
     },
     {
-      title: 'Smooth',
-      original_artist: 'Santana ft Rob Thomas',
-      location: 'Paris, France',
-      src: 'Smooth.mp3'
-    },
-    {
       title: 'Girl, You Have No Faith In Medicine',
       original_artist: 'The White Stripes',
       location: 'Vatican City',
       src: 'Girl_No_Faith_Med.mp3'
     },
+    {
+      title: 'Smooth',
+      original_artist: 'Santana ft Rob Thomas',
+      location: 'Paris, France',
+      src: 'Smooth.mp3'
+    },
+
     {
       title: 'Fake Plastic Trees',
       original_artist: 'Radiohead',

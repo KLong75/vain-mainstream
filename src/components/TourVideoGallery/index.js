@@ -41,16 +41,6 @@ const TourVideoGallery = () => {
       share_url: 'youtu.be/YSMddvEw0b0'
     },
     {
-      title: 'Smooth',
-      original_artist: 'Santana ft. Rob Thomas',
-      location: 'Paris, France',
-      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/512px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png',
-      flag_alt: 'Flag of France',
-      src: 'https://www.youtube.com/embed/pd9nWNCsE68',
-      date: '12/19/2022',
-      share_url: 'https://youtu.be/pd9nWNCsE68'
-    },
-    {
       title: 'Girl, You Have No Faith In Medicine',
       original_artist: 'The White Stripes',
       location: 'Vatican City',
@@ -59,6 +49,16 @@ const TourVideoGallery = () => {
       src: 'https://www.youtube.com/embed/FXOcwC8uHgs',
       date: '12/25/2022',
       share_url: 'youtu.be/FXOcwC8uHgs'
+    },
+    {
+      title: 'Smooth',
+      original_artist: 'Santana ft. Rob Thomas',
+      location: 'Paris, France',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/512px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png',
+      flag_alt: 'Flag of France',
+      src: 'https://www.youtube.com/embed/pd9nWNCsE68',
+      date: '12/19/2022',
+      share_url: 'https://youtu.be/pd9nWNCsE68'
     },
     {
       title: 'Fake Plastic Trees',

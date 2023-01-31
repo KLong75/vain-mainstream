@@ -14,7 +14,7 @@
   margin-left: 1em;
   margin-right: 1em;
   margin-bottom: 0em;
-  height: 56.25em;
+  height: 45em;
 }
 
 #mainstream-patreon-link {
@@ -33,7 +33,7 @@
 }
 
 .mainstream-marquee-text {
-  font-size: 16px;
+  font-size: 16.5px;
   font-weight: bold;
   margin-top: .5em;
   margin-bottom: .5em;
@@ -43,6 +43,7 @@
 
 .announcement-grid {
   margin-top: 18em;
+  margin-left: 1em;
 }
 
 .announcement-plain-text{
@@ -340,7 +341,7 @@
 
 /* audio-player */
 .mainstream-react-h5-audio-player {
-  margin-top: .15em;
+  margin-top: 5em;
   margin-bottom: 0em;
   outline: black solid 2px;
   position: relative;
@@ -368,9 +369,9 @@
 @media screen and (max-width: 700px) {
 
   .mainstream-paper {
-    background-size: 18em;
+    background-size: 22em;
     background-position: 50% 15%;
-    height: 46.25em;
+    height: 43em;
   }
 
   #mainstream-div h2 {
@@ -378,7 +379,7 @@
   }
 
   .announcement-grid {
-    margin-top: 13.5em;
+    /* margin-top: 15.25em; */
   }
   
   .announcement-plain-text{
@@ -473,7 +474,7 @@
   }
 
   .mainstream-react-h5-audio-player {
-    margin-top: .15em;
+    /* margin-top: 2em; */
     margin-bottom: 0em;
   }
 }
@@ -482,9 +483,9 @@
 @media screen and (max-width: 424px) {
 
   .mainstream-paper {
-    background-size: 16em;
+    background-size: 20em;
     background-position: 50% 10%;
-    height: 46.5em;
+    height: 39em;
   }
 
   #mainstream-div h2 {
@@ -492,8 +493,8 @@
   }
 
   .announcement-grid {
-    margin-top: 12em;
-    /* margin-left: .5em; */
+    margin-top: 16em;
+    margin-left: .6em;
   }
   
   .announcement-plain-text{
@@ -590,7 +591,7 @@
 
   .mainstream-react-h5-audio-player {
     /* check this  */
-    margin-top: .15em;
+    margin-top: 4em;
     /* margin-bottom: 0em; */
   }
 }
@@ -626,25 +627,25 @@
 @media screen and (max-width: 375px) {
 
   .mainstream-paper {
-    background-size: 15.5em;
+    background-size: 18em;
     background-position: 50% 8%;
-    height: 43em;
+    height: 36em;
   }
 
   .announcement-grid {
-    margin-top: 11.5em;
+    margin-top: 14.35em;
   }
   
   .announcement-plain-text{
-    font-size: 18px;
+    font-size: 20px;
   }
   
   .announcement-headline {
-    font-size: 32px;
+    font-size: 34px;
   }
   
   .announcement-sub-headline {
-    font-size: 26px;
+    font-size: 30px;
   }
 
   /* guitarists */
@@ -728,7 +729,7 @@
   }
 
   .mainstream-react-h5-audio-player {
-    margin-top: -.15em;
+    margin-top: 3em;
     margin-bottom: 0em;
   }
 }
@@ -736,9 +737,18 @@
 @media screen and (max-width: 350px){
 
   .mainstream-paper {
-    background-size: 15.5em;
+    /* background-size: 15.5em; */
     background-position: 50% 8%;
-    height: 43em;
+    height: 35.5em;
+  }
+
+  .announcement-grid {
+    margin-top: 14.25em;
+    margin-left: .25em;
+  }
+
+  .announcement-sub-headline {
+    font-size: 29px;
   }
 
   .guitarist-left-arm {
@@ -759,13 +769,14 @@
 @media screen and (max-width: 325px){
 
   .mainstream-paper {
-    background-size: 14em;
+    background-size: 16em;
     background-position: 50% 8%;
-    height: 41.25em;
+    height: 32em;
   }
 
   .announcement-grid {
-    margin-top: 11em;
+    margin-top: 12.5em;
+    margin-left: .5em;
   }
   
   .announcement-plain-text{
@@ -778,6 +789,11 @@
   
   .announcement-sub-headline {
     font-size: 22px;
+  }
+
+  .mainstream-react-h5-audio-player {
+    margin-top: 3.25em;
+    margin-bottom: 0em;
   }
 
   /* guitarists */
@@ -823,6 +839,20 @@
     margin-bottom: -6.5em;
     margin-left: -.6em; 
   }
+
+}
+
+@media screen and (max-width: 300px) {
+
+  .mainstream-paper {
+    background-size: 15em;
+    height: 31.5em;
+  }
+
+  .announcement-grid {
+    margin-top: 12em;
+  }
+  
 }
 
 @media screen and (max-width: 280px) {
@@ -830,7 +860,7 @@
   .mainstream-paper {
     background-size: 13em;
     background-position: 50% 5%;
-    height: 40em;
+    height: 28em;
   }
 
   #mainstream-div h2 {
@@ -942,5 +972,9 @@
 
   .rhap_repeat-button {
     display: none;
+  }
+
+  .mainstream-react-h5-audio-player {
+    margin-top: 2.25em;
   }
 }
