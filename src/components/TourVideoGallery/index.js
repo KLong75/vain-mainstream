@@ -59,6 +59,16 @@ const TourVideoGallery = () => {
       src: 'https://www.youtube.com/embed/FXOcwC8uHgs',
       date: '12/25/2022',
       share_url: 'youtu.be/FXOcwC8uHgs'
+    },
+    {
+      title: 'Fake Plastic Trees',
+      original_artist: 'Radiohead',
+      location: 'Rome, Italy',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/The_Flag_of_Italy.svg/512px-The_Flag_of_Italy.svg.png',
+      flag_alt: 'Flag of Italy',
+      src: 'https://www.youtube.com/embed/C3fyO0Ok2a8',
+      date: '12/29/2022',
+      share_url: 'https://youtu.be/C3fyO0Ok2a8'
     }
     
     // {
