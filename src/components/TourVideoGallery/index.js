@@ -69,8 +69,19 @@ const TourVideoGallery = () => {
       src: 'https://www.youtube.com/embed/C3fyO0Ok2a8',
       date: '12/29/2022',
       share_url: 'https://youtu.be/C3fyO0Ok2a8'
+    },
+    {
+      title: "Don't Tell Me",
+      original_artist: 'Avril Lavigne',
+      location: 'Bar, Montenegro',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/512px-Flag_of_Montenegro.svg.png',
+      flag_alt: 'Flag of Italy',
+      src: 'https://www.youtube.com/embed/crsTdmVxV2U',
+      date: '1/6/2023',
+      share_url: 'https://youtu.be/crsTdmVxV2U'
     }
-    
+
+ 
     // {
     //   title: '',
     //   original_artist: '',
