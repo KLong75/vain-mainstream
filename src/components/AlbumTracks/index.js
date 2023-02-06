@@ -50,12 +50,12 @@ const AlbumTracks = () => {
       location: 'Rome, Italy',
       src: 'Fake_Plastic_Trees.mp3'
     },
-    // {
-    //   title: "Don't Tell Me",
-    //   original_artist: 'Avril Lavigne',
-    //   location: '',
-    //   src: '.mp3'
-    // }
+    {
+      title: "Don't Tell Me",
+      original_artist: 'Avril Lavigne',
+      location: 'Bar, Montenegro',
+      src: 'Dont_Tell_Me.mp3'
+    }
 ])
 
 const Item = styled(Paper)(({ theme }) => ({

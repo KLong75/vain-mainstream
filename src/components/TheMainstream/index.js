@@ -62,6 +62,12 @@ const playList = [
     original_artist: 'Radiohead',
     location: 'Rome, Italy',
     src: 'Fake_Plastic_Trees.mp3'
+  },
+  {
+    title: "Don't Tell Me",
+    original_artist: 'Avril Lavigne',
+    location: 'Bar, Montenegro',
+    src: 'Dont_Tell_Me.mp3'
   }
 ]
 
@@ -97,6 +103,8 @@ const Mainstream = () => {
             className='mainstream-marquee-text'> 
               Now Playing on Mainstream Radio: "{randomTrack.title}" ({randomTrack.original_artist}) by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              Download the latest track from Your Likeness: "Don't Tell Me" (Avril Lavigne) - Available Now!
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           </span>
       </Marquee> 
 
