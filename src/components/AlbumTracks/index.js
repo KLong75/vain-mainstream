@@ -1,8 +1,6 @@
 // import from react
 import React, { useState } from 'react';
 
-// import ShareComponent from '../ShareComponent';
-
 // import CSS
 import './AlbumTracks.css';
 
@@ -46,15 +44,18 @@ const AlbumTracks = () => {
       location: 'Paris, France',
       src: 'Smooth.mp3'
     },
-
     {
       title: 'Fake Plastic Trees',
       original_artist: 'Radiohead',
       location: 'Rome, Italy',
       src: 'Fake_Plastic_Trees.mp3'
-    }
-
-    
+    },
+    // {
+    //   title: "Don't Tell Me",
+    //   original_artist: 'Avril Lavigne',
+    //   location: '',
+    //   src: '.mp3'
+    // }
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
