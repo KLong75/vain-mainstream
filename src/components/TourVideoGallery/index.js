@@ -81,7 +81,6 @@ const TourVideoGallery = () => {
       share_url: 'https://youtu.be/crsTdmVxV2U'
     }
 
- 
     // {
     //   title: '',
     //   original_artist: '',
