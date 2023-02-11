@@ -32,7 +32,13 @@ import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 // import flyingV from '../../assets/images/blue_flying_v.png';
 
 
-const playList = [
+// when song ends, play next song
+
+
+
+// make playList available to all components
+
+export const playList = [
   {
     title: 'All I Really Want',
     original_artist: 'Alanis Morissette',
@@ -77,7 +83,7 @@ const selectRandom = (array) => {
   return randomElement;
 }
 
-const randomTrack = selectRandom(playList);
+let randomTrack = selectRandom(playList);
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -238,16 +244,15 @@ const Mainstream = () => {
             </Grid> */}
 
             <Grid container>
-              
               <AudioPlayer
                 id='mainstream-audio-player'
+                preload='auto'
                 autoPlay={false}
-                loop 
+                loop={true}
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
-      
             </Grid>
           </Item>
         </Box>
