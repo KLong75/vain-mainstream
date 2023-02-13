@@ -32,13 +32,7 @@ import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 // import flyingV from '../../assets/images/blue_flying_v.png';
 
 
-// when song ends, play next song
-
-
-
-// make playList available to all components
-
-export const playList = [
+const playList = [
   {
     title: 'All I Really Want',
     original_artist: 'Alanis Morissette',
@@ -74,6 +68,12 @@ export const playList = [
     original_artist: 'Avril Lavigne',
     location: 'Bar, Montenegro',
     src: 'Dont_Tell_Me.mp3'
+  },
+  {
+    title: "Dragon Attack",
+    original_artist: 'Queen',
+    location: 'Belgrade, Serbia',
+    src: 'Dragon_Attack.mp3'
   }
 ]
 
@@ -109,7 +109,7 @@ const Mainstream = () => {
             className='mainstream-marquee-text'> 
               Now Playing on Mainstream Radio: "{randomTrack.title}" ({randomTrack.original_artist}) by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              Download the latest track from Your Likeness: "Don't Tell Me" (Avril Lavigne) - Available Now!
+              Download the latest track from Your Likeness: "Dragon Attack" (Queen) - Available Now!
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           </span>
       </Marquee> 
@@ -247,7 +247,7 @@ const Mainstream = () => {
               <AudioPlayer
                 id='mainstream-audio-player'
                 preload='auto'
-                autoPlay={false}
+                autoPlay={true}
                 loop={true}
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
