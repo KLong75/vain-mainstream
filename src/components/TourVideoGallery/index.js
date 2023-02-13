@@ -79,6 +79,16 @@ const TourVideoGallery = () => {
       src: 'https://www.youtube.com/embed/crsTdmVxV2U',
       date: '1/6/2023',
       share_url: 'https://youtu.be/crsTdmVxV2U'
+    },
+    {
+      title: "Dragon Attack",
+      original_artist: 'Queen',
+      location: 'Belgrade, Serbia',
+      location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/512px-Flag_of_Serbia.svg.png',
+      flag_alt: 'Flag of Serbia',
+      src: 'https://www.youtube.com/embed/crsTdmVxV2U',
+      date: '1/12/2023',
+      share_url: 'https://youtu.be/crsTdmVxV2U'
     }
 
     // {
@@ -90,8 +100,6 @@ const TourVideoGallery = () => {
     //   src: '',
     //   date: '10/17/2022'
     // },
-   
-    
 ])
 
 const Item = styled(Paper)(({ theme }) => ({
