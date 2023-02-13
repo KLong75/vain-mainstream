@@ -14,7 +14,7 @@
   margin-left: 1em;
   margin-right: 1em;
   margin-bottom: 0em;
-  height: 45em;
+  height:68em;
 }
 
 #mainstream-patreon-link {
@@ -40,9 +40,9 @@
   color: blue;
 }
 
-.marquee-link {
+/* .marquee-link {
   color: blue;
-}
+} */
 
 
 .announcement-grid {
@@ -91,9 +91,9 @@
 /* guitarists */
 /* guitarist head */
 .guitarist-skull{
-  height: 3.25em;
-  margin-top: -3em;
-  margin-bottom: -7.55em;
+  /* height: 3.25em; */
+  margin-top: 0em;
+  margin-bottom: -11.25em;
   margin-left: 0.1em;
   z-index: 2;
   position: relative;
@@ -101,7 +101,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-skull {
-    animation: guitarist-head-nod infinite alternate .7s linear;
+    animation: guitarist-head-nod infinite alternate .70s linear;
   }
 }
 
@@ -115,12 +115,19 @@
 }
 
 /* guitarist bodies */
-.guitarist-torso{
+/* .guitarist-torso{
   height: 2.75em;
   margin-top: -2em;
   margin-bottom: -8.6em;
   margin-left: 0em;
+} */
+
+.guitarist-body {
+  height: 12em;
+  margin-top: 3.5em;
+  margin-bottom: .25em;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-torso {
@@ -137,12 +144,12 @@
   }
 }
 
-.guitarist-legs{
+/* .guitarist-legs{
   height: 5.5em;
   margin-top: -8em;
   margin-bottom: -9.4em;
   margin-left: 0em;
-}
+} */
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-legs {
@@ -161,13 +168,11 @@
 
 /* guitarist right arm */
 .guitarist-right-arm {
-  height: 3.5em;
-  margin-top: -3em;
-  margin-bottom: -8.3em;
-  margin-left: -3.55em;
+  /* height: 5.25em; */
   position: relative;
   z-index: 3;
 }
+
 
 @media (prefers-reduced-motion: no-preference) {
   .guitarist-right-arm {
@@ -177,8 +182,8 @@
 
 @keyframes guitar-right-arm-strum {
   from {
-    transform: rotate(10deg);
-    /* transform: rotate(-14deg); */
+    /* transform: rotate(10deg); */
+    transform: rotate(-14deg);
   }
   to {
     transform: rotate(-14deg);
@@ -186,10 +191,10 @@
 }
 
 .guitarist-left-arm {
-  height: 2.75em;
-  margin-top: -2em;
-  margin-bottom: -6.3em;
-  margin-left: 6em;
+  /* height: 2.75em; */
+  /* margin-top: -2em; */
+  /* margin-bottom: -6.3em; */
+  /* margin-left: 6em; */
   position: relative;
   z-index: 2;
 }
@@ -211,9 +216,9 @@
 
 /* guitars */
 .mainstream-guitar{
-  height: 3.75em;
-  margin-bottom: -7.25em;
-  margin-top: 0em;
+  /* height: 3.75em; */
+  /* margin-bottom: -7em; */
+  /* margin-top: 0em; */
   margin-left: -.2em; 
   z-index: 1;
   position:relative;
@@ -236,9 +241,9 @@
 
 /* drummer */
 #mohawk-skull {
-  height: 4.65em;
-  margin-top: -4em;
-  margin-bottom: -1.25em;
+  height: 7.5em;
+  margin-top: 5em;
+  margin-bottom: -5em;
   margin-left: -0.1em;
   z-index: 3;
   position: relative;
@@ -260,9 +265,9 @@
 }
 
 .drummer-body {
-  height: 5.25em;
-  margin-top: -5.75em;
-  margin-bottom: 1.25em;
+  height: 8.25em;
+  margin-top: 3.5em;
+  margin-bottom: 0em;
   margin-left: -0.2em;
   z-index: 1;
 }
@@ -275,20 +280,20 @@
 
 @keyframes drummer-body-rock {
   from {
-    transform: rotate(8deg);
-    /* transform: rotate(0deg); */
+    /* transform: rotate(8deg); */
+    transform: rotate(0deg);
   }
   to {
-    transform: rotate(-8deg);
-    /* transform: rotate(0deg); */
+    /* transform: rotate(-8deg); */
+    transform: rotate(0deg);
   }
 }
 
 .drummer-right-arm {
-  height: 4.35em;
-  margin-top: -1.3em;
-  margin-bottom: -.6em;
-  margin-left: 0.2em;
+  height: 7em;
+  margin-top: -12.75em;
+  margin-bottom: 10em;
+  margin-left: 13.25em;
   position: relative;
   z-index: 3;
 }
@@ -301,19 +306,20 @@
 
 @keyframes drummer-right-arm-rock {
   from {
-    transform: rotate(-180deg);
-    /* transform: rotate(-60deg); */
+    /* transform: rotate(-180deg); */
+    transform: rotate(-60deg);
   }
   to {
     transform: rotate(-60deg);
+    
   }
 }
 
 .drummer-left-arm {
-  height: 3.45em;
-  margin-top: -3em;
-  margin-bottom: 2.24em;
-  margin-left: .75em;
+  height: 5.5em;
+  margin-top: -11em;
+  margin-bottom: 10em;
+  margin-left: -14.25em;
   position: relative;
   z-index: 2;
 }
@@ -327,26 +333,28 @@
 @keyframes drummer-left-arm-rock {
   from {
     transform: rotate(50deg);
+    transform: rotate(30deg);
   }
   to {
     transform: rotate(30deg);
+    /* transform: rotate(50deg); */
   }
 }
 
 /* drums */
 .drums {
-  height: 8em;
-  margin-top: -8em;
-  margin-bottom: 0em;
-  padding-bottom: 0em;
+  height: 12em;
+  margin-top: -19em;
+  margin-bottom: 10em;
+  /* padding-bottom: 0em; */
   position: relative;
   z-index: 1;
 }
 
 /* audio-player */
 .mainstream-react-h5-audio-player {
-  margin-top: 5em;
-  margin-bottom: 0em;
+  margin-top: -12em;
+  margin-bottom: 14em;
   outline: black solid 2px;
   position: relative;
   /* position: absolute; */
