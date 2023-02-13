@@ -86,9 +86,9 @@ const TourVideoGallery = () => {
       location: 'Belgrade, Serbia',
       location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/512px-Flag_of_Serbia.svg.png',
       flag_alt: 'Flag of Serbia',
-      src: 'https://www.youtube.com/embed/crsTdmVxV2U',
+      src: 'https://www.youtube.com/embed/HQ_hliOFKiQ',
       date: '1/12/2023',
-      share_url: 'https://youtu.be/crsTdmVxV2U'
+      share_url: 'https://youtu.be/HQ_hliOFKiQ'
     }
 
     // {
