@@ -68,6 +68,12 @@ const playList = [
     original_artist: 'Avril Lavigne',
     location: 'Bar, Montenegro',
     src: 'Dont_Tell_Me.mp3'
+  },
+  {
+    title: "Dragon Attack",
+    original_artist: 'Queen',
+    location: 'Belgrade, Serbia',
+    src: 'Dragon_Attack.mp3'
   }
 ]
 
@@ -77,7 +83,7 @@ const selectRandom = (array) => {
   return randomElement;
 }
 
-const randomTrack = selectRandom(playList);
+let randomTrack = selectRandom(playList);
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -103,7 +109,7 @@ const Mainstream = () => {
             className='mainstream-marquee-text'> 
               Now Playing on Mainstream Radio: "{randomTrack.title}" ({randomTrack.original_artist}) by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              Download the latest track from Your Likeness: "Don't Tell Me" (Avril Lavigne) - Available Now!
+              Download the latest track from Your Likeness: "Dragon Attack" (Queen) - Available Now!
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           </span>
       </Marquee> 
@@ -238,16 +244,15 @@ const Mainstream = () => {
             </Grid> */}
 
             <Grid container>
-              
               <AudioPlayer
                 id='mainstream-audio-player'
-                autoPlay={false}
-                loop 
+                preload='auto'
+                autoPlay={true}
+                loop={true}
                 className='mainstream-react-h5-audio-player ' 
                 src={require(`../../assets/audio/${randomTrack.src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
-      
             </Grid>
           </Item>
         </Box>
