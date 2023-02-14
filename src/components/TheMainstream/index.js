@@ -1,6 +1,9 @@
 // import from React
 import React from 'react';
 
+// import TrackList
+import { TrackList } from '../../utils/TrackList';
+
 // import CSS
 import './TheMainstream.css';
 
@@ -32,50 +35,50 @@ import worldOnFireGif from '../../assets/images/world_on_fire.gif';
 // import flyingV from '../../assets/images/blue_flying_v.png';
 
 
-const playList = [
-  {
-    title: 'All I Really Want',
-    original_artist: 'Alanis Morissette',
-    location: 'Lisbon,Portugal',
-    src: 'All_I_Really_Want.mp3',
-  },
-  {
-    title: 'Violent Pornography',
-    original_artist: 'System Of A Down',
-    location: 'Barcelona, Spain',
-    src: 'Violent_P.mp3'
-  },
-  {
-    title: 'Smooth',
-    original_artist: 'Santana ft. Rob Thomas',
-    location: 'Paris, France',
-    src: 'Smooth.mp3'
-  },
-  {
-    title: 'Girl, You Have No Faith In Medicine',
-    original_artist: 'The White Stripes',
-    location: 'Vatican City',
-    src: 'Girl_No_Faith_Med.mp3'
-  },
-  {
-    title: 'Fake Plastic Trees',
-    original_artist: 'Radiohead',
-    location: 'Rome, Italy',
-    src: 'Fake_Plastic_Trees.mp3'
-  },
-  {
-    title: "Don't Tell Me",
-    original_artist: 'Avril Lavigne',
-    location: 'Bar, Montenegro',
-    src: 'Dont_Tell_Me.mp3'
-  },
-  {
-    title: "Dragon Attack",
-    original_artist: 'Queen',
-    location: 'Belgrade, Serbia',
-    src: 'Dragon_Attack.mp3'
-  }
-]
+// const playList = [
+//   {
+//     title: 'All I Really Want',
+//     original_artist: 'Alanis Morissette',
+//     location: 'Lisbon,Portugal',
+//     src: 'All_I_Really_Want.mp3',
+//   },
+//   {
+//     title: 'Violent Pornography',
+//     original_artist: 'System Of A Down',
+//     location: 'Barcelona, Spain',
+//     src: 'Violent_P.mp3'
+//   },
+//   {
+//     title: 'Smooth',
+//     original_artist: 'Santana ft. Rob Thomas',
+//     location: 'Paris, France',
+//     src: 'Smooth.mp3'
+//   },
+//   {
+//     title: 'Girl, You Have No Faith In Medicine',
+//     original_artist: 'The White Stripes',
+//     location: 'Vatican City',
+//     src: 'Girl_No_Faith_Med.mp3'
+//   },
+//   {
+//     title: 'Fake Plastic Trees',
+//     original_artist: 'Radiohead',
+//     location: 'Rome, Italy',
+//     src: 'Fake_Plastic_Trees.mp3'
+//   },
+//   {
+//     title: "Don't Tell Me",
+//     original_artist: 'Avril Lavigne',
+//     location: 'Bar, Montenegro',
+//     src: 'Dont_Tell_Me.mp3'
+//   },
+//   {
+//     title: "Dragon Attack",
+//     original_artist: 'Queen',
+//     location: 'Belgrade, Serbia',
+//     src: 'Dragon_Attack.mp3'
+//   }
+// ]
 
 const selectRandom = (array) => {
   let randomIndex = Math.floor(Math.random() * array.length); 
@@ -83,7 +86,7 @@ const selectRandom = (array) => {
   return randomElement;
 }
 
-let randomTrack = selectRandom(playList);
+let randomTrack = selectRandom(TrackList);
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(1),
@@ -250,7 +253,7 @@ const Mainstream = () => {
                 autoPlay={true}
                 loop={true}
                 className='mainstream-react-h5-audio-player ' 
-                src={require(`../../assets/audio/${randomTrack.src}`)} 
+                src={require(`../../assets/audio/${randomTrack.audio_src}`)} 
                 header={(`"${randomTrack.title}"`)}
               />
             </Grid>

@@ -55,6 +55,7 @@ const ShareComponent = () => {
           </EmailShareButton>
         </Grid>
         <Grid xs={3}></Grid>
+        <Grid xs={12} ><span className='share-patreon-link'>Please Give Me a Dollar for Health Insurance</span></Grid>
       </Grid>
     )
 }

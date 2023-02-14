@@ -1,0 +1,81 @@
+// Track List
+
+export const TrackList = [
+  {
+    title: 'All I Really Want',
+    original_artist: 'Alanis Morissette',
+    location: 'Lisbon,Portugal',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/512px-Flag_of_Portugal.svg.png',
+    flag_alt: 'Flag of Portugal',
+    audio_src: 'All_I_Really_Want.mp3',
+    vid_src: 'https://www.youtube.com/embed/I2WToQq4Pt8',
+    share_url: 'youtu.be/I2WToQq4Pt8',
+    date: '12/4/2022'
+  },
+  {
+    title: 'Violent Pornography',
+    original_artist: 'System Of A Down',
+    location: 'Barcelona, Spain',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/512px-Bandera_de_Espa%C3%B1a.svg.png',
+    flag_alt: 'Flag of Spain',
+    audio_src: 'Violent_P.mp3',
+    vid_src: 'https://www.youtube.com/embed/YSMddvEw0b0',
+    share_url: 'youtu.be/YSMddvEw0b0',
+    date: '12/13/2022'
+  },
+  {
+    title: 'Girl, You Have No Faith In Medicine',
+    original_artist: 'The White Stripes',
+    location: 'Vatican City',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/256px-Flag_of_the_Vatican_City.svg.png',
+    flag_alt: 'Flag of Vatican City',
+    audio_src: 'Girl_No_Faith_Med.mp3',
+    vid_src: 'https://www.youtube.com/embed/FXOcwC8uHgs',
+    share_url: 'youtu.be/FXOcwC8uHgs',
+    date: '12/25/2022'
+  },
+  {
+    title: 'Smooth',
+    original_artist: 'Santana ft. Rob Thomas',
+    location: 'Paris, France',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg/512px-Flag_of_France_%281794%E2%80%931815%2C_1830%E2%80%931974%2C_2020%E2%80%93present%29.svg.png',
+    flag_alt: 'Flag of France',
+    audio_src: 'Smooth.mp3',
+    vid_src: 'https://www.youtube.com/embed/pd9nWNCsE68',
+    share_url: 'https://youtu.be/pd9nWNCsE68',
+    date: '12/19/2022'
+  },
+  {
+    title: 'Fake Plastic Trees',
+    original_artist: 'Radiohead',
+    location: 'Rome, Italy',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/The_Flag_of_Italy.svg/512px-The_Flag_of_Italy.svg.png',
+    flag_alt: 'Flag of Italy',
+    audio_src: 'Fake_Plastic_Trees.mp3',
+    vid_src: 'https://www.youtube.com/embed/C3fyO0Ok2a8',
+    share_url: 'https://youtu.be/C3fyO0Ok2a8',
+    date: '12/29/2022'
+  },
+  {
+    title: "Don't Tell Me",
+    original_artist: 'Avril Lavigne',
+    location: 'Bar, Montenegro',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/512px-Flag_of_Montenegro.svg.png',
+    flag_alt: 'Flag of Italy',
+    audio_src: 'Dont_Tell_Me.mp3',
+    vid_src: 'https://www.youtube.com/embed/crsTdmVxV2U',
+    share_url: 'https://youtu.be/crsTdmVxV2U',
+    date: '1/6/2023'
+  },
+  {
+    title: "Dragon Attack",
+    original_artist: 'Queen',
+    location: 'Belgrade, Serbia',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/512px-Flag_of_Serbia.svg.png',
+    flag_alt: 'Flag of Serbia',
+    audio_src: 'Dragon_Attack.mp3',
+    vid_src: 'https://www.youtube.com/embed/HQ_hliOFKiQ',
+    share_url: 'https://youtu.be/HQ_hliOFKiQ',
+    date: '1/12/2023'
+  }
+]
