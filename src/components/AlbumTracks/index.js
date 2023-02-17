@@ -4,6 +4,10 @@ import React from 'react';
 
 //  import Tracklist
 import { TrackList } from '../../utils/TrackList';
+
+// import components
+import ShareComponent from '../ShareComponent';
+
 // import CSS
 import './AlbumTracks.css';
 
@@ -19,7 +23,6 @@ import 'react-h5-audio-player/lib/styles.css';
 
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-// import { playList } from '../TheMainstream';
 
 const AlbumTracks = () => {
 //   const [tracks] = useState([
@@ -75,11 +78,16 @@ const Item = styled(Paper)(({ theme }) => ({
   return (
     
     <section id='album-tracks-section'>
-      {/* <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
-        <Item className='track-paper' elevation={12}>
+      <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
+        <Item className='album-share-paper' elevation={12}>
           <ShareComponent />
+          <a 
+            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='album-patreon-link'
+          >
+            <p className='font-effect-fire-animation album-patreon-link'>Click Here To Give Me a Dollar</p>
+          </a>
         </Item>
-      </Box> */}
+      </Box>
 
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={4} >

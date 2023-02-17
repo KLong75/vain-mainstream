@@ -117,8 +117,13 @@ const Item = styled(Paper)(({ theme }) => ({
   return (
     <section id='video-gallery-section'>
       <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
-        <Item className='track-paper' elevation={12}>
+        <Item className='vid-share-paper' elevation={12}>
           <ShareComponent />
+          <a 
+            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='vid-patreon-link'
+          >
+            <p className='font-effect-fire-animation vid-patreon-link'>Click Here To Give Me a Dollar</p>
+          </a>
         </Item>
       </Box>
       <Box sx={{ flexGrow: 1 }}> 
@@ -165,16 +170,15 @@ const Item = styled(Paper)(({ theme }) => ({
                     hashtag='#PleaseGiveMeADollar'
                     aria-label='Share this video on Facebook'
                   >
-                    <FacebookIcon className='social-media-share-links' />
+                    <FacebookIcon className='vid-social-media-share-links' />
                   </FacebookShareButton>
                   <a 
                     href={`https://twitter.com/intent/tweet?url=${video.share_url}&text=Vain%20Mainstream%20-%20${video.title}%20(${video.original_artist})%20${video.location}%20${video.date}&via=VainMainstream&hashtags=PleaseGiveMeADollar,YourLikeness,LifeExpectancyTour`} 
                     target="_blank" 
                     rel="nofollow noreferrer noopener"
                     aria-label='Share this video on Twitter'>
-                      <TwitterIcon className='social-media-share-links'/>
+                      <TwitterIcon className='vid-social-media-share-links'/>
                   </a>
-
                 </Grid>
               </Item>
             </Grid>
