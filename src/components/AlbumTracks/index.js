@@ -1,5 +1,12 @@
 // import from react
-import React, { useState } from 'react';
+// import React, { useState } from 'react';
+import React from 'react';
+
+//  import Tracklist
+import { TrackList } from '../../utils/TrackList';
+
+// import components
+import ShareComponent from '../ShareComponent';
 
 // import CSS
 import './AlbumTracks.css';
@@ -16,53 +23,52 @@ import 'react-h5-audio-player/lib/styles.css';
 
 // import images
 import FileDownloadIcon from '@mui/icons-material/FileDownload';
-// import { playList } from '../TheMainstream';
 
 const AlbumTracks = () => {
-  const [tracks] = useState([
-    {
-      title: 'All I Really Want',
-      original_artist: 'Alanis Morissette',
-      location: 'Lisbon, Portugal',
-      src: 'All_I_Really_Want.mp3'
-    },
-    {
-      title: 'Violent Pornography',
-      original_artist: 'System Of A Down',
-      location: 'Barcelona, Spain',
-      src: 'Violent_P.mp3'
-    },
-    {
-      title: 'Girl, You Have No Faith In Medicine',
-      original_artist: 'The White Stripes',
-      location: 'Vatican City',
-      src: 'Girl_No_Faith_Med.mp3'
-    },
-    {
-      title: 'Smooth',
-      original_artist: 'Santana ft Rob Thomas',
-      location: 'Paris, France',
-      src: 'Smooth.mp3'
-    },
-    {
-      title: 'Fake Plastic Trees',
-      original_artist: 'Radiohead',
-      location: 'Rome, Italy',
-      src: 'Fake_Plastic_Trees.mp3'
-    },
-    {
-      title: "Don't Tell Me",
-      original_artist: 'Avril Lavigne',
-      location: 'Bar, Montenegro',
-      src: 'Dont_Tell_Me.mp3'
-    },
-    {
-      title: "Dragon Attack",
-      original_artist: 'Queen',
-      location: 'Belgrade, Serbia',
-      src: 'Dragon_Attack.mp3'
-    }
-])
+//   const [tracks] = useState([
+//     {
+//       title: 'All I Really Want',
+//       original_artist: 'Alanis Morissette',
+//       location: 'Lisbon, Portugal',
+//       src: 'All_I_Really_Want.mp3'
+//     },
+//     {
+//       title: 'Violent Pornography',
+//       original_artist: 'System Of A Down',
+//       location: 'Barcelona, Spain',
+//       src: 'Violent_P.mp3'
+//     },
+//     {
+//       title: 'Girl, You Have No Faith In Medicine',
+//       original_artist: 'The White Stripes',
+//       location: 'Vatican City',
+//       src: 'Girl_No_Faith_Med.mp3'
+//     },
+//     {
+//       title: 'Smooth',
+//       original_artist: 'Santana ft Rob Thomas',
+//       location: 'Paris, France',
+//       src: 'Smooth.mp3'
+//     },
+//     {
+//       title: 'Fake Plastic Trees',
+//       original_artist: 'Radiohead',
+//       location: 'Rome, Italy',
+//       src: 'Fake_Plastic_Trees.mp3'
+//     },
+//     {
+//       title: "Don't Tell Me",
+//       original_artist: 'Avril Lavigne',
+//       location: 'Bar, Montenegro',
+//       src: 'Dont_Tell_Me.mp3'
+//     },
+//     {
+//       title: "Dragon Attack",
+//       original_artist: 'Queen',
+//       location: 'Belgrade, Serbia',
+//       src: 'Dragon_Attack.mp3'
+//     }
+// ])
 
 const Item = styled(Paper)(({ theme }) => ({
   padding: theme.spacing(0),
@@ -72,15 +78,20 @@ const Item = styled(Paper)(({ theme }) => ({
   return (
     
     <section id='album-tracks-section'>
-      {/* <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
-        <Item className='track-paper' elevation={12}>
+      <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
+        <Item className='album-share-paper' elevation={12}>
           <ShareComponent />
+          <a 
+            href='https://www.patreon.com/vainmainstream' target='_blank' rel="noreferrer" className='album-patreon-link'
+          >
+            <p className='font-effect-fire-animation album-patreon-link'>Click Here To Give Me a Dollar</p>
+          </a>
         </Item>
-      </Box> */}
+      </Box>
 
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={4} >
-          {tracks.map((track) => (  
+          {TrackList.map((track) => (  
             <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
               
               <Item className='track-paper' elevation={12}>
@@ -99,14 +110,14 @@ const Item = styled(Paper)(({ theme }) => ({
                 <Grid>
                   <AudioPlayer
                     className='album-tracks-react-h5-audio-player' 
-                    src={require(`../../assets/audio/${track.src}`)} 
+                    src={require(`../../assets/audio/${track.audio_src}`)} 
                     header='Vain Mainstream'
                     footer='Your Likeness'
                   />
                 </Grid>
                 <Grid>
                   <a 
-                    href={require(`../../assets/audio/${track.src}`)} 
+                    href={require(`../../assets/audio/${track.audio_src}`)} 
                     download={(`Vain Mainstream - ${track.title} (${track.original_artist}) ${track.location}`)}
                   >
                     <FileDownloadIcon className='track-download'/>
