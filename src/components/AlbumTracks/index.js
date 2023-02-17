@@ -55,6 +55,12 @@ const AlbumTracks = () => {
       original_artist: 'Avril Lavigne',
       location: 'Bar, Montenegro',
       src: 'Dont_Tell_Me.mp3'
+    },
+    {
+      title: "Dragon Attack",
+      original_artist: 'Queen',
+      location: 'Belgrade, Serbia',
+      src: 'Dragon_Attack.mp3'
     }
 ])
 
