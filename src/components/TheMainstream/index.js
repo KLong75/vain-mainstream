@@ -137,145 +137,82 @@ const Mainstream = () => {
           </Grid>
       
             <Grid container spacing={1} >
-              <Grid xs={3} >
+
+              <Grid xs={4} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
 
-              {/* <Grid xs={6}>
-              </Grid> */}
-
-              <Grid xs={6} >
+              <Grid xs={4} >
                <img src={drummerHeadSolid} alt='pixelated skull with mohawk'  id='mohawk-skull' />
               </Grid>
 
-
-              <Grid xs={3} >
+              <Grid xs={4} >
                 <img src={skull} className='guitarist-skull' alt='pixelated skull'/>
               </Grid>
             </Grid>
 
-            <Grid container spacing={1} id='guitarist-body-grid'>
-              <Grid xs={3} >
+            <Grid container spacing={1} id='body-grid'>
+
+              <Grid xs={4} >
                 <img src={guitaristBody} alt='pixelated skeleton' className='guitarist-body' />
-            </Grid>
+              </Grid>
 
-              {/* <Grid xs={6}>
-              </Grid> */}
-
-              <Grid xs={6}>
+              <Grid xs={4}>
                 <img src={drummerBody} alt='pixelated skeleton torso' className='drummer-body' />
               </Grid>
 
-              <Grid xs={3} >
+              <Grid xs={4} >
                   <img src={guitaristBody} alt='pixelated skeleton' className='guitarist-body' />
               </Grid>
             </Grid>
 
             <Grid container spacing={1} id='guitar-right-arm-grid'>
-              <Grid xs={3} >
+              <Grid xs={4} >
                 <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-              <Grid xs={6}>
+              <Grid xs={4}>
               </Grid>
-               <Grid xs={3} >
+               <Grid xs={4} >
                <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar'/>
               </Grid>
             </Grid>
 
-            {/* <Grid container spacing={1} id=''>
-              <Grid xs={2} >
-                <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar' id='stage-right-guitar-right-arm'/>
-              </Grid>
-
-              <Grid xs={2} >
-                <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar' id='stage-right-guitar-left-arm'/>
-              </Grid>
-
-              <Grid xs={2}>
-                <img src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
-              </Grid>
-
-              <Grid xs={2}>
-                <img src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
-              </Grid>
-
-              <Grid xs={2} >
-               <img src={guitaristRightArm} className='guitarist-right-arm' alt='skeleton arm playing guitar' id='stage-left-guitar-right-arm'/>
-              </Grid>
-
-              <Grid xs={2} >
-                <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar' id='stage-left-guitar-left-arm'/>
-              </Grid>
-            </Grid> */}
-
-
-
             <Grid container spacing={1} id='guitar-left-arm-grid'>
-              <Grid xs={3} >
+              <Grid xs={4} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
-              <Grid xs={6}>
+              <Grid xs={4}>
               </Grid>
-              <Grid xs={3} >
+              <Grid xs={4} >
                 <img src={guitaristLeftArm} className='guitarist-left-arm' alt='skeleton arm playing guitar'/>
               </Grid>
             </Grid>
 
             <Grid container spacing={1} id='guitar-grid'>
-              <Grid xs={3} >
+              <Grid xs={4} >
                 <img src={flyingV} className='mainstream-guitar ' alt='flying v electric guitar'/>
               </Grid>
 
-
-              {/* <Grid xs={6}>
-              </Grid> */}
-              <Grid xs={6} >
+              <Grid xs={4} >
                 <img src={drums} alt='pixelated drumset' className='drums' />
               </Grid>
 
-
-              <Grid xs={3} >
+              <Grid xs={4} >
                 <img src={flyingV} className='mainstream-guitar' id='stage-left-guitar' alt='flying v electric guitar'/>
               </Grid>
             </Grid>
-
-            {/* <Grid container spacing={1} id='guitarist-body-grid'>
-              <Grid xs={3} >
-                <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
+          
+            <Grid container spacing={1} >
+              <Grid xs={3}>
               </Grid>
               <Grid xs={6}>
-              </Grid>
-              <Grid xs={3} >
-                  <img src={guitaristLegs} alt='pixelated skeleton' className='guitarist-legs' />
-              </Grid>
-            </Grid> */}
-
-            {/* <Grid container spacing={1}  id='drummer-head-grid'>
-            <Grid xs={3}>
-              </Grid>
-              <Grid xs={6} >
-               <img src={drummerHeadSolid} alt='pixelated skull with mohawk'  id='mohawk-skull' />
-              </Grid>
-              <Grid xs={3}>
-              </Grid>
-            </Grid> */}
-
-            <Grid container spacing={1} >
-            <Grid xs={3}>
-              </Grid>
-              <Grid xs={3}>
                 <img src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
               </Grid>
-
-              <Grid xs={3}>
-              <img src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
-              </Grid>
-
               <Grid xs={3}>
               </Grid>
             </Grid>
 
-            {/* <Grid container spacing={1} >
+            <Grid container spacing={1} >
               <Grid xs={3}>
               </Grid>
               <Grid xs={6}>
@@ -283,29 +220,13 @@ const Mainstream = () => {
               </Grid>
               <Grid xs={3}>
               </Grid>
-            </Grid> */}
-
-            {/* <Grid container spacing={1} id="drummer-body-grid">
-              <Grid xs={3}>
-              </Grid>
-              <Grid xs={6}>
-              <img src={drummerBody} alt='pixelated skeleton torso' className='drummer-body' />
-              </Grid>
-              <Grid xs={3}>
-              </Grid>
-            </Grid> */}
-
-            {/* <Grid container spacing={1} id='speakers-drums-grid' >
-              <Grid xs={12} >
-                <img src={drums} alt='pixelated drumset' className='drums' />
-              </Grid>
-            </Grid> */}
+            </Grid>
 
             <Grid container >
               <AudioPlayer
                 id='mainstream-audio-player'
                 preload='auto'
-                autoPlay={true}
+                autoPlay={false}
                 className='mainstream-react-h5-audio-player' 
                 loop={true}
                 src={require(`../../assets/audio/${randomTrack.audio_src}`)} 
