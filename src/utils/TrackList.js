@@ -77,5 +77,16 @@ export const TrackList = [
     vid_src: 'https://www.youtube.com/embed/HQ_hliOFKiQ',
     share_url: 'https://youtu.be/HQ_hliOFKiQ',
     date: '1/12/2023'
+  },
+  {
+    title: "Change The World",
+    original_artist: 'The Offspring',
+    location: 'Paphos, Cyprus',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Cyprus.svg/512px-Flag_of_Cyprus.svg.png',
+    flag_alt: 'Flag of Cyprus',
+    audio_src: 'Change_The_World.mp3',
+    vid_src: 'https://www.youtube.com/embed/ojYZM3w7CJI',
+    share_url: 'https://youtu.be/ojYZM3w7CJI',
+    date: '1/19/2023'
   }
 ]
