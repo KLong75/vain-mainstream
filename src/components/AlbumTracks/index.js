@@ -6,6 +6,7 @@ import { TrackList } from '../../utils/TrackList';
 
 // import components
 // import ShareComponent from '../ShareComponent';
+import SkeletonGuitarist from '../SkeletonGuitarist';
 
 // import CSS
 import './AlbumTracks.css';
@@ -44,7 +45,7 @@ const AlbumTracks = () => {
       </Box> */}
 
       <Box sx={{ flexGrow: 1 }}>
-        <Grid container spacing={4} >
+        <Grid container spacing={4} className='album-tracks-grid'>
           {TrackList.map((track) => (  
             <Grid xs={12} sm={6} md={4} key={track.title} className='track-grid'>
               
@@ -59,6 +60,10 @@ const AlbumTracks = () => {
 
                 <Grid className='track-location-grid' >
                   <h6 className='track-location'> {track.location}</h6>
+                </Grid>
+
+                <Grid>
+                  <SkeletonGuitarist className='album-tracks-guitarist'/>
                 </Grid>
 
                 <Grid>

@@ -5,9 +5,7 @@ import React from 'react';
 import './ShareComponent.css';
 
 // import from mui
-
 import Grid from '@mui/material/Unstable_Grid2';
-
 import FacebookIcon from '@mui/icons-material/Facebook';
 import EmailIcon from '@mui/icons-material/Email';
 import TwitterIcon from '@mui/icons-material/Twitter';

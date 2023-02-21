@@ -47,6 +47,10 @@
   margin-top: -1.6em;
 }
 
+.track-location-grid {
+  margin-bottom: -14.5em;
+}
+
 .track-download {
     cursor: url('../../assets/cursor/sym57.cur'), auto;
     color: blue;
@@ -68,7 +72,7 @@
 
 .album-tracks-react-h5-audio-player {
   outline: black solid 1px;
-  margin-top: -2.5em;
+  margin-top: -3.15em;
   margin-bottom: -2.5em;
 }
 
