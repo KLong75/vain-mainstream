@@ -6,7 +6,7 @@ import { TrackList } from '../../utils/TrackList';
 
 // import components
 // import ShareComponent from '../ShareComponent';
-import SkeletonGuitarist from '../SkeletonGuitarist';
+import AlbumTrackSkeletonGuitarist from '../AlbumTrackSkeletonGuitarist';
 
 // import CSS
 import './AlbumTracks.css';
@@ -63,7 +63,7 @@ const AlbumTracks = () => {
                 </Grid>
 
                 <Grid>
-                  <SkeletonGuitarist className='album-tracks-guitarist'/>
+                  <AlbumTrackSkeletonGuitarist className='album-tracks-guitarist'/>
                 </Grid>
 
                 <Grid>

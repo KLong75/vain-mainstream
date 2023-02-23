@@ -143,21 +143,36 @@ const Mainstream = () => {
               </Grid>
             </Grid>
 
+            <Grid container spacing={1} >
+              
+              <Grid xs={12}>
+                <img src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
+              </Grid>
+              <Grid xs={12}>
+              <img src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
+              </Grid>
+              
+            </Grid>
+
             <Grid container spacing={1} id='guitar-grid'>
               <Grid xs={4} >
                 <img src={flyingV} className='mainstream-guitar ' alt='flying v electric guitar'/>
               </Grid>
 
               <Grid xs={4} >
-                <img src={drums} alt='pixelated drumset' className='drums' />
+                {/* <img src={drums} alt='pixelated drumset' className='drums' /> */}
               </Grid>
 
               <Grid xs={4} >
                 <img src={flyingV} className='mainstream-guitar' id='stage-left-guitar' alt='flying v electric guitar'/>
               </Grid>
+
+              <Grid xs={12} >
+                <img src={drums} alt='pixelated drumset' className='drums' />
+              </Grid>
             </Grid>
           
-            <Grid container spacing={1} >
+            {/* <Grid container spacing={1} >
               <Grid xs={3}>
               </Grid>
               <Grid xs={6}>
@@ -175,9 +190,9 @@ const Mainstream = () => {
               </Grid>
               <Grid xs={3}>
               </Grid>
-            </Grid>
+            </Grid> */}
 
-            <Grid container >
+            <Grid container className='mainstream-audio-player-grid' >
               <AudioPlayer
                 id='mainstream-audio-player'
                 preload='auto'

@@ -1,4 +1,4 @@
-.component-guitarist-skull {
+.album-track-guitarist-skull {
   height: 2em;
   margin-bottom: -12.1em;
   margin-left: -.05em;
@@ -7,12 +7,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .component-guitarist-skull {
-    animation: component-guitarist-head-nod infinite alternate .70s linear;
+  .album-track-guitarist-skull {
+    animation: album-track-guitarist-head-nod infinite alternate .70s linear;
   }
 }
 
-@keyframes component-guitarist-head-nod {
+@keyframes album-track-guitarist-head-nod {
   from {
     transform: rotate(-10deg);
   }
@@ -21,21 +21,21 @@
   }
 }
 
-.component-guitarist-right-arm {
+.album-track-guitarist-right-arm {
   height: 1.55em;
-  margin-bottom: -10.22em;
-  margin-left: -1.48em;
+  margin-bottom: -10.25em;
+  margin-left: -1.46em;
   z-index: 2;
   position: relative;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .component-guitarist-right-arm {
-    animation: component-guitar-right-arm-strum infinite alternate .70s linear;
+  .album-track-guitarist-right-arm {
+    animation: album-track-guitar-right-arm-strum infinite alternate .70s linear;
   }
 }
 
-@keyframes component-guitar-right-arm-strum {
+@keyframes album-track-guitar-right-arm-strum {
   from {
     transform: rotate(10deg);
     /* transform: rotate(-14deg); */
@@ -45,7 +45,7 @@
   }
 }
 
-.component-guitarist-left-arm {
+.album-track-guitarist-left-arm {
   height: 1.25em;
   margin-bottom: -6.8em;
   margin-left: 2.5em;
@@ -54,12 +54,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .component-guitarist-left-arm {
-    animation: component-guitar-left-arm-strum infinite  alternate .70s linear;
+  .album-track-guitarist-left-arm {
+    animation: album-track-guitar-left-arm-strum infinite  alternate .70s linear;
   }
 }
 
-@keyframes component-guitar-left-arm-strum {
+@keyframes album-track-guitar-left-arm-strum {
   from {
     /* transform: rotate(2deg); */
     transform: rotate(6deg);
@@ -70,7 +70,7 @@
   }
 }
 
-.component-guitar{
+.album-track-guitar{
   height: 1.25em;
   margin-bottom: -4.35em;
   margin-left: .5em;
@@ -79,12 +79,12 @@
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .component-guitar {
-    animation: component-guitar-spin infinite alternate .70s linear;
+  .album-track-guitar {
+    animation: album-track-guitar-spin infinite alternate .70s linear;
   }
 }
 
-@keyframes component-guitar-spin {
+@keyframes album-track-guitar-spin {
   from {
     transform: rotate(-14deg);
     /* transform: rotate(-6deg); */
@@ -94,24 +94,24 @@
   }
 }
 
-.component-guitarist-body {
+.album-track-guitarist-body {
   height: 3.25em;
   margin-bottom: 0em;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .component-guitarist-body {
-    animation: component-guitarist-body-rock infinite alternate-reverse .70s linear;
+  .album-track-guitarist-body {
+    animation: album-track-guitarist-body-rock infinite alternate-reverse .70s linear;
   }
 }
 
-@keyframes component-guitarist-body-rock {
+@keyframes album-track-guitarist-body-rock {
   from {
-    transform: rotate(-3deg);
+    transform: rotate(-2deg);
     /* transform: rotate(0deg); */
   }
   to {
-    transform: rotate(3deg);
+    transform: rotate(2deg);
     /* transform: rotate(0deg); */
   }
 }
