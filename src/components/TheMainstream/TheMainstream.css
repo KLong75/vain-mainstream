@@ -353,96 +353,12 @@
 
 /* begin mediq queries for responsve sizing */
 /* @media screen and (max-width: 1200px) {
-  
 } */
 
-@media screen and (max-width: 1000px) {
+/* @media screen and (max-width: 1000px) {
 
-  .mainstream-paper {
-    /* background-size: 22em; */
-    /* background-position: 50% 15%; */
-    /* height:64.5em; */
-  }
-
-  /* guitarist */
-  .guitarist-skull{
-    /* height: 4.75em; */
-    /* margin-top: 0em; */
-    /* margin-bottom: -10.75em; */
-    /* margin-left: 0.1em; */
-  }
-
-  .guitarist-body {
-    /* height: 11em; */
-    /* margin-top: 0em; */
-  }
-
-  .guitarist-right-arm {
-    /* height: 5em; */
-    /* margin-top: -2em; */
-    /* margin-bottom: 2em; */
-    /* margin-left: -5.75em; */
-  }
-
-  .guitarist-left-arm {
-    /* height: 4em; */
-    /* margin-top: -2.25em; */
-    /* margin-bottom: 0em; */
-    /* margin-left: 8em; */
-  }
-
-  /* guitars */
-  /* .mainstream-guitar{
-    height: 4.25em;
-    margin-top: -2.5em;
-    margin-bottom: 0em;
-    margin-left: 1em; 
-  } */
-
-  /* drummer */
-  #mohawk-skull {
-    /* height: 7em; */
-    /* margin-top: 5.5em; */
-    /* margin-bottom: -6.5em; */
-    /* margin-left: -0.1em; */
-  }
-
-  .drummer-body {
-    /* height: 8.5em; */
-    /* margin-top: 0em; */
-    /* margin-bottom: -12.25em; */
-    /* margin-left: -0.2em; */
-  }
-
-  .drummer-right-arm {
-    /* height: 6.75em; */
-    /* margin-top: -15.5em; */
-    /* margin-bottom: 20em; */
-    /* margin-left: 0.25em; */
-  }
-
-  .drummer-left-arm {
-    /* height: 5.5em; */
-    /* margin-top: -25.8em; */
-    /* margin-bottom: 28em; */
-    /* margin-left: 1em; */
-  }
-
-  /* drums */
-  .drums {
-    /* height: 10.75em; */
-    /* margin-top: -7.25em; */
-    /* margin-bottom: 0em; */
-  }
-
-  /* audio-player */
-  .mainstream-react-h5-audio-player {
-    /* margin-top: -22.5em; */
-    /* margin-bottom: 0em; */
-    /* height: 7em; */
-  }
-
-}
+  
+} */
 
 @media screen and (max-width: 875px) {
   .mainstream-paper {
