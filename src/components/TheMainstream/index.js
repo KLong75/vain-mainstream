@@ -78,7 +78,6 @@ const Mainstream = () => {
         <Item className='mainstream-paper ' elevation={12}>
           <Grid container justifyContent='center'>
             <Grid item className='announcement-grid'>
-              {/* <p className='font-effect-fire-animation announcement-plain-text'>Vain Mainstream</p> */}
               <p className='font-effect-fire-animation announcement-plain-text'>The New Album</p>
               <h3 className='font-effect-fire-animation announcement-headline'>Your Likeness</h3>
               <span className='font-effect-fire-animation announcement-plain-text'>or</span>
@@ -160,7 +159,6 @@ const Mainstream = () => {
               </Grid>
 
               <Grid xs={4} >
-                {/* <img src={drums} alt='pixelated drumset' className='drums' /> */}
               </Grid>
 
               <Grid xs={4} >
@@ -171,26 +169,6 @@ const Mainstream = () => {
                 <img src={drums} alt='pixelated drumset' className='drums' />
               </Grid>
             </Grid>
-          
-            {/* <Grid container spacing={1} >
-              <Grid xs={3}>
-              </Grid>
-              <Grid xs={6}>
-                <img src={drummerRightArm} alt='skeleton arm with drumstick' className='drummer-right-arm'/>
-              </Grid>
-              <Grid xs={3}>
-              </Grid>
-            </Grid>
-
-            <Grid container spacing={1} >
-              <Grid xs={3}>
-              </Grid>
-              <Grid xs={6}>
-              <img src={drummerLeftArm} alt='skeleton arm with drumstick' className='drummer-left-arm'/>
-              </Grid>
-              <Grid xs={3}>
-              </Grid>
-            </Grid> */}
 
             <Grid container className='mainstream-audio-player-grid' >
               <AudioPlayer
