@@ -96,9 +96,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/512px-Flag_of_Jordan.svg.png',
     flag_alt: 'Flag of Jordan',
     audio_src: 'Basket_Stew.mp3',
-    vid_src: 'https://www.youtube.com/embed/ojYZM3w7CJI',
-    share_url: 'https://youtu.be/ojYZM3w7CJI',
+    vid_src: 'https://www.youtube.com/embed/wos2eCy7xfY',
+    share_url: 'https://youtu.be/wos2eCy7xfY',
     date: '1/25/2023'
   }
 ]
-
