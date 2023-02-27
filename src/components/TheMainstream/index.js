@@ -69,7 +69,7 @@ const Mainstream = () => {
             className='mainstream-marquee-text'> 
               Now Playing on Mainstream Radio: "{randomTrack.title}" ({randomTrack.original_artist}) by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              Download the latest track from Your Likeness: "Change The World" (The Offspring) Paphos, Cypress - Available Now!
+              Download the latest track from Your Likeness: "Basket Case" (Green Day) Wadi Rum, Jordan - Available Now!
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           </span>
       </Marquee> 
