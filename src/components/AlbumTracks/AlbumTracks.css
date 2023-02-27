@@ -48,7 +48,7 @@
 }
 
 .track-location-grid {
-  margin-bottom: -14.5em;
+  /* margin-bottom: -14.5em; */
 }
 
 .track-download {
@@ -72,7 +72,7 @@
 
 .album-tracks-react-h5-audio-player {
   outline: black solid 1px;
-  margin-top: -3.15em;
+  margin-top: -2em;
   margin-bottom: -2.5em;
 }
 

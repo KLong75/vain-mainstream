@@ -6,7 +6,7 @@ import { TrackList } from '../../utils/TrackList';
 
 // import components
 // import ShareComponent from '../ShareComponent';
-import AlbumTrackSkeletonGuitarist from '../AlbumTrackSkeletonGuitarist';
+// import AlbumTrackSkeletonGuitarist from '../AlbumTrackSkeletonGuitarist';
 
 // import CSS
 import './AlbumTracks.css';
@@ -62,9 +62,9 @@ const AlbumTracks = () => {
                   <h6 className='track-location'> {track.location}</h6>
                 </Grid>
 
-                <Grid>
+                {/* <Grid>
                   <AlbumTrackSkeletonGuitarist className='album-tracks-guitarist'/>
-                </Grid>
+                </Grid> */}
 
                 <Grid>
                   <AudioPlayer
