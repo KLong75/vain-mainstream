@@ -276,7 +276,7 @@
   margin-bottom: 11em;
   margin-left: 1em;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   width: max-content;
 }
 
@@ -331,7 +331,7 @@
   margin-bottom: 20em;
   /* padding-bottom: 0em; */
   position: relative;
-  z-index: 2;
+  z-index: 4;
   width: max-content;
 }
 
