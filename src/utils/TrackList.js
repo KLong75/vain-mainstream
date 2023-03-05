@@ -99,5 +99,17 @@ export const TrackList = [
     vid_src: 'https://www.youtube.com/embed/wos2eCy7xfY',
     share_url: 'https://youtu.be/wos2eCy7xfY',
     date: '1/25/2023'
+  },
+  {
+    title: "Feel No Ways",
+    original_artist: 'Drake',
+    location: 'Cairo, Egypt',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/512px-Flag_of_Egypt.svg.png',
+    flag_alt: 'Flag of Egypt',
+    audio_src: 'Feel_No_Ways.mp3',
+    vid_src: 'https://www.youtube.com/embed/wos2eCy7xfY',
+    share_url: 'https://youtu.be/wos2eCy7xfY',
+    date: '1/25/2023'
   }
 ]
+

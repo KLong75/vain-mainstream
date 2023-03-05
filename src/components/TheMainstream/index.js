@@ -37,6 +37,8 @@ import guitaristLeftArm from '../../assets/images/guitar_left_arm_angled.png'
 import skull from '../../assets/images/skull.png'
 import flyingV from '../../assets/images/blue_flying_v.png';
 
+const latestTrack = TrackList[TrackList.length - 1];
+
 const selectRandom = (array) => {
   let randomIndex = Math.floor(Math.random() * array.length); 
   let randomElement = array[randomIndex];
@@ -68,9 +70,9 @@ const Mainstream = () => {
       <Marquee speed={40} gradientWidth={60} gradientColor={[255, 255, 255]} className='now-playing-marquee'>
         <span 
             className='mainstream-marquee-text'> 
-              Now Playing on Mainstream Radio: "{randomTrack.title}" ({randomTrack.original_artist}) by Vain Mainstream
+              Now Playing on Mainstream Radio: "{randomTrack.title}" ({randomTrack.original_artist}) {randomTrack.location} by Vain Mainstream
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-              Download the latest track from Your Likeness: "Basket Case" (Green Day) Wadi Rum, Jordan - Available Now!
+              Download the latest track from Your Likeness: "{latestTrack.title}" ({latestTrack.original_artist}) {latestTrack.location} - Available Now!
               &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
           </span>
       </Marquee> 

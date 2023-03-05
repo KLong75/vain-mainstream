@@ -60,6 +60,7 @@ const AlbumTracks = () => {
 
                 <Grid className='track-location-grid' >
                   <h6 className='track-location'> {track.location}</h6>
+                  <img width="64" alt={track.flag_alt} src={track.location_flag_src} className='nation-flag'></img>
                 </Grid>
 
                 {/* <Grid>
