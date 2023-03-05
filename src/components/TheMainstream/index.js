@@ -171,6 +171,11 @@ const Mainstream = () => {
               <Grid xs={12} >
                 <img src={drums} alt='pixelated drumset' className='drums' />
               </Grid>
+
+              <Grid xs={12} >
+                <img width="64" alt={latestTrack.flag_alt} src={latestTrack.location_flag_src} className='drum-flag' />
+              </Grid>
+
             </Grid>
 
             <Grid container className='mainstream-audio-player-grid' >

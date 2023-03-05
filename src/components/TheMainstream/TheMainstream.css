@@ -337,12 +337,21 @@
 
 /* audio-player */
 .mainstream-react-h5-audio-player {
-  margin-top: -20em;
+  margin-top: -22.25em;
   margin-bottom: 0em;
   outline: black solid 2px;
   position: relative;
   /* position: absolute; */
   height: 7.25em;
+}
+
+.drum-flag {
+  margin-top: -26.2em;
+  margin-bottom: 25em;
+  margin-left: -.5em;
+  position: relative;
+  z-index: 5;
+  border: 1px solid black;
 }
 
 /* cursor */
