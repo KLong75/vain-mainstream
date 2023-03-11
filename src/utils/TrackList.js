@@ -107,9 +107,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/512px-Flag_of_Egypt.svg.png',
     flag_alt: 'Flag of Egypt',
     audio_src: 'Feel_No_Ways.mp3',
-    vid_src: 'https://www.youtube.com/embed/wos2eCy7xfY',
-    share_url: 'https://youtu.be/wos2eCy7xfY',
+    vid_src: 'https://www.youtube.com/embed/wDdMmTwH8BQ',
+    share_url: 'https://youtu.be/wDdMmTwH8BQ',
     date: '2/3/2023'
   }
 ]
-
