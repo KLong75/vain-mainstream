@@ -32,7 +32,7 @@ const TourVideoGallery = () => {
 
   return (
     <section id='video-gallery-section'>
-      {/* <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
+      {/* <Box sx={{ flexGrow: 1 }} className='video-share-box'>
         <Item className='vid-share-paper' elevation={12}>
           <ShareComponent />
           <a 

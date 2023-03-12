@@ -9,6 +9,10 @@
   text-decoration: none;
 }
 
+.video-share-box {
+  margin-bottom: 1em;
+}
+
 .vid-share-paper {
   height: 5.5em;
 }
