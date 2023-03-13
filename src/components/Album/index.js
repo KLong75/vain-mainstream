@@ -12,10 +12,12 @@ import './Album.css';
 
 // import components
 import AlbumTracks from '../AlbumTracks';
+import Instagram from '../Instagram';
 
 const Album = () => {
   return (
     <section id='album-div'>
+      <Instagram />
       <Grid container justifyContent='center'>
         <Grid xs={12} >
           <h2 id='album-headline' className='font-effect-fire-animation'>Your Likeness</h2>
