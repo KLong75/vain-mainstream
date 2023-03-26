@@ -122,6 +122,17 @@ export const TrackList = [
     share_url: '',
     date: '2/12/2023'
   },
+  {
+    title: "The Locomotion",
+    original_artist: 'Carole King',
+    location: 'Bangkok, Thailand',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/512px-Flag_of_Thailand.svg.png',
+    flag_alt: 'Flag of Thailand', 
+    audio_src: 'Locomotion.mp3',
+    vid_src: '',
+    share_url: '',
+    date: '3/7/2023'
+  },
   // {
   //   title: "",
   //   original_artist: '',
