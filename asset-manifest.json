@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.393ebb34.css",
-    "main.js": "/static/js/main.523e3280.js",
+    "main.css": "/static/css/main.01415a93.css",
+    "main.js": "/static/js/main.2136a160.js",
     "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
     "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.92315bff8ee602405de8.mp3",
     "static/media/Smooth.mp3": "/static/media/Smooth.284bd38af3e552ed2da1.mp3",
+    "static/media/All_I_Wanna_Do.mp3": "/static/media/All_I_Wanna_Do.a5776a4dcd10a3a43bb9.mp3",
     "static/media/Change_The_World.mp3": "/static/media/Change_The_World.5b458ee13306e28a76bc.mp3",
     "static/media/Violent_P.mp3": "/static/media/Violent_P.05038d433e5abe1a2f62.mp3",
     "static/media/Dont_Tell_Me.mp3": "/static/media/Dont_Tell_Me.e52b5f82e5354b7e46df.mp3",
@@ -13,17 +14,18 @@
     "static/media/Fake_Plastic_Trees.mp3": "/static/media/Fake_Plastic_Trees.0179b21f2cda6e1beeba.mp3",
     "static/media/Basket_Stew.mp3": "/static/media/Basket_Stew.484da4f6041408fdd246.mp3",
     "static/media/Girl_No_Faith_Med.mp3": "/static/media/Girl_No_Faith_Med.93c8e80d939322252c27.mp3",
+    "static/media/Locomotion.mp3": "/static/media/Locomotion.41e903685a57f30aa6de.mp3",
     "static/media/world_on_fire.gif": "/static/media/world_on_fire.33e9b204284965d844c7.gif",
     "service-worker.js": "/service-worker.js",
     "static/media/header_world_on_fire.gif": "/static/media/header_world_on_fire.768a3c8269534e6c7d8a.gif",
     "index.html": "/index.html",
     "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
-    "main.393ebb34.css.map": "/static/css/main.393ebb34.css.map",
-    "main.523e3280.js.map": "/static/js/main.523e3280.js.map",
+    "main.01415a93.css.map": "/static/css/main.01415a93.css.map",
+    "main.2136a160.js.map": "/static/js/main.2136a160.js.map",
     "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.393ebb34.css",
-    "static/js/main.523e3280.js"
+    "static/css/main.01415a93.css",
+    "static/js/main.2136a160.js"
   ]
 }
