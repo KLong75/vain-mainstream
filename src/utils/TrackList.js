@@ -118,8 +118,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/512px-Flag_of_the_United_Arab_Emirates.svg.png',
     flag_alt: 'Flag of the United Arab Emirates',
     audio_src: 'All_I_Wanna_Do.mp3',
-    vid_src: '',
-    share_url: '',
+    vid_src: 'https://www.youtube.com/embed/1n7arVtP0kA',
+    share_url: 'https://youtu.be/1n7arVtP0kA',
     date: '2/12/2023'
   },
   {
