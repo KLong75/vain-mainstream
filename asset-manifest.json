@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.01415a93.css",
-    "main.js": "/static/js/main.d836231c.js",
+    "main.js": "/static/js/main.6f333fc6.js",
     "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
     "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.92315bff8ee602405de8.mp3",
     "static/media/Smooth.mp3": "/static/media/Smooth.284bd38af3e552ed2da1.mp3",
+    "static/media/Sizzler.mp3": "/static/media/Sizzler.529c6c9d9e4b24e40dab.mp3",
     "static/media/All_I_Wanna_Do.mp3": "/static/media/All_I_Wanna_Do.a5776a4dcd10a3a43bb9.mp3",
     "static/media/Change_The_World.mp3": "/static/media/Change_The_World.5b458ee13306e28a76bc.mp3",
     "static/media/Violent_P.mp3": "/static/media/Violent_P.05038d433e5abe1a2f62.mp3",
@@ -22,11 +23,11 @@
     "index.html": "/index.html",
     "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
     "main.01415a93.css.map": "/static/css/main.01415a93.css.map",
-    "main.d836231c.js.map": "/static/js/main.d836231c.js.map",
+    "main.6f333fc6.js.map": "/static/js/main.6f333fc6.js.map",
     "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01415a93.css",
-    "static/js/main.d836231c.js"
+    "static/js/main.6f333fc6.js"
   ]
 }
