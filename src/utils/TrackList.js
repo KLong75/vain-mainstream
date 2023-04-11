@@ -148,7 +148,7 @@ export const TrackList = [
     title: "Sizzler (1991 Promotional Commercial)",
     original_artist: 'Sizzler',
     location: 'DMZ, South Korea',
-    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/512px-Flag_of_North_Korea.svg.png',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/512px-Flag_of_South_Korea.svg.png',
     flag_alt: 'Flag of North Korea',
     audio_src: 'Sizzler.mp3',
     vid_src: '',
