@@ -129,8 +129,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/512px-Flag_of_Thailand.svg.png',
     flag_alt: 'Flag of Thailand', 
     audio_src: 'Locomotion.mp3',
-    vid_src: '',
-    share_url: '',
+    vid_src: 'https://www.youtube.com/embed/MThvAhKYlNE',
+    share_url: 'https://youtu.be/MThvAhKYlNE',
     date: '3/7/2023'
   },
   {
@@ -143,6 +143,17 @@ export const TrackList = [
     vid_src: '',
     share_url: '',
     date: '3/20/2023'
+  },
+  {
+    title: "Sizzler (1991 Promotional Commercial)",
+    original_artist: 'Sizzler',
+    location: 'DMZ, South Korea',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/512px-Flag_of_North_Korea.svg.png',
+    flag_alt: 'Flag of North Korea',
+    audio_src: 'Sizzler.mp3',
+    vid_src: '',
+    share_url: '',
+    date: '3/24/2023'
   },
   // {
   //   title: "",
