@@ -140,8 +140,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/512px-Flag_of_South_Korea.svg.png',
     flag_alt: 'Flag of South Korea',
     audio_src: 'NumberOne.mp3',
-    vid_src: '',
-    share_url: '',
+    vid_src: 'https://www.youtube.com/embed/sXI7CqXBQO8',
+    share_url: 'https://youtu.be/sXI7CqXBQO8',
     date: '3/20/2023'
   },
   {
