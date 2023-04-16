@@ -2,7 +2,7 @@
 import React from 'react';
 
 // import components
-// import ShareComponent from '../ShareComponent';
+import ShareComponent from '../ShareComponent';
 
 // import TrackList
 import { TrackList } from '../../utils/TrackList';
@@ -32,7 +32,7 @@ const TourVideoGallery = () => {
 
   return (
     <section id='video-gallery-section'>
-      {/* <Box sx={{ flexGrow: 1 }} className='video-share-box'>
+      <Box sx={{ flexGrow: 1 }} className='video-share-box'>
         <Item className='vid-share-paper' elevation={12}>
           <ShareComponent />
           <a 
@@ -41,7 +41,7 @@ const TourVideoGallery = () => {
             <p className='font-effect-fire-animation vid-patreon-link'>Click Here To Give Me a Dollar</p>
           </a>
         </Item>
-      </Box> */}
+      </Box>
 
       <Box sx={{ flexGrow: 1 }}> 
         <Grid container spacing={4} >

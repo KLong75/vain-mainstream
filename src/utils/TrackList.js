@@ -155,8 +155,19 @@ export const TrackList = [
     share_url: '',
     date: '3/24/2023'
   },
+  {
+    title: 'Loser',
+    original_artist: 'Beck',
+    location: 'Waco, Texas',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
+    flag_alt: 'Flag of Texas',
+    audio_src: 'Loser.mp3',
+    vid_src: '',
+    share_url: '',
+    date: '10/16/2022'
+  },
   // {
-  //   title: "",
+  //   title: '',
   //   original_artist: '',
   //   location: '',
   //   location_flag_src: '',

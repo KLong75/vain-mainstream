@@ -5,7 +5,7 @@ import React from 'react';
 import { TrackList } from '../../utils/TrackList';
 
 // import components
-// import ShareComponent from '../ShareComponent';
+import ShareComponent from '../ShareComponent';
 // import AlbumTrackSkeletonGuitarist from '../AlbumTrackSkeletonGuitarist';
 
 // import CSS
@@ -33,7 +33,7 @@ const AlbumTracks = () => {
 
   return (    
     <section id='album-tracks-section'>
-      {/* <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
+      <Box sx={{ flexGrow: 1 }} className='audio-share-box'>
         <Item className='album-share-paper' elevation={12}>
           <ShareComponent />
           <a 
@@ -42,7 +42,7 @@ const AlbumTracks = () => {
             <p className='font-effect-fire-animation album-patreon-link'>Click Here To Give Me a Dollar</p>
           </a>
         </Item>
-      </Box> */}
+      </Box>
 
       <Box sx={{ flexGrow: 1 }}>
         <Grid container spacing={4} className='album-tracks-grid'>
