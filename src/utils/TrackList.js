@@ -166,6 +166,17 @@ export const TrackList = [
     share_url: '',
     date: '10/16/2022'
   },
+  {
+    title: 'Stand Out',
+    original_artist: 'A Goofy Movie',
+    location: 'Athens, Greece',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/512px-Flag_of_Greece.svg.png',
+    flag_alt: 'Flag of Greece',
+    audio_src: 'Stand_Out.mp3',
+    vid_src: '',
+    share_url: '',
+    date: '4/3/2023'
+  },
   // {
   //   title: '',
   //   original_artist: '',
@@ -178,3 +189,4 @@ export const TrackList = [
   //   date: '//2023'
   // }
 ]
+<a title="(of code) -xfi-, Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Flag_of_Greece.svg"><img width="512" alt="Flag of Greece" src=""></a>
