@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/static/css/main.8b42e42e.css",
-    "main.js": "/static/js/main.c68af68b.js",
+    "main.js": "/static/js/main.5c765a87.js",
     "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
     "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.92315bff8ee602405de8.mp3",
     "static/media/Smooth.mp3": "/static/media/Smooth.284bd38af3e552ed2da1.mp3",
     "static/media/Sizzler.mp3": "/static/media/Sizzler.9240873965986f4f958d.mp3",
-    "static/media/Loser.mp3": "/static/media/Loser.5d57c5f201ef12880586.mp3",
+    "static/media/Loser.mp3": "/static/media/Loser.2bcd8c19b3083e5bb566.mp3",
     "static/media/All_I_Wanna_Do.mp3": "/static/media/All_I_Wanna_Do.a5776a4dcd10a3a43bb9.mp3",
     "static/media/Change_The_World.mp3": "/static/media/Change_The_World.5b458ee13306e28a76bc.mp3",
     "static/media/Violent_P.mp3": "/static/media/Violent_P.05038d433e5abe1a2f62.mp3",
@@ -24,11 +24,11 @@
     "index.html": "/index.html",
     "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
     "main.8b42e42e.css.map": "/static/css/main.8b42e42e.css.map",
-    "main.c68af68b.js.map": "/static/js/main.c68af68b.js.map",
+    "main.5c765a87.js.map": "/static/js/main.5c765a87.js.map",
     "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b42e42e.css",
-    "static/js/main.c68af68b.js"
+    "static/js/main.5c765a87.js"
   ]
 }
