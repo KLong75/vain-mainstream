@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8b42e42e.css",
-    "main.js": "/static/js/main.5c765a87.js",
+    "main.js": "/static/js/main.77cdea41.js",
     "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
     "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.92315bff8ee602405de8.mp3",
     "static/media/Smooth.mp3": "/static/media/Smooth.284bd38af3e552ed2da1.mp3",
@@ -15,6 +15,7 @@
     "static/media/NumberOne.mp3": "/static/media/NumberOne.ed163076e2c4dd3cf5fd.mp3",
     "static/media/Dragon_Attack.mp3": "/static/media/Dragon_Attack.7753d314b3dbcf4bb85d.mp3",
     "static/media/Fake_Plastic_Trees.mp3": "/static/media/Fake_Plastic_Trees.0179b21f2cda6e1beeba.mp3",
+    "static/media/Stand_Out.mp3": "/static/media/Stand_Out.34df8a79d673732c3c83.mp3",
     "static/media/Basket_Stew.mp3": "/static/media/Basket_Stew.484da4f6041408fdd246.mp3",
     "static/media/Girl_No_Faith_Med.mp3": "/static/media/Girl_No_Faith_Med.93c8e80d939322252c27.mp3",
     "static/media/Locomotion.mp3": "/static/media/Locomotion.79e62444f681eec389e9.mp3",
@@ -24,11 +25,11 @@
     "index.html": "/index.html",
     "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
     "main.8b42e42e.css.map": "/static/css/main.8b42e42e.css.map",
-    "main.5c765a87.js.map": "/static/js/main.5c765a87.js.map",
+    "main.77cdea41.js.map": "/static/js/main.77cdea41.js.map",
     "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b42e42e.css",
-    "static/js/main.5c765a87.js"
+    "static/js/main.77cdea41.js"
   ]
 }
