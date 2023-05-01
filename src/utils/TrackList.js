@@ -162,8 +162,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Flag_of_Texas.svg/512px-Flag_of_Texas.svg.png',
     flag_alt: 'Flag of Texas',
     audio_src: 'Loser.mp3',
-    vid_src: '',
-    share_url: '',
+    vid_src: 'https://www.youtube.com/embed/gGAciJ_OkBA',
+    share_url: 'https://youtu.be/gGAciJ_OkBA',
     date: '10/16/2022'
   },
   {
@@ -199,5 +199,4 @@ export const TrackList = [
   //   share_url: '',
   //   date: '//2023'
   // },
-  // <a title="David Benbennick (original author), Public domain, via Wikimedia Commons" href="https://commons.wikimedia.org/wiki/File:Flag_of_Turkey.svg"><img width="512" alt="Flag of Turkey" src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/512px-Flag_of_Turkey.svg.png"></a>
 ]
