@@ -145,7 +145,7 @@ export const TrackList = [
     date: '3/20/2023'
   },
   {
-    title: "Sizzler (1991 Promotional Commercial)",
+    title: "Sizzler 1991 Promotional Commercial",
     original_artist: 'Sizzler',
     location: 'DMZ, South Korea',
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/512px-Flag_of_South_Korea.svg.png',
