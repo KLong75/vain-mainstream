@@ -173,8 +173,8 @@ export const TrackList = [
     location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/512px-Flag_of_Greece.svg.png',
     flag_alt: 'Flag of Greece',
     audio_src: 'Stand_Out.mp3',
-    vid_src: '',
-    share_url: '',
+    vid_src: 'https://www.youtube.com/embed/orlWtB22z9M',
+    share_url: 'https://youtu.be/orlWtB22z9M',
     date: '4/3/2023'
   },
   {
@@ -186,7 +186,29 @@ export const TrackList = [
     audio_src: 'Clown.mp3',
     vid_src: '',
     share_url: '',
-    date: '//2023'
+    date: '4/13/2023'
+  },
+  {
+    title: 'Love In Plaster',
+    original_artist: 'The Hives',
+    location: 'Sofia, Bulgaria',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/512px-Flag_of_Bulgaria.svg.png',
+    flag_alt: 'Flag of Bulgaria',
+    audio_src: 'Love_In_Plaster.mp3',
+    vid_src: '',
+    share_url: '',
+    date: '4/21/2023'
+  },
+  {
+    title: 'Wildest Dreams',
+    original_artist: 'Taylor Swift',
+    location: 'Lake Bled, Slovenia',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/512px-Flag_of_Slovenia.svg.png',
+    flag_alt: 'Flag of Slovenia',
+    audio_src: 'Wildest_Dreams.mp3',
+    vid_src: '',
+    share_url: '',
+    date: '5/4/2023'
   },
   // {
   //   title: '',
