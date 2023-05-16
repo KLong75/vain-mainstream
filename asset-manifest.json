@@ -1,13 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.8b42e42e.css",
-    "main.js": "/static/js/main.bf553513.js",
+    "main.js": "/static/js/main.bd416476.js",
     "static/js/787.d66b2ccd.chunk.js": "/static/js/787.d66b2ccd.chunk.js",
     "static/media/All_I_Really_Want.mp3": "/static/media/All_I_Really_Want.92315bff8ee602405de8.mp3",
     "static/media/Smooth.mp3": "/static/media/Smooth.284bd38af3e552ed2da1.mp3",
     "static/media/Sizzler.mp3": "/static/media/Sizzler.9240873965986f4f958d.mp3",
     "static/media/Loser.mp3": "/static/media/Loser.2bcd8c19b3083e5bb566.mp3",
-    "static/media/Clown.mp3": "/static/media/Clown.ed31dabf05c976b84949.mp3",
+    "static/media/Wildest_Dreams.mp3": "/static/media/Wildest_Dreams.72689b8934679b9267b7.mp3",
+    "static/media/Clown.mp3": "/static/media/Clown.39e55a080cf220e76b3f.mp3",
     "static/media/All_I_Wanna_Do.mp3": "/static/media/All_I_Wanna_Do.a5776a4dcd10a3a43bb9.mp3",
     "static/media/Change_The_World.mp3": "/static/media/Change_The_World.5b458ee13306e28a76bc.mp3",
     "static/media/Violent_P.mp3": "/static/media/Violent_P.05038d433e5abe1a2f62.mp3",
@@ -16,6 +17,7 @@
     "static/media/NumberOne.mp3": "/static/media/NumberOne.ed163076e2c4dd3cf5fd.mp3",
     "static/media/Dragon_Attack.mp3": "/static/media/Dragon_Attack.7753d314b3dbcf4bb85d.mp3",
     "static/media/Fake_Plastic_Trees.mp3": "/static/media/Fake_Plastic_Trees.0179b21f2cda6e1beeba.mp3",
+    "static/media/Love_In_Plaster.mp3": "/static/media/Love_In_Plaster.db1b96094fa4a83a68cc.mp3",
     "static/media/Stand_Out.mp3": "/static/media/Stand_Out.34df8a79d673732c3c83.mp3",
     "static/media/Basket_Stew.mp3": "/static/media/Basket_Stew.484da4f6041408fdd246.mp3",
     "static/media/Girl_No_Faith_Med.mp3": "/static/media/Girl_No_Faith_Med.93c8e80d939322252c27.mp3",
@@ -26,11 +28,11 @@
     "index.html": "/index.html",
     "static/media/sym57.cur": "/static/media/sym57.9a22c58192664681027f.cur",
     "main.8b42e42e.css.map": "/static/css/main.8b42e42e.css.map",
-    "main.bf553513.js.map": "/static/js/main.bf553513.js.map",
+    "main.bd416476.js.map": "/static/js/main.bd416476.js.map",
     "787.d66b2ccd.chunk.js.map": "/static/js/787.d66b2ccd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8b42e42e.css",
-    "static/js/main.bf553513.js"
+    "static/js/main.bd416476.js"
   ]
 }
