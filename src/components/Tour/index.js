@@ -24,7 +24,7 @@ const Tour = () => {
 
       <Grid container  >
         <Grid xs={12}>
-        <h3 className='font-effect-fire-animation tour-date-sub-headline tour-dates'>December 2022 - May 2023</h3>
+        <h3 className='font-effect-fire-animation tour-date-sub-headline tour-dates'>December 2022 - June 2023</h3>
         </Grid>
       </Grid>
 
