@@ -7,9 +7,6 @@ import Grid from '@mui/material/Unstable_Grid2/Grid2';
 // import CSS
 import './Album.css';
 
-// import marquee
-// import Marquee from "react-fast-marquee";
-
 // import components
 import AlbumTracks from '../AlbumTracks';
 

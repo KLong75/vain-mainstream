@@ -20,7 +20,6 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 
 // import from react-share
 import FacebookShareButton from 'react-share/lib/FacebookShareButton';
-// import TwitterShareButton from 'react-share/lib/TwitterShareButton';
 
 
 const TourVideoGallery = () => {
