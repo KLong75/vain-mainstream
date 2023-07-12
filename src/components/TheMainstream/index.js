@@ -174,7 +174,7 @@ const Mainstream = () => {
               <AudioPlayer
                 id='mainstream-audio-player'
                 preload='auto'
-                autoPlay={true}
+                autoPlay={false}
                 className='mainstream-react-h5-audio-player' 
                 loop={true}
                 src={require(`../../assets/audio/${randomTrack.audio_src}`)} 
