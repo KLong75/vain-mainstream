@@ -4,7 +4,7 @@
 
 ## Description
 #### REACT | MUI | PWA | JAVASCRIPT | HTML | CSS
-The official web application for indie rock musician Vain Mainstream, featuring the new covers album Your Likeness and performance videos from the Life Expectancy Tour. Downloadable PWA with offline functionality. Users can listen to audio, download MP3s, watch embedded videos, and share on social media.
+The official web application for indie rock musician Vain Mainstream, featuring the new covers album Your Likeness and performance videos from the Life Expectancy Tour. Installable PWA with partial offline functionality. Users can listen to audio, download MP3s, watch embedded videos, and share on social media.
 
 ## URL of Deployed Application
 
