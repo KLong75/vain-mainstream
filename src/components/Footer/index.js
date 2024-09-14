@@ -68,14 +68,14 @@ const Footer = () => {
         <Grid xs={12} >
           <p className='font-effect-fire-animation copywrite'>©2023 Vain Mainstream</p>
           <p>design and development by <a 
-              href='https://kevinlong.dev/'
+              href='https://rhythmcodestudio.tech/'
               target='_blank' 
               rel='noreferrer'
-              aria-label='link to kevinlong.dev'
+              aria-label='rhythmcodestudio.tech'
               className={isHovering ? 'font-effect-fire-animation website-credit' : 'website-credit'}
               onMouseOver={handleMouseOver}
               onMouseOut={handleMouseOut}
-             >kevinlong.dev
+             >www.rhythmcodestudio.tech
              </a>
           </p>
         </Grid>

@@ -27,7 +27,7 @@ export const TrackList = [
     title: 'Girl, You Have No Faith In Medicine',
     original_artist: 'The White Stripes',
     location: 'Vatican City',
-    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/256px-Flag_of_the_Vatican_City.svg.png',
+    location_flag_src: 'https://upload.wikimedia.org/wikipedia/commons/b/b3/Flag_of_Vatican_City_%282023%E2%80%93present%29.svg',
     flag_alt: 'Flag of Vatican City',
     audio_src: 'Girl_No_Faith_Med.mp3',
     vid_src: 'https://www.youtube.com/embed/FXOcwC8uHgs',
